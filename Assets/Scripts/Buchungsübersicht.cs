@@ -76,13 +76,15 @@ public class Buchungsübersicht : MonoBehaviour
     /// <summary>
     /// Navigates to the statmenu.
     /// </summary>
-    private void BuchungAbschließen()
+    public void BuchungAbschließen()
     {
         _startmenu.Show();
         Hide();
     }
 
+    public void BuchungStornieren()
+    {
+        //TODO: implement and do documentation
+    }
 
-
-    //TODO: implement functionality to cancel booking
 }

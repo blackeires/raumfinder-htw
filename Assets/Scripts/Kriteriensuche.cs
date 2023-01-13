@@ -41,7 +41,7 @@ public class Kriteriensuche : MonoBehaviour
     {
         gameObject.SetActive(true);
         _startmenu.Hide();
-        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = back;
+        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = Back;
     }
 
     /// <summary>
@@ -79,7 +79,7 @@ public class Kriteriensuche : MonoBehaviour
     /// <summary>
     /// Navigates back to start menu.
     /// </summary>
-    private void back()
+    public void Back()
     {
         _startmenu.Show();
         Hide();

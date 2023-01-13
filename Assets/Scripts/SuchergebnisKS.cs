@@ -69,7 +69,7 @@ public class SuchergebnisKS : MonoBehaviour
     private void SetupButtonFunctionality()
     {
         transform.Find("Buchen_Button").GetComponent<Button_UI>().ClickFunc = BookRoom;
-        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = back;
+        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = Back;
     }
 
     /// <summary>
@@ -93,7 +93,7 @@ public class SuchergebnisKS : MonoBehaviour
     /// <summary>
     /// Navigates to the previously visited page.
     /// </summary>
-    private void back()
+    public void Back()
     {
         if (_previousPage == "Kriteriensuche")
         {
@@ -161,7 +161,7 @@ public class SuchergebnisKS : MonoBehaviour
     /// <summary>
     /// Books the room with the name of the currently selected room during the currently selected timeslot.
     /// </summary>
-    private void BookRoom()
+    public void BookRoom()
     {
         bool status = _logik.BookRoom(DropdownUtils.getInputFromDropdown(_weitereRaeumeDD), DropdownUtils.GetzeitfensterAsInt(_bookingDD));
         if (!status)

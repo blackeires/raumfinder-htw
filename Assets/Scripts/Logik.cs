@@ -10,6 +10,7 @@ public class Logik : MonoBehaviour
 
     private Geschaeftslogik _gl;
     private List<Raum> _filteredRooms;
+    private string _language = "DE";
 
     // Start is called before the first frame update
     void Start()
@@ -53,7 +54,15 @@ public class Logik : MonoBehaviour
         return _gl;
     }
 
-    
+    /// <summary>
+    /// Setter for language
+    /// </summary>
+    /// <param name="language">A string corresponding to the selected language.</param
+    public void setLanguage(String language)
+    {
+        _language = language;
+    }
+
     /// <summary>
     /// Getter for _filteredRooms.
     /// </summary>
