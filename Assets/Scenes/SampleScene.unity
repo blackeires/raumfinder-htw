@@ -9719,6 +9719,8 @@ MonoBehaviour:
   buchungsuebersicht: {fileID: 1479168523}
   kriteriensuche: {fileID: 836646279}
   suchergebnis: {fileID: 2075990141}
+  sprachauswahl: {fileID: 0}
+  bedienungshilfe: {fileID: 0}
 --- !u!1 &870717958
 GameObject:
   m_ObjectHideFlags: 0
@@ -13639,6 +13641,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1256861574}
+  - component: {fileID: 1256861577}
   - component: {fileID: 1256861576}
   - component: {fileID: 1256861575}
   m_Layer: 5
@@ -13712,6 +13715,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256861573}
   m_CullTransparentMesh: 1
+--- !u!114 &1256861577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256861573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ad7314ee0e04252ba6ebb2c2ac98b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bedienungshilfeMenu: {fileID: 1256861573}
 --- !u!1 &1271016659
 GameObject:
   m_ObjectHideFlags: 0
@@ -21066,6 +21082,8 @@ MonoBehaviour:
   buchungsuebersicht: {fileID: 1479168523}
   kriteriensuche: {fileID: 836646279}
   suchergebnis: {fileID: 2075990141}
+  sprachauswahl: {fileID: 1965401529}
+  bedienungshilfe: {fileID: 1256861577}
 --- !u!4 &1936173937
 Transform:
   m_ObjectHideFlags: 0

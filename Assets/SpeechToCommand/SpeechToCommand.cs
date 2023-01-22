@@ -14,6 +14,8 @@ public class SpeechToCommand : MonoBehaviour
     [SerializeField] private Kriteriensuche kriteriensuche;
     [SerializeField] private SuchergebnisKS suchergebnis;
     [SerializeField] private Sprachauswahl sprachauswahl;
+    [SerializeField] private Bedienungshilfe bedienungshilfe;
+
 
 
 
@@ -44,6 +46,8 @@ public class SpeechToCommand : MonoBehaviour
         commandToAction.Clear();
         commandToAction.Add("Schnellsuche", startmenu.Suchen);
         commandToAction.Add("Kriteriensuche", startmenu.Kriteriensuche);
+        commandToAction.Add("Hilfe", bedienungshilfe.openMenu);
+        commandToAction.Add("Schließen", bedienungshilfe.closeMenu);
         commandToAction.Add("Deutsch", sprachauswahl.changeSystemLanguageToGerman);
         commandToAction.Add("Englisch", sprachauswahl.changeSystemLanguageToEnglish);
         SetupKeywordRecognizer();
