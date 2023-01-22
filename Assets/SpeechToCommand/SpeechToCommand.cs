@@ -23,7 +23,6 @@ public class SpeechToCommand : MonoBehaviour
     private void Start()
     {
         SetupCommandsStartMenu();
-        
     }
 
     private void RecognizedSpeech(PhraseRecognizedEventArgs speechCommand)
@@ -50,12 +49,13 @@ public class SpeechToCommand : MonoBehaviour
     {
         commandToAction.Clear();
         commandToAction.Add("Zurück", kriteriensuche.Back);
-        //commandToAction.Add("Gebäude", kriteriensuche.OpenGebaeudeDD);
-        //commandToAction.Add("Kapazität", kriteriensuche.OpenKapazitaetDD);
-        //commandToAction.Add("Ausstattung", kriteriensuche.OpenAusstattungDD);
-        //commandToAction.Add("Zeitfenster", kriteriensuche.OpenZeitfensterDD);
+        commandToAction.Add("Gebäude", kriteriensuche.OpenGebaeudeDD);
+        commandToAction.Add("Kapazität", kriteriensuche.OpenKapazitaetDD);
+        commandToAction.Add("Ausstattung", kriteriensuche.OpenAusstattungDD);
+        commandToAction.Add("Zeitfenster", kriteriensuche.OpenZeitfensterDD);
         commandToAction.Add("Zurück zur Suche", kriteriensuche.HideErrorPopUp);
         commandToAction.Add("Suchen", kriteriensuche.Search);
+
         SetupKeywordRecognizer();
     }
 

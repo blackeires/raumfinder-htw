@@ -119,4 +119,42 @@ public class DropdownUtils : MonoBehaviour
 
     }
 
+
+    public static void OpenDropdownMenu(TMP_Dropdown dropdown)
+    {
+        dropdown.Show();
+    }
+
+    public static void SelectDropdownItem(TMP_Dropdown dropdown, int value)
+    {
+        dropdown.value = value;
+        dropdown.Select();
+    }
+
+    public static TMP_Dropdown GetActiveDD(List<TMP_Dropdown> dropdowns) 
+    {
+        TMP_Dropdown activeDD = null;
+        foreach (TMP_Dropdown dd in dropdowns) 
+        {
+            if (dd.IsActive())
+            {
+                activeDD = dd;
+                break;
+            }
+        }
+
+        return activeDD;
+
+    }
+
+    public static void navigateInDD(TMP_Dropdown dropdown, string direction)
+    {
+        if(direction == "up")
+        {
+            Debug.Log(dropdown.value);
+        } else if (direction == "down") {
+            dropdown.value += 1;
+        }
+    }
+
 }

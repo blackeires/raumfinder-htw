@@ -71,9 +71,6 @@ public class Kriteriensuche : MonoBehaviour
             _form.SetActive(false);
         }
 
-
-        
-
     }
 
     /// <summary>
@@ -94,6 +91,30 @@ public class Kriteriensuche : MonoBehaviour
         _form.SetActive(true);
     }
 
+    public void OpenGebaeudeDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_gebaeudeDropdown);
+    }
 
+    public void OpenKapazitaetDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_kapazitaetDropdown);
+    }
 
+    public void OpenAusstattungDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_ausstattungDropdown);
+    }
+
+    public void OpenZeitfensterDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_zeitfensterDropdown);
+    }
+
+    //TODO: remove function!
+    public void TEST()
+    {
+        DropdownUtils.OpenDropdownMenu(_gebaeudeDropdown);
+        DropdownUtils.navigateInDD(_gebaeudeDropdown, "down");
+    }
 }
