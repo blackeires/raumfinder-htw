@@ -13,6 +13,8 @@ public class SpeechToCommand : MonoBehaviour
     [SerializeField] private Buchungsübersicht buchungsuebersicht;
     [SerializeField] private Kriteriensuche kriteriensuche;
     [SerializeField] private SuchergebnisKS suchergebnis;
+    [SerializeField] private Sprachauswahl sprachauswahl;
+
 
 
     private KeywordRecognizer keywordRecognizer;
@@ -42,6 +44,8 @@ public class SpeechToCommand : MonoBehaviour
         commandToAction.Clear();
         commandToAction.Add("Schnellsuche", startmenu.Suchen);
         commandToAction.Add("Kriteriensuche", startmenu.Kriteriensuche);
+        commandToAction.Add("Deutsch", sprachauswahl.changeSystemLanguageToGerman);
+        commandToAction.Add("Englisch", sprachauswahl.changeSystemLanguageToEnglish);
         SetupKeywordRecognizer();
     }
 
