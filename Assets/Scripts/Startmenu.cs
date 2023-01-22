@@ -10,6 +10,8 @@ public class Startmenu : MonoBehaviour
     [SerializeField] private SuchergebnisKS _suchergebnisKS;
     [SerializeField] private Logik _logik;
 
+    [SerializeField] private SpeechToCommand speechToCommandController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +33,7 @@ public class Startmenu : MonoBehaviour
     /// </summary>
     public void Show()
     {
+        speechToCommandController.SetupCommandsStartMenu();
         gameObject.SetActive(true);
     }
 

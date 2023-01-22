@@ -2814,6 +2814,7 @@ MonoBehaviour:
   _kriteriensuche: {fileID: 836646279}
   _suchergebnisKS: {fileID: 2075990141}
   _logik: {fileID: 1123566088}
+  speechToCommandController: {fileID: 1936173936}
 --- !u!1 &231988054
 GameObject:
   m_ObjectHideFlags: 0
@@ -7496,6 +7497,7 @@ MonoBehaviour:
   _kapazitaetDropdown: {fileID: 0}
   _ausstattungDropdown: {fileID: 0}
   _zeitfensterDropdown: {fileID: 0}
+  speechToCommandController: {fileID: 0}
 --- !u!114 &771571533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9059,6 +9061,7 @@ MonoBehaviour:
   _kapazitaetDropdown: {fileID: 479124155}
   _ausstattungDropdown: {fileID: 1386002109}
   _zeitfensterDropdown: {fileID: 813704600}
+  speechToCommandController: {fileID: 1936173936}
 --- !u!1 &839679199
 GameObject:
   m_ObjectHideFlags: 0
@@ -9707,7 +9710,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869774173}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e58aedb7c5a5449458ec1d430bad183f, type: 3}
   m_Name: 
@@ -16237,6 +16240,7 @@ MonoBehaviour:
   _startmenu: {fileID: 226027503}
   _raumTextfeld: {fileID: 2123454877}
   _zeitfensterTextfeld: {fileID: 1625406737}
+  speechToCommandController: {fileID: 1936173936}
 --- !u!1 &1504469598
 GameObject:
   m_ObjectHideFlags: 0
@@ -21029,6 +21033,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928376959}
   m_CullTransparentMesh: 1
+--- !u!1 &1936173935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1936173937}
+  - component: {fileID: 1936173936}
+  m_Layer: 0
+  m_Name: Speech2CommandController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1936173936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936173935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58aedb7c5a5449458ec1d430bad183f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startmenu: {fileID: 226027503}
+  buchungsuebersicht: {fileID: 1479168523}
+  kriteriensuche: {fileID: 836646279}
+  suchergebnis: {fileID: 2075990141}
+--- !u!4 &1936173937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936173935}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 940.0491, y: 555.2364, z: -13.421136}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1936631350
 GameObject:
   m_ObjectHideFlags: 0
@@ -22528,6 +22580,7 @@ MonoBehaviour:
   _ausstattungText: {fileID: 1045683621}
   _weitereRaeumeDD: {fileID: 1681372609}
   _bookingDD: {fileID: 875125112}
+  speechToCommandController: {fileID: 1936173936}
 --- !u!1 &2090552290
 GameObject:
   m_ObjectHideFlags: 0

@@ -37,7 +37,7 @@ public class SpeechToCommand : MonoBehaviour
         keywordRecognizer.Start();
     }
 
-    private void SetupCommandsStartMenu()
+    public void SetupCommandsStartMenu()
     {
         commandToAction.Clear();
         commandToAction.Add("Schnellsuche", startmenu.Suchen);
@@ -45,7 +45,7 @@ public class SpeechToCommand : MonoBehaviour
         SetupKeywordRecognizer();
     }
 
-    private void SetupCommandsKriteriensuche()
+    public void SetupCommandsKriteriensuche()
     {
         commandToAction.Clear();
         commandToAction.Add("Zurück", kriteriensuche.Back);
@@ -59,7 +59,7 @@ public class SpeechToCommand : MonoBehaviour
         SetupKeywordRecognizer();
     }
 
-    private void SetupCommandsSuchergebnis()
+    public void SetupCommandsSuchergebnis()
     {
         commandToAction.Clear();
         commandToAction.Add("Zurück", suchergebnis.Back);
@@ -68,7 +68,7 @@ public class SpeechToCommand : MonoBehaviour
         SetupKeywordRecognizer();
     }
 
-    private void SetupCommandsBuchungsuebersicht()
+    public void SetupCommandsBuchungsuebersicht()
     {
         commandToAction.Clear();
         commandToAction.Add("Buchung stornieren", buchungsuebersicht.BuchungStornieren);

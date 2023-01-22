@@ -26,6 +26,9 @@ public class Kriteriensuche : MonoBehaviour
     [SerializeField] private TMP_Dropdown _ausstattungDropdown;
     [SerializeField] private TMP_Dropdown _zeitfensterDropdown;
 
+    //Speech to Command Controller
+    [SerializeField] private SpeechToCommand speechToCommandController;
+
     /// <summary>
     /// Sets the state of this object to not active.
     /// </summary>
@@ -39,6 +42,7 @@ public class Kriteriensuche : MonoBehaviour
     /// </summary>
     public void Show()
     {
+        speechToCommandController.SetupCommandsKriteriensuche();
         gameObject.SetActive(true);
         _startmenu.Hide();
         transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = Back;

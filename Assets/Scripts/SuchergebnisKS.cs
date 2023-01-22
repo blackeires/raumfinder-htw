@@ -34,6 +34,8 @@ public class SuchergebnisKS : MonoBehaviour
     //Drpdown Timeslot für Buchung 
     [SerializeField] private TMP_Dropdown _bookingDD;
 
+    [SerializeField] private SpeechToCommand speechToCommandController;
+
     /// <summary>
     /// Sets state of this object to not active.
     /// </summary>
@@ -47,8 +49,9 @@ public class SuchergebnisKS : MonoBehaviour
     /// </summary>
     public void Show()
     {
+        speechToCommandController.SetupCommandsSuchergebnis();
         gameObject.SetActive(true);
-        SetupSuchergebnis(); 
+        SetupSuchergebnis();
     }
 
     /// <summary>
