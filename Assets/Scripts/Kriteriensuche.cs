@@ -27,8 +27,10 @@ public class Kriteriensuche : MonoBehaviour
     [SerializeField] private TMP_Dropdown _zeitfensterDropdown;
     private List<TMP_Dropdown> dropdowns = new List<TMP_Dropdown>();
 
-    //Speech to Command Controller
+    //Speech to Command Setup
     [SerializeField] private SpeechToCommand speechToCommandController;
+    private TMP_Dropdown selectedDD;
+
 
     /// <summary>
     /// Sets the state of this object to not active.
@@ -111,47 +113,49 @@ public class Kriteriensuche : MonoBehaviour
     public void OpenGebaeudeDD()
     {
         DropdownUtils.OpenDropdownMenu(_gebaeudeDropdown);
+        selectedDD = _gebaeudeDropdown;
     }
 
     public void OpenKapazitaetDD()
     {
         DropdownUtils.OpenDropdownMenu(_kapazitaetDropdown);
+        selectedDD = _kapazitaetDropdown;
     }
 
     public void OpenAusstattungDD()
     {
         DropdownUtils.OpenDropdownMenu(_ausstattungDropdown);
+        selectedDD = _ausstattungDropdown;
     }
 
     public void OpenZeitfensterDD()
     {
         DropdownUtils.OpenDropdownMenu(_zeitfensterDropdown);
+        selectedDD = _zeitfensterDropdown;
     }
 
     public void NavigateUpInActiveDD()
     {
-        TMP_Dropdown activeDD = DropdownUtils.GetActiveDD(dropdowns);
-        if (activeDD != null)
+        if (selectedDD != null)
         {
-            DropdownUtils.navigateUpInDD(activeDD);
+            DropdownUtils.navigateUpInDD(selectedDD);
         }
     }
 
     public void NavigateDownInActiveDD()
     {
         TMP_Dropdown activeDD = DropdownUtils.GetActiveDD(dropdowns);
-        if (activeDD != null)
+        if (selectedDD != null)
         {
-            DropdownUtils.navigateDownInDD(activeDD);
+            DropdownUtils.navigateDownInDD(selectedDD);
         }
     }
 
     public void selectOptionInActiveDD()
     {
-        TMP_Dropdown activeDD = DropdownUtils.GetActiveDD(dropdowns);
-        if (activeDD != null)
+        if (selectedDD != null)
         {
-            activeDD.Select();
+            selectedDD.RefreshShownValue();
         }
     }
 
