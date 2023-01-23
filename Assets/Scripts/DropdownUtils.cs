@@ -147,14 +147,14 @@ public class DropdownUtils : MonoBehaviour
 
     }
 
-    public static void navigateInDD(TMP_Dropdown dropdown, string direction)
+    public static void navigateUpInDD(TMP_Dropdown dropdown)
     {
-        if(direction == "up")
-        {
-            Debug.Log(dropdown.value);
-        } else if (direction == "down") {
-            dropdown.value += 1;
-        }
+        dropdown.value -= 1;
+    }
+
+    public static void navigateDownInDD(TMP_Dropdown dropdown)
+    {
+        dropdown.value += 1;
     }
 
 }

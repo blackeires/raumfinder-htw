@@ -25,6 +25,7 @@ public class Kriteriensuche : MonoBehaviour
     [SerializeField] private TMP_Dropdown _kapazitaetDropdown;
     [SerializeField] private TMP_Dropdown _ausstattungDropdown;
     [SerializeField] private TMP_Dropdown _zeitfensterDropdown;
+    private List<TMP_Dropdown> dropdowns = new List<TMP_Dropdown>();
 
     //Speech to Command Controller
     [SerializeField] private SpeechToCommand speechToCommandController;
@@ -36,6 +37,15 @@ public class Kriteriensuche : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
+    private void Start()
+    {
+        dropdowns.Add(_gebaeudeDropdown);
+        dropdowns.Add(_kapazitaetDropdown);
+        dropdowns.Add(_ausstattungDropdown);
+        dropdowns.Add(_zeitfensterDropdown);
+    }
+
 
     /// <summary>
     /// Sets the state of this object to active, the state of _startmenu to not active and adds functionality to Zurück_Button
@@ -95,6 +105,9 @@ public class Kriteriensuche : MonoBehaviour
         _form.SetActive(true);
     }
 
+
+    //Speech to Command Dropdown Setup
+    
     public void OpenGebaeudeDD()
     {
         DropdownUtils.OpenDropdownMenu(_gebaeudeDropdown);
@@ -115,10 +128,38 @@ public class Kriteriensuche : MonoBehaviour
         DropdownUtils.OpenDropdownMenu(_zeitfensterDropdown);
     }
 
+    public void NavigateUpInActiveDD()
+    {
+        TMP_Dropdown activeDD = DropdownUtils.GetActiveDD(dropdowns);
+        if (activeDD != null)
+        {
+            DropdownUtils.navigateUpInDD(activeDD);
+        }
+    }
+
+    public void NavigateDownInActiveDD()
+    {
+        TMP_Dropdown activeDD = DropdownUtils.GetActiveDD(dropdowns);
+        if (activeDD != null)
+        {
+            DropdownUtils.navigateDownInDD(activeDD);
+        }
+    }
+
+    public void selectOptionInActiveDD()
+    {
+        TMP_Dropdown activeDD = DropdownUtils.GetActiveDD(dropdowns);
+        if (activeDD != null)
+        {
+            activeDD.Select();
+        }
+    }
+
+
     //TODO: remove function!
     public void TEST()
     {
         DropdownUtils.OpenDropdownMenu(_gebaeudeDropdown);
-        DropdownUtils.navigateInDD(_gebaeudeDropdown, "down");
+        NavigateDownInActiveDD();
     }
 }

@@ -46,7 +46,7 @@ public class SpeechToCommand : MonoBehaviour
         commandToAction.Clear();
         commandToAction.Add("Schnellsuche", startmenu.Suchen);
         commandToAction.Add("Kriteriensuche", startmenu.Kriteriensuche);
-        commandToAction.Add("Hilfe", bedienungshilfe.openMenu);
+        commandToAction.Add("Hilfe", bedienungshilfe.openMenu); //TODO: Setup for all pages once
         commandToAction.Add("Schließen", bedienungshilfe.closeMenu);
         commandToAction.Add("Deutsch", sprachauswahl.changeSystemLanguageToGerman);
         commandToAction.Add("Englisch", sprachauswahl.changeSystemLanguageToEnglish);
@@ -63,6 +63,9 @@ public class SpeechToCommand : MonoBehaviour
         commandToAction.Add("Zeitfenster", kriteriensuche.OpenZeitfensterDD);
         commandToAction.Add("Zurück zur Suche", kriteriensuche.HideErrorPopUp);
         commandToAction.Add("Suchen", kriteriensuche.Search);
+        commandToAction.Add("Hoch", kriteriensuche.NavigateUpInActiveDD);
+        commandToAction.Add("Runter", kriteriensuche.NavigateDownInActiveDD);
+        commandToAction.Add("Auswählen", kriteriensuche.selectOptionInActiveDD);
 
         SetupKeywordRecognizer();
     }
@@ -82,6 +85,4 @@ public class SpeechToCommand : MonoBehaviour
         commandToAction.Add("Buchung stornieren", buchungsuebersicht.BuchungStornieren);
         commandToAction.Add("Vorgang abschließen", buchungsuebersicht.BuchungAbschließen);
     }
-
-
 }
