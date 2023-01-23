@@ -155,8 +155,7 @@ public class Kriteriensuche : MonoBehaviour
     {
         if (selectedDD != null)
         {
-            selectedDD.enabled = false;
-            selectedDD.enabled = true;
+            selectedDD.RefreshShownValue();
         }
     }
 

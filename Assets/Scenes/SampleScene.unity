@@ -10163,7 +10163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startmenu: {fileID: 226027503}
-  buchungsuebersicht: {fileID: 1479168523}
+  buchungsuebersicht: {fileID: 0}
   kriteriensuche: {fileID: 836646279}
   suchergebnis: {fileID: 2075990141}
   sprachauswahl: {fileID: 0}
@@ -16771,7 +16771,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1479168521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ce79005e0f4a48379fe84a7c303fc64, type: 3}
+  m_Script: {fileID: 11500000, guid: 9cdf0b70e7fda934f9358a61441db4a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _logik: {fileID: 1123566088}
