@@ -5,6 +5,7 @@ using CodeMonkey.Utils;
 using RaumfinderEMM.Geschaeftslogik;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 //Todo: function name w/ upper case letters
 public class SuchergebnisKS : MonoBehaviour
@@ -178,6 +179,36 @@ public class SuchergebnisKS : MonoBehaviour
             Hide();
         }
         
+    }
+
+    public void OpenWeitereRaeumeDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_weitereRaeumeDD);
+    }
+
+    public void NavigateUpInActiveDD()
+    {
+        if (_weitereRaeumeDD.IsActive())
+        {
+            DropdownUtils.navigateUpInDD(_weitereRaeumeDD);
+        }
+
+    }
+
+    public void NavigateDownInActiveDD()
+    {
+        if (_weitereRaeumeDD.IsActive())
+        {
+            DropdownUtils.navigateDownInDD(_weitereRaeumeDD);
+        }
+    }
+
+    public void selectOptionInActiveDD()
+    {
+        if (_weitereRaeumeDD.IsActive())
+        {
+            _weitereRaeumeDD.Select();
+        }
     }
 
 }

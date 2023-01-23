@@ -161,5 +161,6 @@ public class Kriteriensuche : MonoBehaviour
     {
         DropdownUtils.OpenDropdownMenu(_gebaeudeDropdown);
         NavigateDownInActiveDD();
+        selectOptionInActiveDD();
     }
 }

@@ -74,7 +74,10 @@ public class SpeechToCommand : MonoBehaviour
     {
         commandToAction.Clear();
         commandToAction.Add("Zurück", suchergebnis.Back);
-        //commandToAction.Add("Weitere Räume", suchergebnis.OpenWeitereRaeumeDD);
+        commandToAction.Add("Weitere Räume", suchergebnis.OpenWeitereRaeumeDD);
+        commandToAction.Add("Hoch", suchergebnis.NavigateUpInActiveDD);
+        commandToAction.Add("Runter", suchergebnis.NavigateDownInActiveDD);
+        commandToAction.Add("Auswählen", suchergebnis.selectOptionInActiveDD);
         commandToAction.Add("Jetzt buchen", suchergebnis.BookRoom);
         SetupKeywordRecognizer();
     }
