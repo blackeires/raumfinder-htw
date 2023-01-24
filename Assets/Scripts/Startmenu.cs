@@ -12,14 +12,6 @@ public class Startmenu : MonoBehaviour
 
     [SerializeField] private SpeechToCommand speechToCommandController;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        transform.Find("Button_Quicksearch").GetComponent<Button_UI>().ClickFunc = Suchen;
-        transform.Find("Button_Filtered_Search").GetComponent<Button_UI>().ClickFunc = Kriteriensuche;
-        
-    }
-
     /// <summary>
     /// Sets the state of this object to not active.
     /// </summary>

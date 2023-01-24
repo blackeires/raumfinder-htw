@@ -205,10 +205,8 @@ public class SuchergebnisKS : MonoBehaviour
 
     public void selectOptionInActiveDD()
     {
-        if (_weitereRaeumeDD.IsActive())
-        {
-            _weitereRaeumeDD.Select();
-        }
+        _weitereRaeumeDD.enabled = false;
+        _weitereRaeumeDD.enabled = true;
     }
 
 }
