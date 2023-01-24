@@ -19,11 +19,14 @@ public class Buchungsübersicht : MonoBehaviour
     private string _raumname = "";
     private string _zeitfenster = "";
 
+    [SerializeField] private SpeechToCommand speechToCommandController;
+
     /// <summary>
     /// Sets the state of this object to active and adds functionality to Abschließen Button.
     /// </summary>
     public void Show()
     {
+        speechToCommandController.SetupCommandsBuchungsuebersicht();
         gameObject.SetActive(true);
         transform.Find("Abschließen_Button").GetComponent<Button_UI>().ClickFunc = BuchungAbschließen;
         FillBookingInfo();
@@ -76,13 +79,15 @@ public class Buchungsübersicht : MonoBehaviour
     /// <summary>
     /// Navigates to the statmenu.
     /// </summary>
-    private void BuchungAbschließen()
+    public void BuchungAbschließen()
     {
         _startmenu.Show();
         Hide();
     }
 
+    public void BuchungStornieren()
+    {
+        //TODO: implement and do documentation
+    }
 
-
-    //TODO: implement functionality to cancel booking
 }

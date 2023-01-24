@@ -85,9 +85,15 @@ namespace RaumfinderEMM.Geschaeftslogik
         public string getAusstattungAsString()
         {
             string str = "";
+            int i = 1;
             foreach(string s in _ausstattung)
             {
-                str += s + ", ";
+                str += s;
+                if (i != _ausstattung.Count())
+                {
+                    str += ", ";
+                }
+                i++;
             }
             return str;
         }

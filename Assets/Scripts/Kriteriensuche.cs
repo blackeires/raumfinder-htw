@@ -25,6 +25,12 @@ public class Kriteriensuche : MonoBehaviour
     [SerializeField] private TMP_Dropdown _kapazitaetDropdown;
     [SerializeField] private TMP_Dropdown _ausstattungDropdown;
     [SerializeField] private TMP_Dropdown _zeitfensterDropdown;
+    private List<TMP_Dropdown> dropdowns = new List<TMP_Dropdown>();
+
+    //Speech to Command Setup
+    [SerializeField] private SpeechToCommand speechToCommandController;
+    private TMP_Dropdown selectedDD;
+
 
     /// <summary>
     /// Sets the state of this object to not active.
@@ -34,14 +40,24 @@ public class Kriteriensuche : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    private void Start()
+    {
+        dropdowns.Add(_gebaeudeDropdown);
+        dropdowns.Add(_kapazitaetDropdown);
+        dropdowns.Add(_ausstattungDropdown);
+        dropdowns.Add(_zeitfensterDropdown);
+    }
+
+
     /// <summary>
     /// Sets the state of this object to active, the state of _startmenu to not active and adds functionality to Zurück_Button
     /// </summary>
     public void Show()
     {
+        speechToCommandController.SetupCommandsKriteriensuche();
         gameObject.SetActive(true);
         _startmenu.Hide();
-        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = back;
+        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = Back;
     }
 
     /// <summary>
@@ -71,15 +87,12 @@ public class Kriteriensuche : MonoBehaviour
             _form.SetActive(false);
         }
 
-
-        
-
     }
 
     /// <summary>
     /// Navigates back to start menu.
     /// </summary>
-    private void back()
+    public void Back()
     {
         _startmenu.Show();
         Hide();
@@ -95,5 +108,63 @@ public class Kriteriensuche : MonoBehaviour
     }
 
 
+    //Speech to Command Dropdown Setup
+    
+    public void OpenGebaeudeDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_gebaeudeDropdown);
+        selectedDD = _gebaeudeDropdown;
+    }
 
+    public void OpenKapazitaetDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_kapazitaetDropdown);
+        selectedDD = _kapazitaetDropdown;
+    }
+
+    public void OpenAusstattungDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_ausstattungDropdown);
+        selectedDD = _ausstattungDropdown;
+    }
+
+    public void OpenZeitfensterDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_zeitfensterDropdown);
+        selectedDD = _zeitfensterDropdown;
+    }
+
+    public void NavigateUpInActiveDD()
+    {
+        if (selectedDD != null)
+        {
+            DropdownUtils.navigateUpInDD(selectedDD);
+        }
+    }
+
+    public void NavigateDownInActiveDD()
+    {
+        TMP_Dropdown activeDD = DropdownUtils.GetActiveDD(dropdowns);
+        if (selectedDD != null)
+        {
+            DropdownUtils.navigateDownInDD(selectedDD);
+        }
+    }
+
+    public void selectOptionInActiveDD()
+    {
+        if (selectedDD != null)
+        {
+            selectedDD.RefreshShownValue();
+        }
+    }
+
+
+    //TODO: remove function!
+    public void TEST()
+    {
+        DropdownUtils.OpenDropdownMenu(_gebaeudeDropdown);
+        NavigateDownInActiveDD();
+        selectOptionInActiveDD();
+    }
 }

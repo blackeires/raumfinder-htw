@@ -5,6 +5,7 @@ using CodeMonkey.Utils;
 using RaumfinderEMM.Geschaeftslogik;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 //Todo: function name w/ upper case letters
 public class SuchergebnisKS : MonoBehaviour
@@ -34,6 +35,8 @@ public class SuchergebnisKS : MonoBehaviour
     //Drpdown Timeslot für Buchung 
     [SerializeField] private TMP_Dropdown _bookingDD;
 
+    [SerializeField] private SpeechToCommand speechToCommandController;
+
     /// <summary>
     /// Sets state of this object to not active.
     /// </summary>
@@ -47,8 +50,9 @@ public class SuchergebnisKS : MonoBehaviour
     /// </summary>
     public void Show()
     {
+        speechToCommandController.SetupCommandsSuchergebnis();
         gameObject.SetActive(true);
-        SetupSuchergebnis(); 
+        SetupSuchergebnis();
     }
 
     /// <summary>
@@ -69,7 +73,7 @@ public class SuchergebnisKS : MonoBehaviour
     private void SetupButtonFunctionality()
     {
         transform.Find("Buchen_Button").GetComponent<Button_UI>().ClickFunc = BookRoom;
-        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = back;
+        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = Back;
     }
 
     /// <summary>
@@ -93,7 +97,7 @@ public class SuchergebnisKS : MonoBehaviour
     /// <summary>
     /// Navigates to the previously visited page.
     /// </summary>
-    private void back()
+    public void Back()
     {
         if (_previousPage == "Kriteriensuche")
         {
@@ -161,7 +165,7 @@ public class SuchergebnisKS : MonoBehaviour
     /// <summary>
     /// Books the room with the name of the currently selected room during the currently selected timeslot.
     /// </summary>
-    private void BookRoom()
+    public void BookRoom()
     {
         bool status = _logik.BookRoom(DropdownUtils.getInputFromDropdown(_weitereRaeumeDD), DropdownUtils.GetzeitfensterAsInt(_bookingDD));
         if (!status)
@@ -175,6 +179,36 @@ public class SuchergebnisKS : MonoBehaviour
             Hide();
         }
         
+    }
+
+    public void OpenWeitereRaeumeDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_weitereRaeumeDD);
+    }
+
+    public void NavigateUpInActiveDD()
+    {
+        if (_weitereRaeumeDD.IsActive())
+        {
+            DropdownUtils.navigateUpInDD(_weitereRaeumeDD);
+        }
+
+    }
+
+    public void NavigateDownInActiveDD()
+    {
+        if (_weitereRaeumeDD.IsActive())
+        {
+            DropdownUtils.navigateDownInDD(_weitereRaeumeDD);
+        }
+    }
+
+    public void selectOptionInActiveDD()
+    {
+        if (_weitereRaeumeDD.IsActive())
+        {
+            _weitereRaeumeDD.Select();
+        }
     }
 
 }

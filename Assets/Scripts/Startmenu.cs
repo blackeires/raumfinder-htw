@@ -10,11 +10,13 @@ public class Startmenu : MonoBehaviour
     [SerializeField] private SuchergebnisKS _suchergebnisKS;
     [SerializeField] private Logik _logik;
 
+    [SerializeField] private SpeechToCommand speechToCommandController;
+
     // Start is called before the first frame update
     void Start()
     {
         transform.Find("Button_Quicksearch").GetComponent<Button_UI>().ClickFunc = Suchen;
-        transform.Find("Button_Filtered_Search").GetComponent<Button_UI>().ClickFunc = _kriteriensuche.Show;
+        transform.Find("Button_Filtered_Search").GetComponent<Button_UI>().ClickFunc = Kriteriensuche;
         
     }
 
@@ -31,13 +33,14 @@ public class Startmenu : MonoBehaviour
     /// </summary>
     public void Show()
     {
+        speechToCommandController.SetupCommandsStartMenu();
         gameObject.SetActive(true);
     }
 
     /// <summary>
     /// Searches for a room that is currently free and navigates to the search result page, if free rooms were found.
     /// </summary>
-    private void Suchen()
+    public void Suchen()
     {
         _logik.Schnellsuche();
 
@@ -50,7 +53,12 @@ public class Startmenu : MonoBehaviour
             Hide();
         } else
         {
-            //TODO: implement some kind of error handling / notification to user about no room being available.
+            //TODO: implement some kind of error handling / notification about no room being available.
         }
+    }
+
+    public void Kriteriensuche()
+    {
+        _kriteriensuche.Show();
     }
 }

@@ -96,24 +96,65 @@ public class DropdownUtils : MonoBehaviour
     /// <returns>Char that corresponds to the selected building string in the dropdown.</returns>
     public static char getGebaeudeAsChar(TMP_Dropdown dd)
     {
+        string ddValue = dd.options[dd.value].text;
+
+
         switch (dd.options[dd.value].text)
         {
-            case "Gebäude A":
+            case "A":
                 return 'A';
-            case "Gebäude B":
+            case "B":
                 return 'B';
-            case "Gebäude C":
+            case "C":
                 return 'C';
-            case "Gebäude D":
+            case "D":
                 return 'D';
-            case "Gebäude E":
+            case "E":
                 return 'E';
-            case "Gebäude F":
+            case "F":
                 return 'F';
             default:
                 return 'C';
         }
 
+    }
+
+
+    public static void OpenDropdownMenu(TMP_Dropdown dropdown)
+    {
+        dropdown.Show();
+    }
+
+    public static void SelectDropdownItem(TMP_Dropdown dropdown, int value)
+    {
+        dropdown.value = value;
+        dropdown.Select();
+    }
+
+    public static TMP_Dropdown GetActiveDD(List<TMP_Dropdown> dropdowns) 
+    {
+        TMP_Dropdown activeDD = null;
+        foreach (TMP_Dropdown dd in dropdowns) 
+        {
+            if (dd.IsActive())
+            {
+                activeDD = dd;
+                break;
+            }
+        }
+
+        return activeDD;
+
+    }
+
+    public static void navigateUpInDD(TMP_Dropdown dropdown)
+    {
+        dropdown.value -= 1;
+    }
+
+    public static void navigateDownInDD(TMP_Dropdown dropdown)
+    {
+        dropdown.value += 1;
     }
 
 }
