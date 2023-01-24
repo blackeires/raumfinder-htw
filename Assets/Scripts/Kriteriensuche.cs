@@ -159,12 +159,4 @@ public class Kriteriensuche : MonoBehaviour
         }
     }
 
-
-    //TODO: remove function!
-    public void TEST()
-    {
-        DropdownUtils.OpenDropdownMenu(_gebaeudeDropdown);
-        NavigateDownInActiveDD();
-        selectOptionInActiveDD();
-    }
 }
