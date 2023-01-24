@@ -57,7 +57,6 @@ public class Kriteriensuche : MonoBehaviour
         speechToCommandController.SetupCommandsKriteriensuche();
         gameObject.SetActive(true);
         _startmenu.Hide();
-        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = Back;
     }
 
     /// <summary>

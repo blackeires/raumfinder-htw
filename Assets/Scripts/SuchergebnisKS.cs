@@ -56,7 +56,7 @@ public class SuchergebnisKS : MonoBehaviour
     }
 
     /// <summary>
-    /// Gets the list of filtered room, sets up dropdowns and calls SetupButtonFunctionality.
+    /// Gets the list of filtered room and sets up dropdowns 
     /// </summary>
     private void SetupSuchergebnis()
     {
@@ -64,17 +64,8 @@ public class SuchergebnisKS : MonoBehaviour
         fillInRoomInfo(_filteredRooms.First());
         fillRoomDropdown();
         fillBookingDropdown();
-        SetupButtonFunctionality();
     }
 
-    /// <summary>
-    /// Adds funtionality to all buttons.
-    /// </summary>
-    private void SetupButtonFunctionality()
-    {
-        transform.Find("Buchen_Button").GetComponent<Button_UI>().ClickFunc = BookRoom;
-        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = Back;
-    }
 
     /// <summary>
     /// Setter for previous page.
