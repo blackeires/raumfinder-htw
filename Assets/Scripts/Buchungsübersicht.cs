@@ -28,7 +28,6 @@ public class Buchungsübersicht : MonoBehaviour
     {
         speechToCommandController.SetupCommandsBuchungsuebersicht();
         gameObject.SetActive(true);
-        transform.Find("Abschließen_Button").GetComponent<Button_UI>().ClickFunc = BuchungAbschließen;
         FillBookingInfo();
     }
 
@@ -87,7 +86,7 @@ public class Buchungsübersicht : MonoBehaviour
 
     public void BuchungStornieren()
     {
-        //TODO: implement and do documentation
+        
     }
 
 }
