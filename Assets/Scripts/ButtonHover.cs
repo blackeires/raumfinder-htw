@@ -30,7 +30,4 @@ public class ButtonHover : MonoBehaviour
         _button.colors = _colorBlock;
     }
 
-
-
-
 }
