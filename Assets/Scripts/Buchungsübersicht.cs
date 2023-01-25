@@ -78,7 +78,7 @@ public class Buchungsübersicht : MonoBehaviour
     /// <summary>
     /// Navigates to the statmenu.
     /// </summary>
-    public void BuchungAbschließen()
+    public void BuchungAbschliessen()
     {
         _startmenu.Show();
         Hide();
