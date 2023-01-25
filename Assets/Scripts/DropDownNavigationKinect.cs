@@ -12,7 +12,9 @@ public class DropDownNavigationKinect : MonoBehaviour
         int currentIndex = _dropdown.value;
         if (currentIndex != 0)
         {
-            _dropdown.SetValueWithoutNotify(currentIndex - 1);
+            _dropdown.value -= 1;
+            _dropdown.Hide();
+            _dropdown.Show();
         }
     }
 
@@ -21,7 +23,9 @@ public class DropDownNavigationKinect : MonoBehaviour
         int currentIndex = _dropdown.value;
         if (currentIndex < _dropdown.options.Count); 
         {
-            _dropdown.SetValueWithoutNotify(currentIndex + 1);
+            _dropdown.value += 1;
+            _dropdown.Hide();
+            _dropdown.Show();
         }
     }
 
