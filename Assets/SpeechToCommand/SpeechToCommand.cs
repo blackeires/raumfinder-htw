@@ -86,6 +86,6 @@ public class SpeechToCommand : MonoBehaviour
     {
         commandToAction.Clear();
         commandToAction.Add("Buchung stornieren", buchungsuebersicht.BuchungStornieren);
-        commandToAction.Add("Vorgang abschließen", buchungsuebersicht.BuchungAbschließen);
+        commandToAction.Add("Vorgang abschließen", buchungsuebersicht.BuchungAbschliessen);
     }
 }

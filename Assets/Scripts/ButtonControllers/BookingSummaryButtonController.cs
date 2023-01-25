@@ -8,6 +8,6 @@ public class BookingSummaryButtonController : MonoBehaviour
 
     public void HandleSubmitClick()
     {
-        _buchungsübersicht.BuchungAbschließen();
+        _buchungsübersicht.BuchungAbschliessen();
     }
 }

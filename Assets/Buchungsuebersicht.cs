@@ -22,7 +22,7 @@ public class Buchungsuebersicht : MonoBehaviour
     [SerializeField] private SpeechToCommand speechToCommandController;
 
     /// <summary>
-    /// Sets the state of this object to active and adds functionality to Abschließen Button.
+    /// Sets the state of this object to active and adds functionality to Abschlieï¿½en Button.
     /// </summary>
     public void Show()
     {
@@ -78,7 +78,7 @@ public class Buchungsuebersicht : MonoBehaviour
     /// <summary>
     /// Navigates to the statmenu.
     /// </summary>
-    public void BuchungAbschließen()
+    public void BuchungAbschliessen()
     {
         _startmenu.Show();
         Hide();
