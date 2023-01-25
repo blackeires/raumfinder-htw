@@ -10,7 +10,7 @@ public class SpeechToCommand : MonoBehaviour
 
     //Setup application pages
     [SerializeField] private Startmenu startmenu;
-    [SerializeField] private Buchungsübersicht buchungsuebersicht;
+    [SerializeField] private Buchungsuebersicht buchungsuebersicht;
     [SerializeField] private Kriteriensuche kriteriensuche;
     [SerializeField] private SuchergebnisKS suchergebnis;
     [SerializeField] private Sprachauswahl sprachauswahl;

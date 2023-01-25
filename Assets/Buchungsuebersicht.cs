@@ -4,7 +4,7 @@ using CodeMonkey.Utils;
 using UnityEngine;
 using TMPro;
 
-public class Buchungsübersicht : MonoBehaviour
+public class Buchungsuebersicht : MonoBehaviour
 {
     //UI Game Objects
     [SerializeField] private Logik _logik;
@@ -22,7 +22,7 @@ public class Buchungsübersicht : MonoBehaviour
     [SerializeField] private SpeechToCommand speechToCommandController;
 
     /// <summary>
-    /// Sets the state of this object to active and adds functionality to Abschließen Button.
+    /// Sets the state of this object to active and adds functionality to Abschlie�en Button.
     /// </summary>
     public void Show()
     {
@@ -78,7 +78,7 @@ public class Buchungsübersicht : MonoBehaviour
     /// <summary>
     /// Navigates to the statmenu.
     /// </summary>
-    public void BuchungAbschließen()
+    public void BuchungAbschlie�en()
     {
         _startmenu.Show();
         Hide();

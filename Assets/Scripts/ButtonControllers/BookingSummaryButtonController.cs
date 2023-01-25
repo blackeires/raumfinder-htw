@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BookingSummaryButtonController : MonoBehaviour
 {
-    [SerializeField] private Buchungsübersicht _buchungsübersicht;
+    [SerializeField] private Buchungsuebersicht _buchungsübersicht;
 
     public void HandleSubmitClick()
     {

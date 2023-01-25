@@ -20,7 +20,7 @@ public class SuchergebnisKS : MonoBehaviour
     [SerializeField] private Logik _logik;
     [SerializeField] private Kriteriensuche _kriteriensuche;
     [SerializeField] private Startmenu _startmenu;
-    [SerializeField] private Buchungsübersicht _buchungsübersicht;
+    [SerializeField] private Buchungsuebersicht _buchungsübersicht;
 
     //Textfelder Rauminformationen
     [SerializeField] private TMP_Text _raumnummerText;
