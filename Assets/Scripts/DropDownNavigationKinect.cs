@@ -29,4 +29,11 @@ public class DropDownNavigationKinect : MonoBehaviour
         }
     }
 
+    public void OnSubmitButtonClick()
+    {
+        _dropdown.Hide();
+    }
+
+
+
 } 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 /// <summary>
 /// Class providing dropdown functionality
@@ -149,12 +150,24 @@ public class DropdownUtils : MonoBehaviour
 
     public static void navigateUpInDD(TMP_Dropdown dropdown)
     {
-        dropdown.value -= 1;
+        int currentIndex = dropdown.value;
+        if (currentIndex != 0);
+        {
+            dropdown.value -= 1;
+            dropdown.Hide();
+            dropdown.Show();
+        }
     }
 
     public static void navigateDownInDD(TMP_Dropdown dropdown)
     {
-        dropdown.value += 1;
+        int currentIndex = dropdown.value;
+        if (currentIndex < dropdown.options.Count) ;
+        {
+            dropdown.value += 1;
+            dropdown.Hide();
+            dropdown.Show();
+        }
     }
 
 }
