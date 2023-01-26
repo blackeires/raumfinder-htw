@@ -7,7 +7,7 @@ using UnityEngine.Video;
 public class Click : MonoBehaviour
 {
     public VideoPlayer MyVideoPlayer;
-    int IdleTimeSetting = 3;
+    int IdleTimeSetting = 30;
     float LastIdleTime;
     public Canvas canvas;
 
