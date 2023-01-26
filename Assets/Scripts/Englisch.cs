@@ -44,5 +44,12 @@ public class Englisch
     //Sonstiges
     public const string back = "Back";
 
+    ///Hilfemenü
+    public const string help = "Help";
+    public const string gestureControl = "Gesture Control";
+    public const string gestureControlText = "1. Stand in front of the camera \n2. Move the cursors by moving your hands\n3. Make a fist over a UI element to click it";
+    public const string voiceControl = "Voice Control (only German)";
+    public const string voiceControlText = "1. Speak as loudly and clearly as possible\n2. Say the name of the widget you want to interact with\n3. To change the language say \"Deutsch\" or \"Englisch\"\n4. To select an item from a drop down menu, say the number to the left of the item";
+
 }
 

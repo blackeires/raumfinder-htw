@@ -27821,6 +27821,12 @@ MonoBehaviour:
   _timeslotB: {fileID: 262172445}
   _cancelReservationB: {fileID: 842559237}
   _confirmReservationB: {fileID: 1132082171}
+  _helpButtonTitle: {fileID: 502494323}
+  _helpHeading: {fileID: 1235625133}
+  _gestureControlHeading: {fileID: 1271016661}
+  _gestureControlText: {fileID: 1598228386}
+  _voiceControlHeading: {fileID: 216131017}
+  _voiceControlText: {fileID: 1650332852}
 --- !u!1 &1968314155
 GameObject:
   m_ObjectHideFlags: 0

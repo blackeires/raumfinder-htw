@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using TMPro;
+using UnityEditor;
 
 public class Sprachauswahl : MonoBehaviour
 {
@@ -42,6 +43,15 @@ public class Sprachauswahl : MonoBehaviour
     [SerializeField] private TMP_Text _timeslotB;
     [SerializeField] private TMP_Text _cancelReservationB;
     [SerializeField] private TMP_Text _confirmReservationB;
+
+    //Texte Hilfe
+    [SerializeField] private TMP_Text _helpButtonTitle;
+    [SerializeField] private TMP_Text _helpHeading;
+    [SerializeField] private TMP_Text _gestureControlHeading;
+    [SerializeField] private TMP_Text _gestureControlText;
+    [SerializeField] private TMP_Text _voiceControlHeading;
+    [SerializeField] private TMP_Text _voiceControlText;
+
     #endregion
 
     #region
@@ -85,6 +95,17 @@ public class Sprachauswahl : MonoBehaviour
         _cancelReservationB.text = Deutsch.cancelReservation;
         _confirmReservationB.text = Deutsch.confirmReservation;
 
+        //Texte Hilfemenü help,gestureControl,gestureControlText,voiceControl,voiceControlText
+        _helpButtonTitle.text = Deutsch.help;
+        _helpHeading.text = Deutsch.help;
+        _gestureControlHeading.text = Deutsch.gestureControl;
+        _gestureControlText.text = Deutsch.gestureControlText;
+        _voiceControlHeading.text = Deutsch.voiceControl;
+        _voiceControlText.text = Deutsch.voiceControlText;
+
+
+
+
     }
     #endregion
 
@@ -127,6 +148,13 @@ public class Sprachauswahl : MonoBehaviour
         _timeslotB.text = Englisch.timeslot;
         _cancelReservationB.text = Englisch.cancelReservation;
         _confirmReservationB.text = Englisch.confirmReservation;
+
+        _helpButtonTitle.text = Englisch.help;
+        _helpHeading.text = Englisch.help;
+        _gestureControlHeading.text = Englisch.gestureControl;
+        _gestureControlText.text = Englisch.gestureControlText;
+        _voiceControlHeading.text = Englisch.voiceControl;
+        _voiceControlText.text = Englisch.voiceControlText;
 
     }
     #endregion

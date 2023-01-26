@@ -39,7 +39,17 @@ public static class Deutsch
     public const string confirmReservation = "Vorgang abschliessen";
 
     //Sonstiges
-    public const string back = "Zurueck";
+    public const string back = "Zurück";
+
+    ///Hilfemenü
+    public const string help = "Bedienungshilfe";
+    public const string gestureControl = "Gestensteuerung";
+    public const string gestureControlText = "1. Stelle dich vor die Kamera \n2. Bewege den Cursor durch Bewegung deiner rechten Hand\n3. Mache eine Faust über einem Bedienelement, um zu klicken";
+    public const string voiceControl = "Sprachsteuerung";
+    public const string voiceControlText = "1. Rede möglichst laut und deutlich\n2. Sage den Namen des Bedienelements, mit dem du interagieren möchtest\n3. Zum Wechsel der Sprache sage \"Deutsch\" oder \"Englisch\"\n4. Um ein Element aus einem Drop Down Menü auszuwählen, sage die Zahl auf der linken Seite des Elements";
+
+
+
 
 }
 
