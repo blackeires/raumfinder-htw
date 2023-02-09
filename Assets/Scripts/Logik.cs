@@ -25,7 +25,7 @@ public class Logik : MonoBehaviour
     //TODO: implement a function that gets the current timeslot based on current time
     public void Schnellsuche()
     {
-        _filteredRooms = _gl.getFreeRooms(1);
+        _filteredRooms = _gl.getFreeRooms(getCurrentTimeslot());
     }
 
     /// <summary>
@@ -100,6 +100,50 @@ public class Logik : MonoBehaviour
     public bool BookRoom(string name, int ts)
     {
         return _gl.bookRoom(name, ts);
+    }
+
+    /// <summary>
+    /// Returns the current timeslot based on the current daytime
+    /// </summary>
+    /// <returns>int representation of the current timeslot</returns>
+    private int getCurrentTimeslot()
+    {
+        TimeSpan currentTime = DateTime.Now.TimeOfDay;
+
+        if (currentTime < TimeSpan.FromMinutes(570))
+        {
+            return 1;
+        }
+        else if (currentTime < TimeSpan.FromMinutes(660))
+        {
+            return 2;
+        }
+        else if (currentTime < TimeSpan.FromMinutes(750))
+        {
+            return 3;
+        }
+        else if (currentTime < TimeSpan.FromMinutes(840))
+        {
+            return 4;
+        }
+        else if (currentTime < TimeSpan.FromMinutes(930))
+        {
+            return 5;
+        }
+        else if (currentTime < TimeSpan.FromMinutes(1020))
+        {
+            return 6;
+        }
+        else if (currentTime < TimeSpan.FromMinutes(1110))
+        {
+            return 7;
+        }
+        else 
+        {
+            return 8;
+        }
+
+
     }
 
 }
