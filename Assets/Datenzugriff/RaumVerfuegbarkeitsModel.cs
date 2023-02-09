@@ -1,15 +1,15 @@
-﻿/**
- * Class for the definition of the structure of a RaumVerfuegbarkeit object in the database
- * A RaumVerfuegbarkeit Object stores all information about availability of the room during timeslots 1 - 8
- * A timeslot (or ts) field being filled with the value "true" represents the room being free during that time
- */
-using System;
+﻿using System;
 using System.Linq.Expressions;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 namespace RaumfinderEMM.Datenzugriff
 {
+    /// <summary>
+    /// Class for the definition of the structure of a RaumVerfuegbarkeit object in the database
+    /// A RaumVerfuegbarkeit Object stores all information about availability of the room during timeslots 1 - 8
+    /// A timeslot(or ts) field being filled with the value "true" represents the room being free during that time
+    /// </summary>
 	public class RaumVerfuegbarkeitsModel
 	{
         [BsonId]

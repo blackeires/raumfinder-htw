@@ -43,10 +43,7 @@ public class Startmenu : MonoBehaviour
             _suchergebnisKS.SetSelectedTS("8 - 9:30 Uhr"); //TODO: implement logic to pass the current TS
             _suchergebnisKS.Show();
             Hide();
-        } else
-        {
-            //TODO: implement some kind of error handling / notification about no room being available.
-        }
+        } 
     }
 
     public void Kriteriensuche()

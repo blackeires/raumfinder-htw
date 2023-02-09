@@ -5,7 +5,9 @@ using RaumfinderEMM.Datenzugriff;
 
 namespace RaumfinderEMM.Geschaeftslogik
 {
-    //TODO: COMMENT CLASS
+    /// <summary>
+    /// Class for managing the business logic of the application
+    /// </summary>
     public class Geschaeftslogik : IGeschaeftslogik
 	{
         private Datenzugriff.Datenzugriff d = new Datenzugriff.Datenzugriff();

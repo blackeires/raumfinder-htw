@@ -10,6 +10,9 @@ using MongoDB.Driver;
 
 namespace RaumfinderEMM.Datenzugriff
 {
+    /// <summary>
+    /// Class for managing database access
+    /// </summary>
     public class Datenzugriff : IDatenzugriff
     {
         private string connectionUrl = "mongodb://localhost:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.1";

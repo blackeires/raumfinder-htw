@@ -3,6 +3,9 @@ using System.Linq;
 
 namespace RaumfinderEMM.Geschaeftslogik
 {
+    /// <summary>
+    /// Class that represents a Raum object
+    /// </summary>
     public class Raum
 	{
 
