@@ -2,6 +2,9 @@
 using UnityEngine;
 using TMPro;
 
+/// <summary>
+/// class for saving the german UI texts
+/// </summary>
 public static class Deutsch
 {
     

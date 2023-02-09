@@ -29,11 +29,18 @@ public class SpeechToCommand : MonoBehaviour
         SetupCommandsStartMenu();
     }
 
+    /// <summary>
+    /// Calls function based on the recognized voice input
+    /// </summary>
+    /// <param name="speechCommand">voice input</param>
     private void RecognizedSpeech(PhraseRecognizedEventArgs speechCommand)
     {
         commandToAction[speechCommand.text].Invoke();
     }
 
+    /// <summary>
+    /// Sets up the keyword recognizer
+    /// </summary>
     private void SetupKeywordRecognizer()
     {
         keywordRecognizer = new KeywordRecognizer(commandToAction.Keys.ToArray());
@@ -41,6 +48,9 @@ public class SpeechToCommand : MonoBehaviour
         keywordRecognizer.Start();
     }
 
+    /// <summary>
+    /// Sets up the voice commands for the start page
+    /// </summary>
     public void SetupCommandsStartMenu()
     {
         commandToAction.Clear();
@@ -53,6 +63,9 @@ public class SpeechToCommand : MonoBehaviour
         SetupKeywordRecognizer();
     }
 
+    /// <summary>
+    /// Sets up the voice commands for the filtered search page
+    /// </summary>
     public void SetupCommandsKriteriensuche()
     {
         commandToAction.Clear();
@@ -70,6 +83,9 @@ public class SpeechToCommand : MonoBehaviour
         SetupKeywordRecognizer();
     }
 
+    /// <summary>
+    /// sets up the voice commands for the rearch result page
+    /// </summary>
     public void SetupCommandsSuchergebnis()
     {
         commandToAction.Clear();
@@ -82,6 +98,9 @@ public class SpeechToCommand : MonoBehaviour
         SetupKeywordRecognizer();
     }
 
+    /// <summary>
+    /// Sets up the voice commands for the booking summary page
+    /// </summary>
     public void SetupCommandsBuchungsuebersicht()
     {
         commandToAction.Clear();

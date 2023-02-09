@@ -20,7 +20,6 @@ public class Click : MonoBehaviour
 
     void Awake()
     {
-
         LastIdleTime = Time.time;
     }
 

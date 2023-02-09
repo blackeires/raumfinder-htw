@@ -55,7 +55,10 @@ public class Sprachauswahl : MonoBehaviour
     #endregion
 
     #region
-    //TODO: comment + rewrite to avoid redundancy
+
+    /// <summary>
+    /// Changes the system language to German
+    /// </summary>
     public void changeSystemLanguageToGerman()
     {
         //Startmenu
@@ -110,7 +113,9 @@ public class Sprachauswahl : MonoBehaviour
     #endregion
 
     #region
-    //TODO: comment + rewrite to avoid redundancy
+    /// <summary>
+    /// Changes the system language to English
+    /// </summary>
     public void changeSystemLanguageToEnglish()
     {
         _quicksearchButton.text = Englisch.quicksearch;
@@ -158,8 +163,6 @@ public class Sprachauswahl : MonoBehaviour
 
     }
     #endregion
-
-
 
 }
 

@@ -12,7 +12,6 @@ public class FollowMouse : MonoBehaviour {
 	void Update () {
 		Vector3 v = new Vector3(Input.mousePosition.x, Input.mousePosition.y, startPosZ -Camera.main.transform.position.z );
 		v = Camera.main.ScreenToWorldPoint(v);
-//		Debug.Log(Camera.main.ScreenToWorldPoint(v));
 		float z = transform.position.z;
 
 		if(Input.GetButtonDown("Fire1")){

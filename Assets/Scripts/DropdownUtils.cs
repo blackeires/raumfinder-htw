@@ -120,18 +120,32 @@ public class DropdownUtils : MonoBehaviour
 
     }
 
-
+    /// <summary>
+    /// opens the passed dropdown menu
+    /// </summary>
+    /// <param name="dropdown"></param>
     public static void OpenDropdownMenu(TMP_Dropdown dropdown)
     {
         dropdown.Show();
     }
 
+    /// <summary>
+    /// selects the dropdown items with the passed index from the passed dropdown menu
+    /// </summary>
+    /// <param name="dropdown">dropdown menu from which the item should be selected</param>
+    /// <param name="value">index of the dropdown item that should be selected</param>
     public static void SelectDropdownItem(TMP_Dropdown dropdown, int value)
     {
         dropdown.value = value;
         dropdown.Select();
     }
 
+
+    /// <summary>
+    /// gets the currently selected dropdown menu
+    /// </summary>
+    /// <param name="dropdowns">a list of all dropdowns on the page</param>
+    /// <returns>currently selected dropdown</returns>
     public static TMP_Dropdown GetActiveDD(List<TMP_Dropdown> dropdowns) 
     {
         TMP_Dropdown activeDD = null;
@@ -148,6 +162,10 @@ public class DropdownUtils : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// navigates up in the passed dropdown menu
+    /// </summary>
+    /// <param name="dropdown"></param>
     public static void navigateUpInDD(TMP_Dropdown dropdown)
     {
         int currentIndex = dropdown.value;
@@ -159,6 +177,10 @@ public class DropdownUtils : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// navigates down in the passed dropdown menu
+    /// </summary>
+    /// <param name="dropdown"></param>
     public static void navigateDownInDD(TMP_Dropdown dropdown)
     {
         int currentIndex = dropdown.value;

@@ -172,11 +172,17 @@ public class SuchergebnisKS : MonoBehaviour
         
     }
 
+    /// <summary>
+    /// Opens weitere Räume dropdown menu
+    /// </summary>
     public void OpenWeitereRaeumeDD()
     {
         DropdownUtils.OpenDropdownMenu(_weitereRaeumeDD);
     }
 
+    /// <summary>
+    /// Navigates up in the currently selected dropdown menu
+    /// </summary>
     public void NavigateUpInActiveDD()
     {
         if (_weitereRaeumeDD.IsActive())
@@ -186,6 +192,10 @@ public class SuchergebnisKS : MonoBehaviour
 
     }
 
+
+    /// <summary>
+    /// Navigates down in the currently selected dropdown menu
+    /// </summary>
     public void NavigateDownInActiveDD()
     {
         if (_weitereRaeumeDD.IsActive())
@@ -194,6 +204,9 @@ public class SuchergebnisKS : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Selects the selected dropdown item in the currently selected dropdown menu
+    /// </summary>
     public void selectOptionInActiveDD()
     {
         _weitereRaeumeDD.enabled = false;

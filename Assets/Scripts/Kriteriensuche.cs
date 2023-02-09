@@ -108,31 +108,46 @@ public class Kriteriensuche : MonoBehaviour
 
 
     //Speech to Command Dropdown Setup
-    
+
+    /// <summary>
+    /// Opens the Gebäude dropdown menu
+    /// </summary>
     public void OpenGebaeudeDD()
     {
         DropdownUtils.OpenDropdownMenu(_gebaeudeDropdown);
         selectedDD = _gebaeudeDropdown;
     }
 
+    /// <summary>
+    /// Opens the Kapazität dropdown menu
+    /// </summary>
     public void OpenKapazitaetDD()
     {
         DropdownUtils.OpenDropdownMenu(_kapazitaetDropdown);
         selectedDD = _kapazitaetDropdown;
     }
 
+    /// <summary>
+    /// Opens the Ausstattung dropdown menu
+    /// </summary>
     public void OpenAusstattungDD()
     {
         DropdownUtils.OpenDropdownMenu(_ausstattungDropdown);
         selectedDD = _ausstattungDropdown;
     }
 
+    /// <summary>
+    /// Opens the Zeitfenster dropdown menu
+    /// </summary>
     public void OpenZeitfensterDD()
     {
         DropdownUtils.OpenDropdownMenu(_zeitfensterDropdown);
         selectedDD = _zeitfensterDropdown;
     }
 
+    /// <summary>
+    /// Navigates up in the active dropdown menu
+    /// </summary>
     public void NavigateUpInActiveDD()
     {
         if (selectedDD != null)
@@ -141,6 +156,9 @@ public class Kriteriensuche : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Navigates down in the active dropdown menu
+    /// </summary>
     public void NavigateDownInActiveDD()
     {
         TMP_Dropdown activeDD = DropdownUtils.GetActiveDD(dropdowns);
@@ -150,6 +168,9 @@ public class Kriteriensuche : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Selects the selected option in the active dropdown menu
+    /// </summary>
     public void selectOptionInActiveDD()
     {
         if (selectedDD != null)
