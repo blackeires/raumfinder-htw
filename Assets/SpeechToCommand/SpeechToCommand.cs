@@ -84,7 +84,7 @@ public class SpeechToCommand : MonoBehaviour
         commandToAction.Add("Suchen", kriteriensuche.Search);
         commandToAction.Add("Hoch", kriteriensuche.NavigateUpInActiveDD);
         commandToAction.Add("Runter", kriteriensuche.NavigateDownInActiveDD);
-        commandToAction.Add("Auswählen", kriteriensuche.selectOptionInActiveDD);
+        commandToAction.Add("Wählen", kriteriensuche.selectOptionInActiveDD);
         commandToAction.Add("Hilfe", bedienungshilfe.openMenu); 
         commandToAction.Add("Schließen", bedienungshilfe.closeMenu);
 
@@ -102,7 +102,7 @@ public class SpeechToCommand : MonoBehaviour
         commandToAction.Add("Weitere Räume", suchergebnis.OpenWeitereRaeumeDD);
         commandToAction.Add("Hoch", suchergebnis.NavigateUpInActiveDD);
         commandToAction.Add("Runter", suchergebnis.NavigateDownInActiveDD);
-        commandToAction.Add("Auswählen", suchergebnis.selectOptionInActiveDD);
+        commandToAction.Add("Wählen", suchergebnis.selectOptionInActiveDD);
         commandToAction.Add("Jetzt buchen", suchergebnis.BookRoom);
         commandToAction.Add("Hilfe", bedienungshilfe.openMenu); 
         commandToAction.Add("Schließen", bedienungshilfe.closeMenu);
