@@ -22,7 +22,6 @@ public class Logik : MonoBehaviour
     /// <summary>
     /// Performs a quicksearch and sets the value of _filteredRooms to the returned array.
     /// </summary>
-    //TODO: implement a function that gets the current timeslot based on current time
     public void Schnellsuche()
     {
         _filteredRooms = _gl.getFreeRooms(getCurrentTimeslot());
@@ -106,7 +105,7 @@ public class Logik : MonoBehaviour
     /// Returns the current timeslot based on the current daytime
     /// </summary>
     /// <returns>int representation of the current timeslot</returns>
-    private int getCurrentTimeslot()
+    public int getCurrentTimeslot()
     {
         TimeSpan currentTime = DateTime.Now.TimeOfDay;
 

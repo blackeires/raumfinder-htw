@@ -47,6 +47,7 @@ public class SpeechToCommand : MonoBehaviour
     /// </summary>
     private void SetupKeywordRecognizer()
     {
+        keywordRecognizer = null;
         keywordRecognizer = new KeywordRecognizer(commandToAction.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
         keywordRecognizer.Start();

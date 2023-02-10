@@ -50,4 +50,32 @@ public class Startmenu : MonoBehaviour
     {
         _kriteriensuche.Show();
     }
+
+    private string getCurrentTimeslotAsString()
+    {
+        switch (_logik.getCurrentTimeslot())
+        {
+            case 1:
+                return "8 - 9:30 Uhr";
+            case 2:
+                return "9:30 - 11 Uhr";
+            case 3:
+                return "11 - 12:30 Uhr";
+            case 4:
+                return "12:30 - 14 Uhr";
+            case 5:
+                return "14 - 15:30 Uhr";
+            case 6:
+                return "15:30 - 17 Uhr";
+            case 7:
+                return "17 - 18:30 Uhr";
+            case 8:
+                return "18:30 - 20 Uhr";
+
+            default:
+                return "8 - 9:30 Uhr";
+        }
+    }
+
+    
 }
