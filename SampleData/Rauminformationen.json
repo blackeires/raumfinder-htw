@@ -1,0 +1,6011 @@
+[{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235d7"
+  },
+  "raumname": "WH C 200",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235d8"
+  },
+  "raumname": "WH C 201",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 58,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235d9"
+  },
+  "raumname": "WH C 202",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 51,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235da"
+  },
+  "raumname": "WH C 203",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 15,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235db"
+  },
+  "raumname": "WH C 204",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 22,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235dc"
+  },
+  "raumname": "WH C 205",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235dd"
+  },
+  "raumname": "WH C 206",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235de"
+  },
+  "raumname": "WH C 207",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235df"
+  },
+  "raumname": "WH C 208",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 23,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235e0"
+  },
+  "raumname": "WH C 209",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235e1"
+  },
+  "raumname": "WH C 210",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 43,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235e2"
+  },
+  "raumname": "WH C 211",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 26,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235e3"
+  },
+  "raumname": "WH C 212",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 37,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235e4"
+  },
+  "raumname": "WH C 213",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235e5"
+  },
+  "raumname": "WH C 214",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235e6"
+  },
+  "raumname": "WH C 215",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 52,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235e7"
+  },
+  "raumname": "WH C 216",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235e8"
+  },
+  "raumname": "WH C 217",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 52,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235e9"
+  },
+  "raumname": "WH C 218",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 51,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235ea"
+  },
+  "raumname": "WH C 219",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 46,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235eb"
+  },
+  "raumname": "WH C 220",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 42,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235ec"
+  },
+  "raumname": "WH C 221",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235ed"
+  },
+  "raumname": "WH C 222",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 11,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235ee"
+  },
+  "raumname": "WH C 223",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 51,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235ef"
+  },
+  "raumname": "WH C 224",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235f0"
+  },
+  "raumname": "WH C 225",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235f1"
+  },
+  "raumname": "WH C 226",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 56,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235f2"
+  },
+  "raumname": "WH C 227",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235f3"
+  },
+  "raumname": "WH C 228",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235f4"
+  },
+  "raumname": "WH C 229",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235f5"
+  },
+  "raumname": "WH C 230",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 22,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235f6"
+  },
+  "raumname": "WH C 231",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 38,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235f7"
+  },
+  "raumname": "WH C 232",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235f8"
+  },
+  "raumname": "WH C 233",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 15,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235f9"
+  },
+  "raumname": "WH C 234",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 43,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235fa"
+  },
+  "raumname": "WH C 235",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235fb"
+  },
+  "raumname": "WH C 236",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 56,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235fc"
+  },
+  "raumname": "WH C 237",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 55,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235fd"
+  },
+  "raumname": "WH C 238",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 12,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235fe"
+  },
+  "raumname": "WH C 239",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb235ff"
+  },
+  "raumname": "WH C 240",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 47,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23600"
+  },
+  "raumname": "WH C 241",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 14,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23601"
+  },
+  "raumname": "WH C 242",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23602"
+  },
+  "raumname": "WH C 243",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23603"
+  },
+  "raumname": "WH C 244",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23604"
+  },
+  "raumname": "WH C 245",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 37,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23605"
+  },
+  "raumname": "WH C 246",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 15,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23606"
+  },
+  "raumname": "WH C 247",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 57,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23607"
+  },
+  "raumname": "WH C 248",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23608"
+  },
+  "raumname": "WH C 249",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 39,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23609"
+  },
+  "raumname": "WH C 250",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 58,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2360a"
+  },
+  "raumname": "WH C 251",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 11,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2360b"
+  },
+  "raumname": "WH C 252",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2360c"
+  },
+  "raumname": "WH C 253",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2360d"
+  },
+  "raumname": "WH C 254",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 40,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2360e"
+  },
+  "raumname": "WH C 255",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 40,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2360f"
+  },
+  "raumname": "WH C 256",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23610"
+  },
+  "raumname": "WH C 257",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23611"
+  },
+  "raumname": "WH C 258",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23612"
+  },
+  "raumname": "WH C 259",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 48,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23613"
+  },
+  "raumname": "WH C 260",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23614"
+  },
+  "raumname": "WH C 261",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23615"
+  },
+  "raumname": "WH C 262",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23616"
+  },
+  "raumname": "WH C 263",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 14,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23617"
+  },
+  "raumname": "WH C 264",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23618"
+  },
+  "raumname": "WH C 265",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23619"
+  },
+  "raumname": "WH C 266",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2361a"
+  },
+  "raumname": "WH C 267",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 40,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2361b"
+  },
+  "raumname": "WH C 268",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2361c"
+  },
+  "raumname": "WH C 269",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2361d"
+  },
+  "raumname": "WH C 270",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2361e"
+  },
+  "raumname": "WH C 271",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 14,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2361f"
+  },
+  "raumname": "WH C 272",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 56,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23620"
+  },
+  "raumname": "WH C 273",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 26,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23621"
+  },
+  "raumname": "WH C 274",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23622"
+  },
+  "raumname": "WH C 275",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23623"
+  },
+  "raumname": "WH C 276",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23624"
+  },
+  "raumname": "WH C 277",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23625"
+  },
+  "raumname": "WH C 278",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23626"
+  },
+  "raumname": "WH C 279",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 49,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23627"
+  },
+  "raumname": "WH C 280",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 58,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23628"
+  },
+  "raumname": "WH C 281",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 40,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23629"
+  },
+  "raumname": "WH C 282",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 28,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2362a"
+  },
+  "raumname": "WH C 283",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 52,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2362b"
+  },
+  "raumname": "WH C 284",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2362c"
+  },
+  "raumname": "WH C 285",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2362d"
+  },
+  "raumname": "WH C 286",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2362e"
+  },
+  "raumname": "WH C 287",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2362f"
+  },
+  "raumname": "WH C 288",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23630"
+  },
+  "raumname": "WH C 289",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23631"
+  },
+  "raumname": "WH C 290",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23632"
+  },
+  "raumname": "WH C 291",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23633"
+  },
+  "raumname": "WH C 292",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23634"
+  },
+  "raumname": "WH C 293",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23635"
+  },
+  "raumname": "WH C 294",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23636"
+  },
+  "raumname": "WH C 295",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 15,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23637"
+  },
+  "raumname": "WH C 296",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23638"
+  },
+  "raumname": "WH C 297",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 34,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23639"
+  },
+  "raumname": "WH C 298",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2363a"
+  },
+  "raumname": "WH C 299",
+  "gebaeude": 67,
+  "etage": 2,
+  "kapazitaet": 15,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2363b"
+  },
+  "raumname": "WH C 300",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 27,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2363c"
+  },
+  "raumname": "WH C 301",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 49,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2363d"
+  },
+  "raumname": "WH C 302",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2363e"
+  },
+  "raumname": "WH C 303",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 53,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2363f"
+  },
+  "raumname": "WH C 304",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23640"
+  },
+  "raumname": "WH C 305",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23641"
+  },
+  "raumname": "WH C 306",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23642"
+  },
+  "raumname": "WH C 307",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23643"
+  },
+  "raumname": "WH C 308",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23644"
+  },
+  "raumname": "WH C 309",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 46,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23645"
+  },
+  "raumname": "WH C 310",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23646"
+  },
+  "raumname": "WH C 311",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23647"
+  },
+  "raumname": "WH C 312",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 56,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23648"
+  },
+  "raumname": "WH C 313",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 42,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23649"
+  },
+  "raumname": "WH C 314",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2364a"
+  },
+  "raumname": "WH C 315",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 28,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2364b"
+  },
+  "raumname": "WH C 316",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2364c"
+  },
+  "raumname": "WH C 317",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2364d"
+  },
+  "raumname": "WH C 318",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2364e"
+  },
+  "raumname": "WH C 319",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 12,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2364f"
+  },
+  "raumname": "WH C 320",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 43,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23650"
+  },
+  "raumname": "WH C 321",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 47,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23651"
+  },
+  "raumname": "WH C 322",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 27,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23652"
+  },
+  "raumname": "WH C 323",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 31,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23653"
+  },
+  "raumname": "WH C 324",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23654"
+  },
+  "raumname": "WH C 325",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 48,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23655"
+  },
+  "raumname": "WH C 326",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23656"
+  },
+  "raumname": "WH C 327",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23657"
+  },
+  "raumname": "WH C 328",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 42,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23658"
+  },
+  "raumname": "WH C 329",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 49,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23659"
+  },
+  "raumname": "WH C 330",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2365a"
+  },
+  "raumname": "WH C 331",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 12,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2365b"
+  },
+  "raumname": "WH C 332",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2365c"
+  },
+  "raumname": "WH C 333",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 27,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2365d"
+  },
+  "raumname": "WH C 334",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2365e"
+  },
+  "raumname": "WH C 335",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb2365f"
+  },
+  "raumname": "WH C 336",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 23,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23660"
+  },
+  "raumname": "WH C 337",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 40,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9b0252b554acb23661"
+  },
+  "raumname": "WH C 338",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 58,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23662"
+  },
+  "raumname": "WH C 339",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 43,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23663"
+  },
+  "raumname": "WH C 340",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 34,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23664"
+  },
+  "raumname": "WH C 341",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 22,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23665"
+  },
+  "raumname": "WH C 342",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 40,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23666"
+  },
+  "raumname": "WH C 343",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23667"
+  },
+  "raumname": "WH C 344",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23668"
+  },
+  "raumname": "WH C 345",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23669"
+  },
+  "raumname": "WH C 346",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 46,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2366a"
+  },
+  "raumname": "WH C 347",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 39,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2366b"
+  },
+  "raumname": "WH C 348",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 31,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2366c"
+  },
+  "raumname": "WH C 349",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 58,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2366d"
+  },
+  "raumname": "WH C 350",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 17,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2366e"
+  },
+  "raumname": "WH C 351",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2366f"
+  },
+  "raumname": "WH C 352",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23670"
+  },
+  "raumname": "WH C 353",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 37,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23671"
+  },
+  "raumname": "WH C 354",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 18,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23672"
+  },
+  "raumname": "WH C 355",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 11,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23673"
+  },
+  "raumname": "WH C 356",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23674"
+  },
+  "raumname": "WH C 357",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23675"
+  },
+  "raumname": "WH C 358",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23676"
+  },
+  "raumname": "WH C 359",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 46,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23677"
+  },
+  "raumname": "WH C 360",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 39,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23678"
+  },
+  "raumname": "WH C 361",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 37,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23679"
+  },
+  "raumname": "WH C 362",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 46,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2367a"
+  },
+  "raumname": "WH C 363",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2367b"
+  },
+  "raumname": "WH C 364",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2367c"
+  },
+  "raumname": "WH C 365",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2367d"
+  },
+  "raumname": "WH C 366",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2367e"
+  },
+  "raumname": "WH C 367",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2367f"
+  },
+  "raumname": "WH C 368",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 49,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23680"
+  },
+  "raumname": "WH C 369",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 11,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23681"
+  },
+  "raumname": "WH C 370",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 42,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23682"
+  },
+  "raumname": "WH C 371",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23683"
+  },
+  "raumname": "WH C 372",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 58,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23684"
+  },
+  "raumname": "WH C 373",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23685"
+  },
+  "raumname": "WH C 374",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23686"
+  },
+  "raumname": "WH C 375",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23687"
+  },
+  "raumname": "WH C 376",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 22,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23688"
+  },
+  "raumname": "WH C 377",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 23,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23689"
+  },
+  "raumname": "WH C 378",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 49,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2368a"
+  },
+  "raumname": "WH C 379",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2368b"
+  },
+  "raumname": "WH C 380",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 34,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2368c"
+  },
+  "raumname": "WH C 381",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2368d"
+  },
+  "raumname": "WH C 382",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 46,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2368e"
+  },
+  "raumname": "WH C 383",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2368f"
+  },
+  "raumname": "WH C 384",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 39,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23690"
+  },
+  "raumname": "WH C 385",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23691"
+  },
+  "raumname": "WH C 386",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23692"
+  },
+  "raumname": "WH C 387",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23693"
+  },
+  "raumname": "WH C 388",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23694"
+  },
+  "raumname": "WH C 389",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23695"
+  },
+  "raumname": "WH C 390",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23696"
+  },
+  "raumname": "WH C 391",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23697"
+  },
+  "raumname": "WH C 392",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 42,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23698"
+  },
+  "raumname": "WH C 393",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23699"
+  },
+  "raumname": "WH C 394",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2369a"
+  },
+  "raumname": "WH C 395",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2369b"
+  },
+  "raumname": "WH C 396",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2369c"
+  },
+  "raumname": "WH C 397",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2369d"
+  },
+  "raumname": "WH C 398",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 58,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2369e"
+  },
+  "raumname": "WH C 399",
+  "gebaeude": 67,
+  "etage": 3,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2369f"
+  },
+  "raumname": "WH C 400",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236a0"
+  },
+  "raumname": "WH C 401",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236a1"
+  },
+  "raumname": "WH C 402",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236a2"
+  },
+  "raumname": "WH C 403",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236a3"
+  },
+  "raumname": "WH C 404",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236a4"
+  },
+  "raumname": "WH C 405",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236a5"
+  },
+  "raumname": "WH C 406",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236a6"
+  },
+  "raumname": "WH C 407",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236a7"
+  },
+  "raumname": "WH C 408",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 17,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236a8"
+  },
+  "raumname": "WH C 409",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 11,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236a9"
+  },
+  "raumname": "WH C 410",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 53,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236aa"
+  },
+  "raumname": "WH C 411",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ab"
+  },
+  "raumname": "WH C 412",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ac"
+  },
+  "raumname": "WH C 413",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 18,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ad"
+  },
+  "raumname": "WH C 414",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ae"
+  },
+  "raumname": "WH C 415",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 49,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236af"
+  },
+  "raumname": "WH C 416",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 18,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236b0"
+  },
+  "raumname": "WH C 417",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236b1"
+  },
+  "raumname": "WH C 418",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236b2"
+  },
+  "raumname": "WH C 419",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 34,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236b3"
+  },
+  "raumname": "WH C 420",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236b4"
+  },
+  "raumname": "WH C 421",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236b5"
+  },
+  "raumname": "WH C 422",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236b6"
+  },
+  "raumname": "WH C 423",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236b7"
+  },
+  "raumname": "WH C 424",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 28,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236b8"
+  },
+  "raumname": "WH C 425",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 17,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236b9"
+  },
+  "raumname": "WH C 426",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 55,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ba"
+  },
+  "raumname": "WH C 427",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 52,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236bb"
+  },
+  "raumname": "WH C 428",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236bc"
+  },
+  "raumname": "WH C 429",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236bd"
+  },
+  "raumname": "WH C 430",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236be"
+  },
+  "raumname": "WH C 431",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236bf"
+  },
+  "raumname": "WH C 432",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 43,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236c0"
+  },
+  "raumname": "WH C 433",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 46,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236c1"
+  },
+  "raumname": "WH C 434",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 18,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236c2"
+  },
+  "raumname": "WH C 435",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 22,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236c3"
+  },
+  "raumname": "WH C 436",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236c4"
+  },
+  "raumname": "WH C 437",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 53,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236c5"
+  },
+  "raumname": "WH C 438",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236c6"
+  },
+  "raumname": "WH C 439",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 34,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236c7"
+  },
+  "raumname": "WH C 440",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 51,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236c8"
+  },
+  "raumname": "WH C 441",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236c9"
+  },
+  "raumname": "WH C 442",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 18,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ca"
+  },
+  "raumname": "WH C 443",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 28,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236cb"
+  },
+  "raumname": "WH C 444",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 11,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236cc"
+  },
+  "raumname": "WH C 445",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236cd"
+  },
+  "raumname": "WH C 446",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 39,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ce"
+  },
+  "raumname": "WH C 447",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236cf"
+  },
+  "raumname": "WH C 448",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 31,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236d0"
+  },
+  "raumname": "WH C 449",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236d1"
+  },
+  "raumname": "WH C 450",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236d2"
+  },
+  "raumname": "WH C 451",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236d3"
+  },
+  "raumname": "WH C 452",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236d4"
+  },
+  "raumname": "WH C 453",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 48,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236d5"
+  },
+  "raumname": "WH C 454",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 43,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236d6"
+  },
+  "raumname": "WH C 455",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236d7"
+  },
+  "raumname": "WH C 456",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236d8"
+  },
+  "raumname": "WH C 457",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 39,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236d9"
+  },
+  "raumname": "WH C 458",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 17,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236da"
+  },
+  "raumname": "WH C 459",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 26,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236db"
+  },
+  "raumname": "WH C 460",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236dc"
+  },
+  "raumname": "WH C 461",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236dd"
+  },
+  "raumname": "WH C 462",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236de"
+  },
+  "raumname": "WH C 463",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 51,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236df"
+  },
+  "raumname": "WH C 464",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236e0"
+  },
+  "raumname": "WH C 465",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 34,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236e1"
+  },
+  "raumname": "WH C 466",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236e2"
+  },
+  "raumname": "WH C 467",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236e3"
+  },
+  "raumname": "WH C 468",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 11,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236e4"
+  },
+  "raumname": "WH C 469",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 43,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236e5"
+  },
+  "raumname": "WH C 470",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236e6"
+  },
+  "raumname": "WH C 471",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 28,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236e7"
+  },
+  "raumname": "WH C 472",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 57,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236e8"
+  },
+  "raumname": "WH C 473",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 38,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236e9"
+  },
+  "raumname": "WH C 474",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ea"
+  },
+  "raumname": "WH C 475",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236eb"
+  },
+  "raumname": "WH C 476",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ec"
+  },
+  "raumname": "WH C 477",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 22,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ed"
+  },
+  "raumname": "WH C 478",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ee"
+  },
+  "raumname": "WH C 479",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 17,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ef"
+  },
+  "raumname": "WH C 480",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 26,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236f0"
+  },
+  "raumname": "WH C 481",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 38,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236f1"
+  },
+  "raumname": "WH C 482",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236f2"
+  },
+  "raumname": "WH C 483",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 12,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236f3"
+  },
+  "raumname": "WH C 484",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 49,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236f4"
+  },
+  "raumname": "WH C 485",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 48,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236f5"
+  },
+  "raumname": "WH C 486",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236f6"
+  },
+  "raumname": "WH C 487",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 57,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236f7"
+  },
+  "raumname": "WH C 488",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 23,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236f8"
+  },
+  "raumname": "WH C 489",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 43,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236f9"
+  },
+  "raumname": "WH C 490",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 51,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236fa"
+  },
+  "raumname": "WH C 491",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236fb"
+  },
+  "raumname": "WH C 492",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 52,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236fc"
+  },
+  "raumname": "WH C 493",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236fd"
+  },
+  "raumname": "WH C 494",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 27,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236fe"
+  },
+  "raumname": "WH C 495",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb236ff"
+  },
+  "raumname": "WH C 496",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23700"
+  },
+  "raumname": "WH C 497",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23701"
+  },
+  "raumname": "WH C 498",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23702"
+  },
+  "raumname": "WH C 499",
+  "gebaeude": 67,
+  "etage": 4,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23703"
+  },
+  "raumname": "WH C 500",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 47,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23704"
+  },
+  "raumname": "WH C 501",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 37,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23705"
+  },
+  "raumname": "WH C 502",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23706"
+  },
+  "raumname": "WH C 503",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 39,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23707"
+  },
+  "raumname": "WH C 504",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23708"
+  },
+  "raumname": "WH C 505",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 38,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23709"
+  },
+  "raumname": "WH C 506",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2370a"
+  },
+  "raumname": "WH C 507",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2370b"
+  },
+  "raumname": "WH C 508",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 14,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2370c"
+  },
+  "raumname": "WH C 509",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2370d"
+  },
+  "raumname": "WH C 510",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2370e"
+  },
+  "raumname": "WH C 511",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 56,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2370f"
+  },
+  "raumname": "WH C 512",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 53,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23710"
+  },
+  "raumname": "WH C 513",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 17,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23711"
+  },
+  "raumname": "WH C 514",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 26,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23712"
+  },
+  "raumname": "WH C 515",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23713"
+  },
+  "raumname": "WH C 516",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23714"
+  },
+  "raumname": "WH C 517",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23715"
+  },
+  "raumname": "WH C 518",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 53,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23716"
+  },
+  "raumname": "WH C 519",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23717"
+  },
+  "raumname": "WH C 520",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23718"
+  },
+  "raumname": "WH C 521",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 39,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23719"
+  },
+  "raumname": "WH C 522",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2371a"
+  },
+  "raumname": "WH C 523",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2371b"
+  },
+  "raumname": "WH C 524",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 43,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2371c"
+  },
+  "raumname": "WH C 525",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 37,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2371d"
+  },
+  "raumname": "WH C 526",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2371e"
+  },
+  "raumname": "WH C 527",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2371f"
+  },
+  "raumname": "WH C 528",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23720"
+  },
+  "raumname": "WH C 529",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 26,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23721"
+  },
+  "raumname": "WH C 530",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23722"
+  },
+  "raumname": "WH C 531",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 49,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23723"
+  },
+  "raumname": "WH C 532",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 15,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23724"
+  },
+  "raumname": "WH C 533",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 42,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23725"
+  },
+  "raumname": "WH C 534",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23726"
+  },
+  "raumname": "WH C 535",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23727"
+  },
+  "raumname": "WH C 536",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23728"
+  },
+  "raumname": "WH C 537",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23729"
+  },
+  "raumname": "WH C 538",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 38,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2372a"
+  },
+  "raumname": "WH C 539",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 14,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2372b"
+  },
+  "raumname": "WH C 540",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 26,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2372c"
+  },
+  "raumname": "WH C 541",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2372d"
+  },
+  "raumname": "WH C 542",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 37,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2372e"
+  },
+  "raumname": "WH C 543",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 42,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2372f"
+  },
+  "raumname": "WH C 544",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23730"
+  },
+  "raumname": "WH C 545",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23731"
+  },
+  "raumname": "WH C 546",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23732"
+  },
+  "raumname": "WH C 547",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 39,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23733"
+  },
+  "raumname": "WH C 548",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23734"
+  },
+  "raumname": "WH C 549",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23735"
+  },
+  "raumname": "WH C 550",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 58,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23736"
+  },
+  "raumname": "WH C 551",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 26,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23737"
+  },
+  "raumname": "WH C 552",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 11,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23738"
+  },
+  "raumname": "WH C 553",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 18,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23739"
+  },
+  "raumname": "WH C 554",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2373a"
+  },
+  "raumname": "WH C 555",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2373b"
+  },
+  "raumname": "WH C 556",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 22,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2373c"
+  },
+  "raumname": "WH C 557",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 28,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2373d"
+  },
+  "raumname": "WH C 558",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 48,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2373e"
+  },
+  "raumname": "WH C 559",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2373f"
+  },
+  "raumname": "WH C 560",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23740"
+  },
+  "raumname": "WH C 561",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23741"
+  },
+  "raumname": "WH C 562",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23742"
+  },
+  "raumname": "WH C 563",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 13,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23743"
+  },
+  "raumname": "WH C 564",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23744"
+  },
+  "raumname": "WH C 565",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 56,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23745"
+  },
+  "raumname": "WH C 566",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23746"
+  },
+  "raumname": "WH C 567",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23747"
+  },
+  "raumname": "WH C 568",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23748"
+  },
+  "raumname": "WH C 569",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23749"
+  },
+  "raumname": "WH C 570",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 12,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2374a"
+  },
+  "raumname": "WH C 571",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 42,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2374b"
+  },
+  "raumname": "WH C 572",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2374c"
+  },
+  "raumname": "WH C 573",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 31,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2374d"
+  },
+  "raumname": "WH C 574",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2374e"
+  },
+  "raumname": "WH C 575",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 22,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2374f"
+  },
+  "raumname": "WH C 576",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 53,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23750"
+  },
+  "raumname": "WH C 577",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 31,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23751"
+  },
+  "raumname": "WH C 578",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23752"
+  },
+  "raumname": "WH C 579",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 58,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23753"
+  },
+  "raumname": "WH C 580",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 34,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23754"
+  },
+  "raumname": "WH C 581",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23755"
+  },
+  "raumname": "WH C 582",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23756"
+  },
+  "raumname": "WH C 583",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 47,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23757"
+  },
+  "raumname": "WH C 584",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23758"
+  },
+  "raumname": "WH C 585",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23759"
+  },
+  "raumname": "WH C 586",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 56,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2375a"
+  },
+  "raumname": "WH C 587",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2375b"
+  },
+  "raumname": "WH C 588",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2375c"
+  },
+  "raumname": "WH C 589",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2375d"
+  },
+  "raumname": "WH C 590",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 48,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2375e"
+  },
+  "raumname": "WH C 591",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2375f"
+  },
+  "raumname": "WH C 592",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23760"
+  },
+  "raumname": "WH C 593",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23761"
+  },
+  "raumname": "WH C 594",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23762"
+  },
+  "raumname": "WH C 595",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23763"
+  },
+  "raumname": "WH C 596",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23764"
+  },
+  "raumname": "WH C 597",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 38,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23765"
+  },
+  "raumname": "WH C 598",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23766"
+  },
+  "raumname": "WH C 599",
+  "gebaeude": 67,
+  "etage": 5,
+  "kapazitaet": 43,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23767"
+  },
+  "raumname": "WH C 600",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 47,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23768"
+  },
+  "raumname": "WH C 601",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 39,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23769"
+  },
+  "raumname": "WH C 602",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 40,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2376a"
+  },
+  "raumname": "WH C 603",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 18,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2376b"
+  },
+  "raumname": "WH C 604",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2376c"
+  },
+  "raumname": "WH C 605",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 47,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2376d"
+  },
+  "raumname": "WH C 606",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2376e"
+  },
+  "raumname": "WH C 607",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 53,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2376f"
+  },
+  "raumname": "WH C 608",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 47,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23770"
+  },
+  "raumname": "WH C 609",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23771"
+  },
+  "raumname": "WH C 610",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23772"
+  },
+  "raumname": "WH C 611",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23773"
+  },
+  "raumname": "WH C 612",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23774"
+  },
+  "raumname": "WH C 613",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 48,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23775"
+  },
+  "raumname": "WH C 614",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23776"
+  },
+  "raumname": "WH C 615",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 48,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23777"
+  },
+  "raumname": "WH C 616",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 53,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23778"
+  },
+  "raumname": "WH C 617",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23779"
+  },
+  "raumname": "WH C 618",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 14,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2377a"
+  },
+  "raumname": "WH C 619",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 52,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2377b"
+  },
+  "raumname": "WH C 620",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2377c"
+  },
+  "raumname": "WH C 621",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 48,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2377d"
+  },
+  "raumname": "WH C 622",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 28,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2377e"
+  },
+  "raumname": "WH C 623",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2377f"
+  },
+  "raumname": "WH C 624",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 27,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23780"
+  },
+  "raumname": "WH C 625",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23781"
+  },
+  "raumname": "WH C 626",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23782"
+  },
+  "raumname": "WH C 627",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 50,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23783"
+  },
+  "raumname": "WH C 628",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23784"
+  },
+  "raumname": "WH C 629",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23785"
+  },
+  "raumname": "WH C 630",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 51,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23786"
+  },
+  "raumname": "WH C 631",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 37,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23787"
+  },
+  "raumname": "WH C 632",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 49,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23788"
+  },
+  "raumname": "WH C 633",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23789"
+  },
+  "raumname": "WH C 634",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2378a"
+  },
+  "raumname": "WH C 635",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 34,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2378b"
+  },
+  "raumname": "WH C 636",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2378c"
+  },
+  "raumname": "WH C 637",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 10,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2378d"
+  },
+  "raumname": "WH C 638",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2378e"
+  },
+  "raumname": "WH C 639",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 31,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2378f"
+  },
+  "raumname": "WH C 640",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 18,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23790"
+  },
+  "raumname": "WH C 641",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 15,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23791"
+  },
+  "raumname": "WH C 642",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 59,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23792"
+  },
+  "raumname": "WH C 643",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 22,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23793"
+  },
+  "raumname": "WH C 644",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23794"
+  },
+  "raumname": "WH C 645",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 17,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23795"
+  },
+  "raumname": "WH C 646",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 57,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23796"
+  },
+  "raumname": "WH C 647",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 47,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23797"
+  },
+  "raumname": "WH C 648",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 23,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23798"
+  },
+  "raumname": "WH C 649",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 49,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb23799"
+  },
+  "raumname": "WH C 650",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2379a"
+  },
+  "raumname": "WH C 651",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2379b"
+  },
+  "raumname": "WH C 652",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 12,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2379c"
+  },
+  "raumname": "WH C 653",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 44,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2379d"
+  },
+  "raumname": "WH C 654",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2379e"
+  },
+  "raumname": "WH C 655",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 48,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb2379f"
+  },
+  "raumname": "WH C 656",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237a0"
+  },
+  "raumname": "WH C 657",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 34,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237a1"
+  },
+  "raumname": "WH C 658",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 58,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237a2"
+  },
+  "raumname": "WH C 659",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237a3"
+  },
+  "raumname": "WH C 660",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 40,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237a4"
+  },
+  "raumname": "WH C 661",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 26,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237a5"
+  },
+  "raumname": "WH C 662",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 42,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237a6"
+  },
+  "raumname": "WH C 663",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 28,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237a7"
+  },
+  "raumname": "WH C 664",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 57,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237a8"
+  },
+  "raumname": "WH C 665",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237a9"
+  },
+  "raumname": "WH C 666",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 14,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237aa"
+  },
+  "raumname": "WH C 667",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 38,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237ab"
+  },
+  "raumname": "WH C 668",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 31,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237ac"
+  },
+  "raumname": "WH C 669",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 29,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237ad"
+  },
+  "raumname": "WH C 670",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 45,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237ae"
+  },
+  "raumname": "WH C 671",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 56,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237af"
+  },
+  "raumname": "WH C 672",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 35,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237b0"
+  },
+  "raumname": "WH C 673",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 47,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237b1"
+  },
+  "raumname": "WH C 674",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 14,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237b2"
+  },
+  "raumname": "WH C 675",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237b3"
+  },
+  "raumname": "WH C 676",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 54,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237b4"
+  },
+  "raumname": "WH C 677",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 21,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237b5"
+  },
+  "raumname": "WH C 678",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 56,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237b6"
+  },
+  "raumname": "WH C 679",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 12,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237b7"
+  },
+  "raumname": "WH C 680",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 19,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237b8"
+  },
+  "raumname": "WH C 681",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 33,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237b9"
+  },
+  "raumname": "WH C 682",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237ba"
+  },
+  "raumname": "WH C 683",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 36,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237bb"
+  },
+  "raumname": "WH C 684",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 25,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237bc"
+  },
+  "raumname": "WH C 685",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 32,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237bd"
+  },
+  "raumname": "WH C 686",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 37,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237be"
+  },
+  "raumname": "WH C 687",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 12,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237bf"
+  },
+  "raumname": "WH C 688",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237c0"
+  },
+  "raumname": "WH C 689",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 38,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237c1"
+  },
+  "raumname": "WH C 690",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 51,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237c2"
+  },
+  "raumname": "WH C 691",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 30,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237c3"
+  },
+  "raumname": "WH C 692",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 15,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237c4"
+  },
+  "raumname": "WH C 693",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 53,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237c5"
+  },
+  "raumname": "WH C 694",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 24,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237c6"
+  },
+  "raumname": "WH C 695",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 27,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237c7"
+  },
+  "raumname": "WH C 696",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 20,
+  "ausstattung": [
+    "Beamer",
+    "Tafel",
+    "Mikro"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237c8"
+  },
+  "raumname": "WH C 697",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 51,
+  "ausstattung": [
+    "Beamer",
+    "Tafel"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237c9"
+  },
+  "raumname": "WH C 698",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 16,
+  "ausstattung": [
+    "Beamer"
+  ]
+},{
+  "_id": {
+    "$oid": "63947e9c0252b554acb237ca"
+  },
+  "raumname": "WH C 699",
+  "gebaeude": 67,
+  "etage": 6,
+  "kapazitaet": 41,
+  "ausstattung": [
+    "Beamer"
+  ]
+}]
