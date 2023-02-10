@@ -88,6 +88,7 @@ public class SpeechToCommand : MonoBehaviour
         commandToAction.Add("Wählen", kriteriensuche.selectOptionInActiveDD);
         commandToAction.Add("Hilfe", bedienungshilfe.openMenu); 
         commandToAction.Add("Schließen", bedienungshilfe.closeMenu);
+        commandToAction.Add("Hauptmenü", kriteriensuche.Back);
 
         SetupKeywordRecognizer();
     }
@@ -107,6 +108,7 @@ public class SpeechToCommand : MonoBehaviour
         commandToAction.Add("Jetzt buchen", suchergebnis.BookRoom);
         commandToAction.Add("Hilfe", bedienungshilfe.openMenu); 
         commandToAction.Add("Schließen", bedienungshilfe.closeMenu);
+        commandToAction.Add("Hauptmenü", suchergebnis.openMainMenu);
         SetupKeywordRecognizer();
     }
 

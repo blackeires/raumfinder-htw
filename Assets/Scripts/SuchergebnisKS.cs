@@ -213,4 +213,10 @@ public class SuchergebnisKS : MonoBehaviour
         _weitereRaeumeDD.enabled = true;
     }
 
+    public void openMainMenu()
+    {
+        _startmenu.Show();
+        Hide();
+    }
+
 }
