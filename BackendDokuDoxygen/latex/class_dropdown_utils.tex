@@ -1,0 +1,214 @@
+\hypertarget{class_dropdown_utils}{}\doxysection{Dropdown\+Utils Class Reference}
+\label{class_dropdown_utils}\index{DropdownUtils@{DropdownUtils}}
+
+
+Class providing dropdown functionality.  
+
+
+
+
+Inheritance diagram for Dropdown\+Utils\+:
+% FIG 0
+
+
+Collaboration diagram for Dropdown\+Utils\+:
+% FIG 1
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_dropdown_utils_aa0112f95234316b8e64c5000bb84a0d0}{Getzeitfenster\+As\+Int}} (TMP\+\_\+\+Dropdown dd)
+\begin{DoxyCompactList}\small\item\em Transforms the selected string value of a timeslot dropdown menu into an int. \end{DoxyCompactList}\item 
+static string \mbox{\hyperlink{class_dropdown_utils_ad4741be34260474ac6aca931ee5fb425}{get\+Input\+From\+Dropdown}} (TMP\+\_\+\+Dropdown dd)
+\begin{DoxyCompactList}\small\item\em Gets the selected value from a dropdown. \end{DoxyCompactList}\item 
+static string\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_dropdown_utils_a59b1accc9859a7d6b790e6b92a5b844d}{get\+Ausstattung\+As\+Array}} (TMP\+\_\+\+Dropdown dd)
+\begin{DoxyCompactList}\small\item\em Transforms the selected string value of an equipment dropdown menu into an array. \end{DoxyCompactList}\item 
+static int \mbox{\hyperlink{class_dropdown_utils_ad4834ded87cadafc5fc1f88db2ac7f1e}{get\+Kapazitaet\+As\+Int}} (TMP\+\_\+\+Dropdown dd)
+\begin{DoxyCompactList}\small\item\em Transforms the selected string value of a capacity dropdown menu into an int. \end{DoxyCompactList}\item 
+static char \mbox{\hyperlink{class_dropdown_utils_ab0ba205cd012327d4dcac9f3021a43b0}{get\+Gebaeude\+As\+Char}} (TMP\+\_\+\+Dropdown dd)
+\begin{DoxyCompactList}\small\item\em Transforms the selected string value of a building dropdown menu into a char. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_dropdown_utils_ab44d35ee201ef6a975f5efe8c0a24a10}{Open\+Dropdown\+Menu}} (TMP\+\_\+\+Dropdown dropdown)
+\begin{DoxyCompactList}\small\item\em opens the passed dropdown menu \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_dropdown_utils_a60746f72c835247d741ad61dd64668f5}{Select\+Dropdown\+Item}} (TMP\+\_\+\+Dropdown dropdown, int value)
+\begin{DoxyCompactList}\small\item\em selects the dropdown items with the passed index from the passed dropdown menu \end{DoxyCompactList}\item 
+static TMP\+\_\+\+Dropdown \mbox{\hyperlink{class_dropdown_utils_a312c78a24fcb67447b859707d282f722}{Get\+Active\+DD}} (List$<$ TMP\+\_\+\+Dropdown $>$ dropdowns)
+\begin{DoxyCompactList}\small\item\em gets the currently selected dropdown menu \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_dropdown_utils_a40def773a3647b3f36ce50c5f4bfab71}{navigate\+Up\+In\+DD}} (TMP\+\_\+\+Dropdown dropdown)
+\begin{DoxyCompactList}\small\item\em navigates up in the passed dropdown menu \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_dropdown_utils_aa77e080caa0abb5ef8acf8cba22e6224}{navigate\+Down\+In\+DD}} (TMP\+\_\+\+Dropdown dropdown)
+\begin{DoxyCompactList}\small\item\em navigates down in the passed dropdown menu \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class providing dropdown functionality. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_dropdown_utils_a312c78a24fcb67447b859707d282f722}\label{class_dropdown_utils_a312c78a24fcb67447b859707d282f722}} 
+\index{DropdownUtils@{DropdownUtils}!GetActiveDD@{GetActiveDD}}
+\index{GetActiveDD@{GetActiveDD}!DropdownUtils@{DropdownUtils}}
+\doxysubsubsection{\texorpdfstring{GetActiveDD()}{GetActiveDD()}}
+{\footnotesize\ttfamily static TMP\+\_\+\+Dropdown Dropdown\+Utils.\+Get\+Active\+DD (\begin{DoxyParamCaption}\item[{List$<$ TMP\+\_\+\+Dropdown $>$}]{dropdowns }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+gets the currently selected dropdown menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dropdowns} & a list of all dropdowns on the page\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+currently selected dropdown
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dropdown_utils_a59b1accc9859a7d6b790e6b92a5b844d}\label{class_dropdown_utils_a59b1accc9859a7d6b790e6b92a5b844d}} 
+\index{DropdownUtils@{DropdownUtils}!getAusstattungAsArray@{getAusstattungAsArray}}
+\index{getAusstattungAsArray@{getAusstattungAsArray}!DropdownUtils@{DropdownUtils}}
+\doxysubsubsection{\texorpdfstring{getAusstattungAsArray()}{getAusstattungAsArray()}}
+{\footnotesize\ttfamily static string\mbox{[}$\,$\mbox{]} Dropdown\+Utils.\+get\+Ausstattung\+As\+Array (\begin{DoxyParamCaption}\item[{TMP\+\_\+\+Dropdown}]{dd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Transforms the selected string value of an equipment dropdown menu into an array. 
+
+\begin{DoxyReturn}{Returns}
+A string array consisting of the substrings of the selected string value.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dropdown_utils_ab0ba205cd012327d4dcac9f3021a43b0}\label{class_dropdown_utils_ab0ba205cd012327d4dcac9f3021a43b0}} 
+\index{DropdownUtils@{DropdownUtils}!getGebaeudeAsChar@{getGebaeudeAsChar}}
+\index{getGebaeudeAsChar@{getGebaeudeAsChar}!DropdownUtils@{DropdownUtils}}
+\doxysubsubsection{\texorpdfstring{getGebaeudeAsChar()}{getGebaeudeAsChar()}}
+{\footnotesize\ttfamily static char Dropdown\+Utils.\+get\+Gebaeude\+As\+Char (\begin{DoxyParamCaption}\item[{TMP\+\_\+\+Dropdown}]{dd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Transforms the selected string value of a building dropdown menu into a char. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dd} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Char that corresponds to the selected building string in the dropdown.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dropdown_utils_ad4741be34260474ac6aca931ee5fb425}\label{class_dropdown_utils_ad4741be34260474ac6aca931ee5fb425}} 
+\index{DropdownUtils@{DropdownUtils}!getInputFromDropdown@{getInputFromDropdown}}
+\index{getInputFromDropdown@{getInputFromDropdown}!DropdownUtils@{DropdownUtils}}
+\doxysubsubsection{\texorpdfstring{getInputFromDropdown()}{getInputFromDropdown()}}
+{\footnotesize\ttfamily static string Dropdown\+Utils.\+get\+Input\+From\+Dropdown (\begin{DoxyParamCaption}\item[{TMP\+\_\+\+Dropdown}]{dd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Gets the selected value from a dropdown. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dd} & A dropdown menu.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The currently selected value of the dropdown as a string.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dropdown_utils_ad4834ded87cadafc5fc1f88db2ac7f1e}\label{class_dropdown_utils_ad4834ded87cadafc5fc1f88db2ac7f1e}} 
+\index{DropdownUtils@{DropdownUtils}!getKapazitaetAsInt@{getKapazitaetAsInt}}
+\index{getKapazitaetAsInt@{getKapazitaetAsInt}!DropdownUtils@{DropdownUtils}}
+\doxysubsubsection{\texorpdfstring{getKapazitaetAsInt()}{getKapazitaetAsInt()}}
+{\footnotesize\ttfamily static int Dropdown\+Utils.\+get\+Kapazitaet\+As\+Int (\begin{DoxyParamCaption}\item[{TMP\+\_\+\+Dropdown}]{dd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Transforms the selected string value of a capacity dropdown menu into an int. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dd} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int that corresponds to the selected capacity string in the dropdown.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dropdown_utils_aa0112f95234316b8e64c5000bb84a0d0}\label{class_dropdown_utils_aa0112f95234316b8e64c5000bb84a0d0}} 
+\index{DropdownUtils@{DropdownUtils}!GetzeitfensterAsInt@{GetzeitfensterAsInt}}
+\index{GetzeitfensterAsInt@{GetzeitfensterAsInt}!DropdownUtils@{DropdownUtils}}
+\doxysubsubsection{\texorpdfstring{GetzeitfensterAsInt()}{GetzeitfensterAsInt()}}
+{\footnotesize\ttfamily static int Dropdown\+Utils.\+Getzeitfenster\+As\+Int (\begin{DoxyParamCaption}\item[{TMP\+\_\+\+Dropdown}]{dd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Transforms the selected string value of a timeslot dropdown menu into an int. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dd} & A timeframe dropdown menu.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Int that corresponds to the selected timeslot string in the dropdown.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_dropdown_utils_aa77e080caa0abb5ef8acf8cba22e6224}\label{class_dropdown_utils_aa77e080caa0abb5ef8acf8cba22e6224}} 
+\index{DropdownUtils@{DropdownUtils}!navigateDownInDD@{navigateDownInDD}}
+\index{navigateDownInDD@{navigateDownInDD}!DropdownUtils@{DropdownUtils}}
+\doxysubsubsection{\texorpdfstring{navigateDownInDD()}{navigateDownInDD()}}
+{\footnotesize\ttfamily static void Dropdown\+Utils.\+navigate\+Down\+In\+DD (\begin{DoxyParamCaption}\item[{TMP\+\_\+\+Dropdown}]{dropdown }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+navigates down in the passed dropdown menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dropdown} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_dropdown_utils_a40def773a3647b3f36ce50c5f4bfab71}\label{class_dropdown_utils_a40def773a3647b3f36ce50c5f4bfab71}} 
+\index{DropdownUtils@{DropdownUtils}!navigateUpInDD@{navigateUpInDD}}
+\index{navigateUpInDD@{navigateUpInDD}!DropdownUtils@{DropdownUtils}}
+\doxysubsubsection{\texorpdfstring{navigateUpInDD()}{navigateUpInDD()}}
+{\footnotesize\ttfamily static void Dropdown\+Utils.\+navigate\+Up\+In\+DD (\begin{DoxyParamCaption}\item[{TMP\+\_\+\+Dropdown}]{dropdown }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+navigates up in the passed dropdown menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dropdown} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_dropdown_utils_ab44d35ee201ef6a975f5efe8c0a24a10}\label{class_dropdown_utils_ab44d35ee201ef6a975f5efe8c0a24a10}} 
+\index{DropdownUtils@{DropdownUtils}!OpenDropdownMenu@{OpenDropdownMenu}}
+\index{OpenDropdownMenu@{OpenDropdownMenu}!DropdownUtils@{DropdownUtils}}
+\doxysubsubsection{\texorpdfstring{OpenDropdownMenu()}{OpenDropdownMenu()}}
+{\footnotesize\ttfamily static void Dropdown\+Utils.\+Open\+Dropdown\+Menu (\begin{DoxyParamCaption}\item[{TMP\+\_\+\+Dropdown}]{dropdown }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+opens the passed dropdown menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dropdown} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_dropdown_utils_a60746f72c835247d741ad61dd64668f5}\label{class_dropdown_utils_a60746f72c835247d741ad61dd64668f5}} 
+\index{DropdownUtils@{DropdownUtils}!SelectDropdownItem@{SelectDropdownItem}}
+\index{SelectDropdownItem@{SelectDropdownItem}!DropdownUtils@{DropdownUtils}}
+\doxysubsubsection{\texorpdfstring{SelectDropdownItem()}{SelectDropdownItem()}}
+{\footnotesize\ttfamily static void Dropdown\+Utils.\+Select\+Dropdown\+Item (\begin{DoxyParamCaption}\item[{TMP\+\_\+\+Dropdown}]{dropdown,  }\item[{int}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+selects the dropdown items with the passed index from the passed dropdown menu 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dropdown} & dropdown menu from which the item should be selected\\
+\hline
+{\em value} & index of the dropdown item that should be selected\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/younes/\+Documents/\+Doxy\+Gen/\+UI/\+Scripts/Dropdown\+Utils.\+cs\end{DoxyCompactItemize}

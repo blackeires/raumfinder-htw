@@ -1,0 +1,79 @@
+\hypertarget{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_datenzugriff}{}\doxysection{Raumfinder\+EMM.\+Datenzugriff.\+Datenzugriff Class Reference}
+\label{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_datenzugriff}\index{RaumfinderEMM.Datenzugriff.Datenzugriff@{RaumfinderEMM.Datenzugriff.Datenzugriff}}
+
+
+Class for managing database access.  
+
+
+
+
+Inheritance diagram for Raumfinder\+EMM.\+Datenzugriff.\+Datenzugriff\+:
+% FIG 0
+
+
+Collaboration diagram for Raumfinder\+EMM.\+Datenzugriff.\+Datenzugriff\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_raum_verfuegbarkeits_model}{Raum\+Verfuegbarkeits\+Model}} $>$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_datenzugriff_a0baac47d7d37a5d8308b4da57b41694c}{Get\+All\+Rooms}} ()
+\begin{DoxyCompactList}\small\item\em Gets a list of all rooms availability objects from the database. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_raum_model}{Raum\+Model}} $>$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_datenzugriff_a1001dd5ada73de6a9167c5f015c69362}{Get\+All\+Room\+Info}} ()
+\begin{DoxyCompactList}\small\item\em Gets a list of all rooms information objects from the database. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_datenzugriff_a7a10e2129cd021d9b5e31aca154b73ad}\label{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_datenzugriff_a7a10e2129cd021d9b5e31aca154b73ad}} 
+bool {\bfseries Book\+Room} (string room\+Name, int timeslot)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{interface_raumfinder_e_m_m_1_1_datenzugriff_1_1_i_datenzugriff}{Raumfinder\+EMM.\+Datenzugriff.\+IDatenzugriff}}}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_raum_verfuegbarkeits_model}{Raum\+Verfuegbarkeits\+Model}} $>$ \mbox{\hyperlink{interface_raumfinder_e_m_m_1_1_datenzugriff_1_1_i_datenzugriff_a222f45a890f5a29e135a9d9fff039fba}{Get\+All\+Rooms}} ()
+\begin{DoxyCompactList}\small\item\em Gets a list of all rooms availability objects from the database. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_raum_model}{Raum\+Model}} $>$ \mbox{\hyperlink{interface_raumfinder_e_m_m_1_1_datenzugriff_1_1_i_datenzugriff_a4e0b7a26443e7814cf9e3fe8b4c01dff}{Get\+All\+Room\+Info}} ()
+\begin{DoxyCompactList}\small\item\em Gets a list of all rooms information objects from the database. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_raumfinder_e_m_m_1_1_datenzugriff_1_1_i_datenzugriff_ace8895f05917409163701aa0bc3707ba}{Book\+Room}} (String raumname, int timeslot)
+\begin{DoxyCompactList}\small\item\em Marks the room with the passed name as booked during the specified timeslot. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for managing database access. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_datenzugriff_a1001dd5ada73de6a9167c5f015c69362}\label{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_datenzugriff_a1001dd5ada73de6a9167c5f015c69362}} 
+\index{RaumfinderEMM.Datenzugriff.Datenzugriff@{RaumfinderEMM.Datenzugriff.Datenzugriff}!GetAllRoomInfo@{GetAllRoomInfo}}
+\index{GetAllRoomInfo@{GetAllRoomInfo}!RaumfinderEMM.Datenzugriff.Datenzugriff@{RaumfinderEMM.Datenzugriff.Datenzugriff}}
+\doxysubsubsection{\texorpdfstring{GetAllRoomInfo()}{GetAllRoomInfo()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_raum_model}{Raum\+Model}} $>$ Raumfinder\+EMM.\+Datenzugriff.\+Datenzugriff.\+Get\+All\+Room\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets a list of all rooms information objects from the database. 
+
+\begin{DoxyReturn}{Returns}
+A list of Raum\+Model.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_raumfinder_e_m_m_1_1_datenzugriff_1_1_i_datenzugriff_a4e0b7a26443e7814cf9e3fe8b4c01dff}{Raumfinder\+EMM.\+Datenzugriff.\+IDatenzugriff}}.
+
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_datenzugriff_a0baac47d7d37a5d8308b4da57b41694c}\label{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_datenzugriff_a0baac47d7d37a5d8308b4da57b41694c}} 
+\index{RaumfinderEMM.Datenzugriff.Datenzugriff@{RaumfinderEMM.Datenzugriff.Datenzugriff}!GetAllRooms@{GetAllRooms}}
+\index{GetAllRooms@{GetAllRooms}!RaumfinderEMM.Datenzugriff.Datenzugriff@{RaumfinderEMM.Datenzugriff.Datenzugriff}}
+\doxysubsubsection{\texorpdfstring{GetAllRooms()}{GetAllRooms()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_raum_verfuegbarkeits_model}{Raum\+Verfuegbarkeits\+Model}} $>$ Raumfinder\+EMM.\+Datenzugriff.\+Datenzugriff.\+Get\+All\+Rooms (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets a list of all rooms availability objects from the database. 
+
+\begin{DoxyReturn}{Returns}
+A list of Raum\+Verfuegbarkeits\+Model.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_raumfinder_e_m_m_1_1_datenzugriff_1_1_i_datenzugriff_a222f45a890f5a29e135a9d9fff039fba}{Raumfinder\+EMM.\+Datenzugriff.\+IDatenzugriff}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/younes/\+Documents/\+Doxy\+Gen/\+Datenzugriff/Datenzugriff.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,121 @@
+\hypertarget{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik}{}\doxysection{Raumfinder\+EMM.\+Geschaeftslogik.\+IGeschaeftslogik Interface Reference}
+\label{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik}\index{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik@{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik}}
+
+
+Inheritance diagram for Raumfinder\+EMM.\+Geschaeftslogik.\+IGeschaeftslogik\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} $>$ \mbox{\hyperlink{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_a1ada5b499eeb5c29df1e7a19d12a8046}{get\+Free\+Rooms}} (int timeslot, char gebaeude, int kapazitaet, string\mbox{[}$\,$\mbox{]} ausstattung)
+\begin{DoxyCompactList}\small\item\em Searches for free rooms matching the specified criteria during the passed timeslot. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} $>$ \mbox{\hyperlink{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_a4737f8e04a8e7e45e5d9b42657c67c4a}{get\+Free\+Rooms}} (int timeslot)
+\begin{DoxyCompactList}\small\item\em Searches for free rooms during the passed timeslot. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} \mbox{\hyperlink{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_a26393e8464f9eff54f1434d62c75a3f4}{get\+Room\+Information}} (string roomname)
+\begin{DoxyCompactList}\small\item\em Gets the room information of the room with the passed name. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_ad2cad99b1fbd4eb9558e345cc3a1578f}{book\+Room}} (string room\+Name, int timeslot)
+\begin{DoxyCompactList}\small\item\em Books a room within a specific timeslot. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_ad2cad99b1fbd4eb9558e345cc3a1578f}\label{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_ad2cad99b1fbd4eb9558e345cc3a1578f}} 
+\index{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik@{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik}!bookRoom@{bookRoom}}
+\index{bookRoom@{bookRoom}!RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik@{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik}}
+\doxysubsubsection{\texorpdfstring{bookRoom()}{bookRoom()}}
+{\footnotesize\ttfamily bool Raumfinder\+EMM.\+Geschaeftslogik.\+IGeschaeftslogik.\+book\+Room (\begin{DoxyParamCaption}\item[{string}]{room\+Name,  }\item[{int}]{timeslot }\end{DoxyParamCaption})}
+
+
+
+Books a room within a specific timeslot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em room\+Name} & String containing the complete name of the room (e.\+g. WH C 638)\\
+\hline
+{\em timeslot} & Int from 1 -\/ 8 representing a certain timeslot\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if room was successfully booked, false if it wasn\textquotesingle{}t.
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_geschaeftslogik_aa9227f1a6b1648f1a26dc9998dc5e1d5}{Raumfinder\+EMM.\+Geschaeftslogik.\+Geschaeftslogik}}.
+
+\mbox{\Hypertarget{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_a4737f8e04a8e7e45e5d9b42657c67c4a}\label{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_a4737f8e04a8e7e45e5d9b42657c67c4a}} 
+\index{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik@{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik}!getFreeRooms@{getFreeRooms}}
+\index{getFreeRooms@{getFreeRooms}!RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik@{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik}}
+\doxysubsubsection{\texorpdfstring{getFreeRooms()}{getFreeRooms()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} $>$ Raumfinder\+EMM.\+Geschaeftslogik.\+IGeschaeftslogik.\+get\+Free\+Rooms (\begin{DoxyParamCaption}\item[{int}]{timeslot }\end{DoxyParamCaption})}
+
+
+
+Searches for free rooms during the passed timeslot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em timeslot} & Int from 1 -\/ 8 representing a certain timeslot.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A List containing all free rooms during the passed timeslot.
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_geschaeftslogik_a50ab71bab92fa86c7048941b4ce56469}{Raumfinder\+EMM.\+Geschaeftslogik.\+Geschaeftslogik}}.
+
+\mbox{\Hypertarget{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_a1ada5b499eeb5c29df1e7a19d12a8046}\label{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_a1ada5b499eeb5c29df1e7a19d12a8046}} 
+\index{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik@{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik}!getFreeRooms@{getFreeRooms}}
+\index{getFreeRooms@{getFreeRooms}!RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik@{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik}}
+\doxysubsubsection{\texorpdfstring{getFreeRooms()}{getFreeRooms()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} $>$ Raumfinder\+EMM.\+Geschaeftslogik.\+IGeschaeftslogik.\+get\+Free\+Rooms (\begin{DoxyParamCaption}\item[{int}]{timeslot,  }\item[{char}]{gebaeude,  }\item[{int}]{kapazitaet,  }\item[{string\mbox{[}$\,$\mbox{]}}]{ausstattung }\end{DoxyParamCaption})}
+
+
+
+Searches for free rooms matching the specified criteria during the passed timeslot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em timeslot} & Int from 1 -\/ 8 representing a certain timeslot.\\
+\hline
+{\em gebaeude} & Char corresponding to the building the room should be in.\\
+\hline
+{\em kapazitaet} & The desired capacity of the room.\\
+\hline
+{\em ausstattung} & An array of strings containing the requested equipment.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A List containing all free rooms matching the specified criteria.
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_geschaeftslogik_ae8077f2af03faaf1e372726a4ad6b6d6}{Raumfinder\+EMM.\+Geschaeftslogik.\+Geschaeftslogik}}.
+
+\mbox{\Hypertarget{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_a26393e8464f9eff54f1434d62c75a3f4}\label{interface_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_i_geschaeftslogik_a26393e8464f9eff54f1434d62c75a3f4}} 
+\index{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik@{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik}!getRoomInformation@{getRoomInformation}}
+\index{getRoomInformation@{getRoomInformation}!RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik@{RaumfinderEMM.Geschaeftslogik.IGeschaeftslogik}}
+\doxysubsubsection{\texorpdfstring{getRoomInformation()}{getRoomInformation()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} Raumfinder\+EMM.\+Geschaeftslogik.\+IGeschaeftslogik.\+get\+Room\+Information (\begin{DoxyParamCaption}\item[{string}]{roomname }\end{DoxyParamCaption})}
+
+
+
+Gets the room information of the room with the passed name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em roomname} & Name of the room.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Raum object containing the information on the room with the passed name.
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_geschaeftslogik_aa6d991162126549b0dd86ed320cca169}{Raumfinder\+EMM.\+Geschaeftslogik.\+Geschaeftslogik}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/younes/\+Documents/\+Doxy\+Gen/\+Geschaeftslogik/IGeschaeftslogik.\+cs\end{DoxyCompactItemize}
