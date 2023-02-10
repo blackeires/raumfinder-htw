@@ -12846,6 +12846,7 @@ MonoBehaviour:
   suchergebnis: {fileID: 2075990141}
   sprachauswahl: {fileID: 0}
   bedienungshilfe: {fileID: 0}
+  click: {fileID: 0}
 --- !u!1 &870717958
 GameObject:
   m_ObjectHideFlags: 0
@@ -21898,6 +21899,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11403304, guid: ea3f30cd919db0b42ab664d0a5fb62e7, type: 3}
+      propertyPath: click
+      value: 
+      objectReference: {fileID: 503822664}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea3f30cd919db0b42ab664d0a5fb62e7, type: 3}
 --- !u!1 &1598228384
@@ -26732,6 +26737,7 @@ MonoBehaviour:
   suchergebnis: {fileID: 2075990141}
   sprachauswahl: {fileID: 1965401529}
   bedienungshilfe: {fileID: 1256861577}
+  click: {fileID: 503822664}
 --- !u!4 &1936173937
 Transform:
   m_ObjectHideFlags: 0

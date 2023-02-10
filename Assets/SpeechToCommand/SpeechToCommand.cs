@@ -16,6 +16,8 @@ public class SpeechToCommand : MonoBehaviour
     [SerializeField] private Sprachauswahl sprachauswahl;
     [SerializeField] private Bedienungshilfe bedienungshilfe;
 
+    [SerializeField] private Click click;
+
 
 
 
@@ -36,6 +38,8 @@ public class SpeechToCommand : MonoBehaviour
     private void RecognizedSpeech(PhraseRecognizedEventArgs speechCommand)
     {
         commandToAction[speechCommand.text].Invoke();
+        click.activateOnActivity();
+
     }
 
     /// <summary>

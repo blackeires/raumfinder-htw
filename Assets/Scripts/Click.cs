@@ -26,13 +26,6 @@ public class Click : MonoBehaviour
     private void Update()
     {
 
-        if (Input.anyKey)
-        {
-            LastIdleTime = Time.time;
-            MyVideoPlayer.enabled = false;
-            canvas.enabled = true;
-        }
-
         if (IdleCheck())
         {
             canvas.enabled = false;
@@ -43,6 +36,13 @@ public class Click : MonoBehaviour
     public bool IdleCheck()
     {
         return Time.time - LastIdleTime > IdleTimeSetting;
+    }
+
+    public void activateOnActivity()
+    {
+        LastIdleTime = Time.time;
+        MyVideoPlayer.enabled = false;
+        canvas.enabled = true;
     }
 
 }

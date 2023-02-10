@@ -9,6 +9,8 @@ public class BodySourceView : MonoBehaviour
     
     private Dictionary<ulong, GameObject> _Bodies = new Dictionary<ulong, GameObject>();
     private BodySourceManager _BodyManager;
+
+    [SerializeField] private Click click;
     
     private Dictionary<Kinect.JointType, Kinect.JointType> _BoneMap = new Dictionary<Kinect.JointType, Kinect.JointType>()
     {
@@ -70,6 +72,7 @@ public class BodySourceView : MonoBehaviour
             if(body.IsTracked)
             {
                 trackedIds.Add (body.TrackingId);
+                click.activateOnActivity();
             }
         }
         
@@ -94,6 +97,8 @@ public class BodySourceView : MonoBehaviour
             
             if(body.IsTracked)
             {
+
+
                 if(!_Bodies.ContainsKey(body.TrackingId))
                 {
                     _Bodies[body.TrackingId] = CreateBodyObject(body.TrackingId);
