@@ -58,9 +58,10 @@ public class SpeechToCommand : MonoBehaviour
     public void SetupCommandsStartMenu()
     {
         commandToAction.Clear();
+        commandToAction.Add("Start", ActivateScreen);
         commandToAction.Add("Schnellsuche", startmenu.Suchen);
         commandToAction.Add("Kriteriensuche", startmenu.Kriteriensuche);
-        commandToAction.Add("Hilfe", bedienungshilfe.openMenu); //TODO: Setup for all pages once
+        commandToAction.Add("Hilfe", bedienungshilfe.openMenu);
         commandToAction.Add("Schließen", bedienungshilfe.closeMenu);
         commandToAction.Add("Deutsch", sprachauswahl.changeSystemLanguageToGerman);
         commandToAction.Add("Englisch", sprachauswahl.changeSystemLanguageToEnglish);
@@ -73,6 +74,7 @@ public class SpeechToCommand : MonoBehaviour
     public void SetupCommandsKriteriensuche()
     {
         commandToAction.Clear();
+        commandToAction.Add("Start", ActivateScreen);
         commandToAction.Add("Zurück", kriteriensuche.Back);
         commandToAction.Add("Gebäude", kriteriensuche.OpenGebaeudeDD);
         commandToAction.Add("Kapazität", kriteriensuche.OpenKapazitaetDD);
@@ -83,6 +85,8 @@ public class SpeechToCommand : MonoBehaviour
         commandToAction.Add("Hoch", kriteriensuche.NavigateUpInActiveDD);
         commandToAction.Add("Runter", kriteriensuche.NavigateDownInActiveDD);
         commandToAction.Add("Auswählen", kriteriensuche.selectOptionInActiveDD);
+        commandToAction.Add("Hilfe", bedienungshilfe.openMenu); 
+        commandToAction.Add("Schließen", bedienungshilfe.closeMenu);
 
         SetupKeywordRecognizer();
     }
@@ -93,12 +97,15 @@ public class SpeechToCommand : MonoBehaviour
     public void SetupCommandsSuchergebnis()
     {
         commandToAction.Clear();
+        commandToAction.Add("Start", ActivateScreen);
         commandToAction.Add("Zurück", suchergebnis.Back);
         commandToAction.Add("Weitere Räume", suchergebnis.OpenWeitereRaeumeDD);
         commandToAction.Add("Hoch", suchergebnis.NavigateUpInActiveDD);
         commandToAction.Add("Runter", suchergebnis.NavigateDownInActiveDD);
         commandToAction.Add("Auswählen", suchergebnis.selectOptionInActiveDD);
         commandToAction.Add("Jetzt buchen", suchergebnis.BookRoom);
+        commandToAction.Add("Hilfe", bedienungshilfe.openMenu); 
+        commandToAction.Add("Schließen", bedienungshilfe.closeMenu);
         SetupKeywordRecognizer();
     }
 
@@ -108,7 +115,20 @@ public class SpeechToCommand : MonoBehaviour
     public void SetupCommandsBuchungsuebersicht()
     {
         commandToAction.Clear();
+        commandToAction.Add("Start", ActivateScreen);
         commandToAction.Add("Buchung stornieren", buchungsuebersicht.BuchungStornieren);
         commandToAction.Add("Vorgang abschließen", buchungsuebersicht.BuchungAbschliessen);
+        commandToAction.Add("Hilfe", bedienungshilfe.openMenu); 
+        commandToAction.Add("Schließen", bedienungshilfe.closeMenu);
+
+        SetupKeywordRecognizer();
+    }
+
+    /// <summary>
+    /// Empty function that triggers speech to command invocation function, causing the screen saver to be stopped
+    /// </summary>
+    private void ActivateScreen()
+    {
+
     }
 }
