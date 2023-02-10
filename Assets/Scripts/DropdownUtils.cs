@@ -184,7 +184,7 @@ public class DropdownUtils : MonoBehaviour
     public static void navigateDownInDD(TMP_Dropdown dropdown)
     {
         int currentIndex = dropdown.value;
-        if (currentIndex < dropdown.options.Count) ;
+        if (currentIndex < dropdown.options.Count);
         {
             dropdown.value += 1;
             dropdown.Hide();
