@@ -2,8 +2,10 @@
 using System.Collections;
 using UnityEngine.UI;
 using Windows.Kinect;
+
+
 /// <summary>
-/// Abstract UI component class for hand cursor objects
+/// UI Komponente für den Cursor.
 /// </summary>
 [RequireComponent(typeof(CanvasGroup), typeof(Image))]
 public abstract class AbstractKinectUICursor : MonoBehaviour {
@@ -18,18 +20,28 @@ public abstract class AbstractKinectUICursor : MonoBehaviour {
         Setup();
     }
 
+    /// <summary>
+    /// Setup des Cursors anahnd der hinterlegten Hand Daten und des hinterlegten Cursor Bilds.
+    /// </summary>
     protected void Setup()
     {
+        // lade die Hand - Daten anhand des Hand - Types (rechts oder links)
         _data = KinectInputModule.instance.GetHandData(_handType);
-        // Make sure we dont block raycasts
+
+        // raycasts dürfen nicht geblockt werden
         GetComponent<CanvasGroup>().blocksRaycasts = false;
         GetComponent<CanvasGroup>().interactable = false;
-        // image component
+
+        // setze Cursor Image
         _image = GetComponent<Image>();
     }
 
+    /// <summary>
+    /// Update die Daten des Cursors, sofern das Tracking erkannt wird.
+    /// </summary>
     public virtual void Update()
     {
+      
         if (_data == null || !_data.IsTracking) return;
         ProcessData();
     }

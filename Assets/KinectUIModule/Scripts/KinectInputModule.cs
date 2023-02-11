@@ -1,21 +1,35 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using Windows.Kinect;
+
+/**
+ * KinectInputModule nimmt die Input Daten der Kinect entgegen und wandelt die in die richtigen Commands um, um das UI zu bedienen.
+ * https://docs.unity3d.com/460/Documentation/ScriptReference/EventSystems.BaseInputModule.html
+ */
 [AddComponentMenu("Kinect/Kinect Input Module")]
 [RequireComponent(typeof(EventSystem))]
 public class KinectInputModule : BaseInputModule
 {
+    // eingehende input Daten aus der Kinect
     public KinectInputData[] _inputData = new KinectInputData[0];
+
+    // Parameter
     [SerializeField]
     private float _scrollTreshold = .5f;
+
     [SerializeField]
     private float _scrollSpeed = 3.5f;
+
     [SerializeField]
     private float _waitOverTime = 2f;
 
     PointerEventData _handPointerData;
 
     static KinectInputModule _instance = null;
+
+    /// <summary>
+    /// Gibt Instance vom KinectInputModule zurück, sofern vorhanden.
+    /// </summary>
     public static KinectInputModule instance
     {
         get
@@ -28,10 +42,9 @@ public class KinectInputModule : BaseInputModule
                 {
                     if (EventSystem.current){
                         EventSystem.current.gameObject.AddComponent<KinectInputModule>();
-                        Debug.LogWarning("Add Kinect Input Module to your EventSystem!");
                     }
                     else
-                        Debug.LogWarning("Create your UI first");
+                        Debug.LogWarning("UI muss erst erschaffen werden");
                 }
             }
             return _instance;
@@ -39,9 +52,9 @@ public class KinectInputModule : BaseInputModule
     }
 
     /// <summary>
-    ///  Call this from your Kinect body view from Update method
+    /// Nimmt die Body - Daten entgegen, um updated die Kinect Body Components.
+    /// Sorgt dafür, dass Gesten und Darstellung synchronisiert sind
     /// </summary>
-    /// <param name="body"></param>
     public void TrackBody(Body body)
     {
         for (int i = 0; i < _inputData.Length; i++)
@@ -49,13 +62,20 @@ public class KinectInputModule : BaseInputModule
             _inputData[i].UpdateComponent(body);
         }
     }
-    // get a pointer event data for a screen position
+
+
+    /// <summary>
+    /// Gibt die Pointer Event Data zurück, um Screen Position zu ermitteln.
+    /// </summary>
     private PointerEventData GetLookPointerEventData(Vector3 componentPosition)
     {
+        // erschaffe Daten, falls null
         if (_handPointerData == null)
         {
             _handPointerData = new PointerEventData(eventSystem);
         }
+
+        // bereite Daten vor
         _handPointerData.Reset();
         _handPointerData.delta = Vector2.zero;
         _handPointerData.position = componentPosition;
@@ -63,6 +83,7 @@ public class KinectInputModule : BaseInputModule
         eventSystem.RaycastAll(_handPointerData, m_RaycastResultCache);
         _handPointerData.pointerCurrentRaycast = FindFirstRaycast(m_RaycastResultCache);
         m_RaycastResultCache.Clear();
+
         return _handPointerData;
     }
    
@@ -73,122 +94,162 @@ public class KinectInputModule : BaseInputModule
         ProcessDrag();
         ProcessWaitOver();
     }
+
     /// <summary>
-    /// Processes waitint over componens, if hovererd buttons click type is waitover, process it!
+    /// Verarbeite "WaitOver" - Event.
     /// </summary>
     private void ProcessWaitOver()
     {
         for (int j = 0; j < _inputData.Length; j++)
         {
-            if (!_inputData[j].IsHovering || _inputData[j].ClickGesture != KinectUIClickGesture.WaitOver) continue;
+            // Überspringe, falls weder Hovering noch WaitOver erkannt wird
+            if (!_inputData[j].IsHovering || _inputData[j].ClickGesture != KinectUIClickGesture.WaitOver)
+            {
+                continue;
+            }
+
+            // Berechne WaitOver - Time
             _inputData[j].WaitOverAmount = (Time.time - _inputData[j].HoverTime) / _waitOverTime;
+
+            // Falls die WaitOver Time überschritten worden ist, prozessiere das Event
             if (Time.time >= _inputData[j].HoverTime + _waitOverTime)
             {
+                // lade die Daten des Pointers
                 PointerEventData lookData = GetLookPointerEventData(_inputData[j].GetHandScreenPosition());
+
+                // ermittle das ausgewählte GameObject
                 GameObject go = lookData.pointerCurrentRaycast.gameObject;
+
+                // führe event auf dem GameObject aus
+                // https://docs.unity3d.com/2019.1/Documentation/ScriptReference/EventSystems.ExecuteEvents.ExecuteHierarchy.html
                 ExecuteEvents.ExecuteHierarchy(go, lookData, ExecuteEvents.submitHandler);
-                // reset time
+
+                // reset timer
                 _inputData[j].HoverTime = Time.time;
             }
         }
     }
 
+    /// <summary>
+    /// Verarbeite "Drag" - Event.
+    /// </summary>
     private void ProcessDrag()
     {
         for (int i = 0; i < _inputData.Length; i++)
         {
-            // if not pressing we can't drag
-            if (!_inputData[i].IsPressing)continue;
-            //Debug.Log("drag " + Mathf.Abs(_inputData[i].TempHandPosition.x - _inputData[i].HandPosition.x));
-            // Check if we reach drag treshold for any axis, temporary position set when we press an object
-            if (Mathf.Abs(_inputData[i].TempHandPosition.x - _inputData[i].HandPosition.x) > _scrollTreshold || Mathf.Abs(_inputData[i].TempHandPosition.y - _inputData[i].HandPosition.y) > _scrollTreshold)
+            // Überspringe, falls wir die "Maus" nicht gedrückt halten, sprich die richtige Geste ausführen
+            if (!_inputData[i].IsPressing)
             {
-                _inputData[i].IsDraging = true;
+                continue;
             }
-            else
-            {
-                _inputData[i].IsDraging = false;
-            }
-            //Debug.Log("drag " + _inputData[i].IsDraging + " press " + _inputData[i].IsPressing);
-            // If dragging use unit's eventhandler to send an event to a scrollview like component
+
+
+            // Ermittle, ob wir noch am "draggen" sind anhand des festgelegten Threshold in den Parametern
+            _inputData[i].IsDraging = Mathf.Abs(_inputData[i].TempHandPosition.x - _inputData[i].HandPosition.x) > _scrollTreshold || Mathf.Abs(_inputData[i].TempHandPosition.y - _inputData[i].HandPosition.y) > _scrollTreshold;
+
+            // Falls wir uns gerade am "draggen" sind verarbeite Event
             if (_inputData[i].IsDraging)
             {
+                // lade die Daten des Pointers
                 PointerEventData lookData = GetLookPointerEventData(_inputData[i].GetHandScreenPosition());
+
+                // setze ausgewähltes GameObject auf null
                 eventSystem.SetSelectedGameObject(null);
-                //Debug.Log("drag");
+
+                // lade neues GameObject anhand des Pointers
                 GameObject go = lookData.pointerCurrentRaycast.gameObject;
+
+                // erschaffe Event - Data anhand des EventSystems und setze dragging Daten ein
                 PointerEventData pEvent = new PointerEventData(eventSystem);
                 pEvent.dragging = true;
                 pEvent.scrollDelta = (_inputData[i].TempHandPosition - _inputData[i].HandPosition) * _scrollSpeed;
                 pEvent.useDragThreshold = true;
+
+                // führe event auf dem GameObject aus
+                // https://docs.unity3d.com/2019.1/Documentation/ScriptReference/EventSystems.ExecuteEvents.ExecuteHierarchy.html
                 ExecuteEvents.ExecuteHierarchy(go, pEvent, ExecuteEvents.scrollHandler);
             }
         }
     }
+
     /// <summary>
-    ///  Process pressing, event click trigered on button by closing and opening hand,sends submit event to gameobject
+    ///  Verarbeite "Press" - Event.
     /// </summary>
     private void ProcessPress()
     {
         for (int i = 0; i < _inputData.Length; i++)
         {
-            //Check if we are tracking hand state not wait over
-            if (!_inputData[i].IsHovering || _inputData[i].ClickGesture != KinectUIClickGesture.HandState) continue;
-            // If hand state is not tracked reset properties
+            // Überspringe, falls wir uns nicht im HoverState befinden oder falls bei der Click Geste kein State erkannt wird
+            if (!_inputData[i].IsHovering || _inputData[i].ClickGesture != KinectUIClickGesture.HandState)
+            {
+                continue;
+            }
+
+            // Falls unsere Hand nicht getrackt wird resette den State
             if (_inputData[i].CurrentHandState == HandState.NotTracked)
             {
                 _inputData[i].IsPressing = false;
                 _inputData[i].IsDraging = false;
             }
-            // When we close hand and we are not pressing set property as pressed
+
+            // Falls wir die Press Geste ausführen (Hand Schließen) und isPressing noch nicht auf true gesetzt ist, dann setze es auf true
             if (!_inputData[i].IsPressing && _inputData[i].CurrentHandState == HandState.Closed)
             {
                 _inputData[i].IsPressing = true;
-                //PointerEventData lookData = GetLookPointerEventData(_inputData[i].GetHandScreenPosition());
-                //eventSystem.SetSelectedGameObject(null);
-                //if (lookData.pointerCurrentRaycast.gameObject != null && !_inputData[i].IsDraging)
-                //{
-                //    GameObject go = lookData.pointerCurrentRaycast.gameObject;
-                //    ExecuteEvents.ExecuteHierarchy(go, lookData, ExecuteEvents.pointerDownHandler);
-                //}
             }
-            // If hand state is opened and is pressed, make click action
-            else if (_inputData[i].IsPressing && (_inputData[i].CurrentHandState == HandState.Open))//|| _inputData[i].CurrentHandState == HandState.Unknown))
+
+            // Falls isPressing erkannt wird, aber die HandGeste als "Open" erfasst ist, dann führe ein "click" - Event aus
+            else if (_inputData[i].IsPressing && (_inputData[i].CurrentHandState == HandState.Open))
             {
-                //_inputData[i].IsDraging = false;
+                // lade die Daten des Pointers
                 PointerEventData lookData = GetLookPointerEventData(_inputData[i].GetHandScreenPosition());
+
+                // setze ausgewähltes GameObject auf null
                 eventSystem.SetSelectedGameObject(null);
+
+                // Falls der Pointer ein GameObject hat und wir uns nicht im Drag - Modus befinden,
+                // dann lade das GameObject vom Pointer und führe das Event aus.
                 if (lookData.pointerCurrentRaycast.gameObject != null && !_inputData[i].IsDraging)
                 {
                     GameObject go = lookData.pointerCurrentRaycast.gameObject;
+                    // https://docs.unity3d.com/2019.1/Documentation/ScriptReference/EventSystems.ExecuteEvents.ExecuteHierarchy.html
                     ExecuteEvents.ExecuteHierarchy(go, lookData, ExecuteEvents.submitHandler);
-                    //ExecuteEvents.ExecuteHierarchy(go, lookData, ExecuteEvents.pointerUpHandler);
                 }
+
+                // setzte am Ende isPressing wieder auf false
                 _inputData[i].IsPressing = false;
             }
         }
     }
+
     /// <summary>
-    /// Process hovering over component, sends pointer enter exit event to gameobject
+    ///  Verarbeite "Press" - Event.
     /// </summary>
     private void ProcessHover()
     {
         for (int i = 0; i < _inputData.Length; i++)
         {
+            // lade die Daten des Pointers
             PointerEventData pointer = GetLookPointerEventData(_inputData[i].GetHandScreenPosition());
-            var obj = _handPointerData.pointerCurrentRaycast.gameObject;
-            HandlePointerExitAndEnter(pointer, obj);
-            // Hover update
-            _inputData[i].IsHovering = obj != null ? true : false;
-            //if (obj != null)
-            _inputData[i].HoveringObject = obj;
+
+            // lade GameObject von Pointer
+            GameObject go = _handPointerData.pointerCurrentRaycast.gameObject;
+
+            // verarbeite event
+            // https://docs.unity3d.com/2018.1/Documentation/ScriptReference/EventSystems.BaseInputModule.HandlePointerExitAndEnter.html
+            HandlePointerExitAndEnter(pointer, go);
+
+            // setzt isHovering state
+            _inputData[i].IsHovering = go != null;
+            
+            // setze erkanntest Hover Object
+            _inputData[i].HoveringObject = go;
         }
     }
+
     /// <summary>
-    /// Used from UI hand cursor components
+    /// Lädt die Daten der getrackten Hand.
     /// </summary>
-    /// <param name="handType"></param>
-    /// <returns></returns>
     public KinectInputData GetHandData(KinectUIHandType handType)
     {
         for (int i = 0; i < _inputData.Length; i++)
@@ -199,18 +260,26 @@ public class KinectInputModule : BaseInputModule
         return null;
     }
 }
+
+/**
+ * KinectInputData beschreibt der Daten, die aus der Kinect kommen und trackt die verschiedenen Hände.
+ */
 [System.Serializable]
 public class KinectInputData
 {
-    // Which hand we are tracking
-    public KinectUIHandType trackingHandType = KinectUIHandType.Right;
-    // We can normalize camera z position with this
+    // Welche Hand wird getrackt (default: rechts)
+    public KinectUIHandType trackingHandType = KinectUIHandType.Right;  
+
+    // Normalisiert die Kamera - Position
     public float handScreenPositionMultiplier = 5f;
-    // Is hand in pressing condition
-    private bool _isPressing;//, _isHovering;
-    // Hovering Gameobject, needed for WaitOver like clicking detection
+
+    // status IsPressing
+    private bool _isPressing;
+
+    // Object über welches gerade gehovert wird
     private GameObject _hoveringObject;
-    // Joint type, we need it for getting body's hand world position
+
+    // Gibt den richtig handType zurück
     public JointType handType
     {
         get
@@ -221,67 +290,98 @@ public class KinectInputData
                 return JointType.HandLeft;
         }
     }
-    // Hovering Gameobject getter setter, needed for WaitOver like clicking detection
+   
+    // Getter und Setter für das momentane gehoverte Object
     public GameObject HoveringObject
     {
-        get { return _hoveringObject; }
+        get
+        { 
+            return _hoveringObject;
+        }
         set
         {
             if (value != _hoveringObject)
             {
                 HoverTime = Time.time;
+
                 _hoveringObject = value;
-                if (_hoveringObject == null) return;
+
+                // falls gerade kein hovering Object erkannt wird mach nichts
+                if (_hoveringObject == null)
+                { 
+                    return;
+                }
+
+                // falls wir eine WaitOver Component hovern setze ClickGesture auf WaitOver
                 if (_hoveringObject.GetComponent<KinectUIWaitOverButton>())
+                {
                     ClickGesture = KinectUIClickGesture.WaitOver;
+                }
+
+                // andernfalls setze ClickGesture einfach auf HandState
                 else
+                {
                     ClickGesture = KinectUIClickGesture.HandState;
+                }
+
+                // setze WaitOverAmount auf 0
                 WaitOverAmount = 0f;
             }
         }
     }
+
+    /**
+     * Einfache Getter und Setter. ---------------------------
+     */
     public HandState CurrentHandState { get; private set; }
-    // Click gesture of button
     public KinectUIClickGesture ClickGesture { get; private set; }
-    // Is this hand tracking started
     public bool IsTracking { get; private set; }
-    // Is this hand over a UI component
     public bool IsHovering { get; set; }
-    // Is hand dragging a component
     public bool IsDraging { get; set; }
-    // Is hand pressing a button
     public bool IsPressing
     {
-        get { return _isPressing; }
+        get 
+        { 
+            return _isPressing;
+        }
         set
         {
             _isPressing = value;
             if (_isPressing)
+            {
                 TempHandPosition = HandPosition;
+            }
         }
     }
-    // Global position of tracked hand
     public Vector3 HandPosition { get; private set; }
-    // Temporary hand position of hand, used for draging check
     public Vector3 TempHandPosition { get; private set; }
-    // Hover start time, used for waitover type buttons
     public float HoverTime { get; set; }
-    // Amout of wait over , between 1 - 0 , when reaches 1 button is clicked
     public float WaitOverAmount { get; set; }
+    /**
+     *  -------------------------------------------------------
+     */
 
-    // Must be called for each hand 
+    /// <summary>
+    /// Update die Componente anhand der überlieferten Body Daten.
+    /// </summary>
     public void UpdateComponent(Body body)
     {
         HandPosition = GetVector3FromJoint(body.Joints[handType]);
         CurrentHandState = GetStateFromJointType(body, handType);
         IsTracking = true;
     }
-    // Converts hand position to screen coordinates
+
+    /// <summary>
+    /// Berechne die Position der Hand auf dem Screen.
+    /// </summary>
     public Vector3 GetHandScreenPosition()
     {
         return Camera.main.WorldToScreenPoint(new Vector3(HandPosition.x, HandPosition.y, HandPosition.z - handScreenPositionMultiplier));
     }
-    // Get hand state data from kinect body
+    
+    /// <summary>
+    /// Gib den aktuellen State des übermittelten Joint zurück.
+    /// </summary>
     private HandState GetStateFromJointType(Body body, JointType type)
     {
         switch (type)
@@ -291,11 +391,13 @@ public class KinectInputData
             case JointType.HandRight:
                 return body.HandRightState;
             default:
-                Debug.LogWarning("Please select a hand joint, by default right hand will be used!");
                 return body.HandRightState;
         }
     }
-    // Get Vector3 position from Joint position
+    
+    /// <summary>
+    /// Ermittelt Vector anhand der Joints. Die Werte müssen bei der Kinect immer x10 gerechnet werden.
+    /// </summary>
     private Vector3 GetVector3FromJoint(Windows.Kinect.Joint joint)
     {
         return new Vector3(joint.Position.X * 10, joint.Position.Y * 10, joint.Position.Z * 10);
