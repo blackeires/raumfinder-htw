@@ -40,17 +40,24 @@ public class Startmenu : MonoBehaviour
         if (_logik.GetFilteredRooms().Count > 0)
         {
             _suchergebnisKS.SetPreviousPage("Startseite");
-            _suchergebnisKS.SetSelectedTS("8 - 9:30 Uhr"); //TODO: implement logic to pass the current TS
+            _suchergebnisKS.SetSelectedTS(getCurrentTimeslotAsString());
             _suchergebnisKS.Show();
             Hide();
         } 
     }
 
+    /// <summary>
+    /// opens the Kriteriensuche menu
+    /// </summary>
     public void Kriteriensuche()
     {
         _kriteriensuche.Show();
     }
 
+    /// <summary>
+    /// Generates the string representation of the timeslot based on the current time
+    /// </summary>
+    /// <returns>String representation of the current timeslot</returns>
     private string getCurrentTimeslotAsString()
     {
         switch (_logik.getCurrentTimeslot())
