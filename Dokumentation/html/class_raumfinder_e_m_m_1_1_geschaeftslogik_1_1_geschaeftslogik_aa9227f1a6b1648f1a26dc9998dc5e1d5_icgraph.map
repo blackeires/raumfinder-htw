@@ -1,0 +1,28 @@
+<map id="RaumfinderEMM.Geschaeftslogik.Geschaeftslogik.bookRoom" name="RaumfinderEMM.Geschaeftslogik.Geschaeftslogik.bookRoom">
+<area shape="rect" id="node1" title="Books a room within a specific timeslot." alt="" coords="3025,239,3244,279"/>
+<area shape="rect" id="node2" href="$class_logik.html#a758fb0de2de91bfe491120e427efae71" title="Books a room within a specific timeslot." alt="" coords="2856,246,2977,271"/>
+<area shape="rect" id="node3" href="$class_suchergebnis_k_s.html#a29365041e1348ccfda74a20d586fb192" title="Books the room with the name of the currently selected room during the currently selected timeslot." alt="" coords="2621,246,2808,271"/>
+<area shape="rect" id="node4" href="$class_search_result_button_controller.html#a67d44f41151cf024cdfc3650f6100f2d" title="books the selected room when book now button is clicked" alt="" coords="2353,175,2551,215"/>
+<area shape="rect" id="node5" href="$class_speech_to_command.html#ad21244815c065033e15d3742469b3b70" title="sets up the voice commands for the rearch result page" alt="" coords="2331,239,2573,279"/>
+<area shape="rect" id="node6" href="$class_suchergebnis_k_s.html#a41a1607aa91817ff31b9d72033d807c4" title="Sets state of this object to active and calls setup functions." alt="" coords="2128,246,2283,271"/>
+<area shape="rect" id="node7" href="$class_kriteriensuche.html#a71906617f90a7315d3b52e55c6ec2122" title="Searches for a room based on the criteria specified in the dropdown menus." alt="" coords="1929,274,2080,299"/>
+<area shape="rect" id="node25" href="$class_startmenu.html#a5005c62cc285c182b7bf691ec3e5bf6e" title="Searches for a room that is currently free and navigates to the search result page,..." alt="" coords="1939,218,2070,243"/>
+<area shape="rect" id="node8" href="$class_speech_to_command.html#a2ea2325fc4af02ceb8a46e0c90c40d37" title="Sets up the voice commands for the filtered search page." alt="" coords="1639,275,1881,315"/>
+<area shape="rect" id="node9" href="$class_kriteriensuche.html#ad895d4d671a6de71a63876a89e3e9128" title="Sets the state of this object to active, the state of _startmenu to not active and adds functionality..." alt="" coords="1449,103,1591,129"/>
+<area shape="rect" id="node10" href="$class_suchergebnis_k_s.html#a03fc1b210ad5943db7ee5811e8b612e0" title="Navigates to the previously visited page." alt="" coords="547,37,700,62"/>
+<area shape="rect" id="node12" href="$class_startmenu.html#a0843d83cf5c760647e5d972d15bdf1d8" title="opens the Kriteriensuche menu" alt="" coords="1232,103,1401,129"/>
+<area shape="rect" id="node11" href="$class_search_result_button_controller.html#a03fba2b4633c7f298cada86fc1681d49" title="navigates to previously visited page" alt="" coords="252,29,449,69"/>
+<area shape="rect" id="node13" href="$class_start_menu_button_controllers.html#ac982422ac2f22c9bb475a77905d1aaa8" title="initiates filtered search when filtered search button is clicked" alt="" coords="969,93,1156,133"/>
+<area shape="rect" id="node14" href="$class_speech_to_command.html#a04ee0cab5ef873bbb7f02f767207c081" title="Sets up the voice commands for the start page." alt="" coords="941,157,1184,197"/>
+<area shape="rect" id="node15" href="$class_startmenu.html#aa6fac8967385f2284650387b07f7c6c0" title="Sets the state of this object to active." alt="" coords="775,161,893,186"/>
+<area shape="rect" id="node16" href="$class_kriteriensuche.html#a4b6cdfe73f053d3f2e80cba4404e3fcc" title="Navigates back to start menu." alt="" coords="554,282,693,307"/>
+<area shape="rect" id="node18" href="$class_buchungsuebersicht.html#a545c1d61501a2234933b1f7a5814ec48" title="Navigates to the statmenu." alt="" coords="526,215,721,255"/>
+<area shape="rect" id="node23" href="$class_buchungsu_xCC_x88bersicht.html#ad70442311c0a27bc093821a33eb72798" title="Navigates to the statmenu." alt="" coords="529,87,717,127"/>
+<area shape="rect" id="node24" href="$class_main_menu_button_controller.html#a2de1852b87b8c4fa104f7645b53101ab" title="opens the main menu when main menu button is clicked" alt="" coords="520,151,727,191"/>
+<area shape="rect" id="node17" href="$class_filtered_search_button_controller.html#af186c0cfebb9615e98afcb53ad7a0145" title="Handles click of back button on filtered search page." alt="" coords="249,276,452,316"/>
+<area shape="rect" id="node19" href="$class_booking_summary_button_controller.html#ad1f2d358d731dd56240a243b0400f196" title="Handles click of &quot;Buchung Abschließen&quot; Button." alt="" coords="239,212,462,252"/>
+<area shape="rect" id="node20" href="$class_speech_to_command.html#a308924207a57c66316176b4197317f15" title="Sets up the voice commands for the booking summary page." alt="" coords="229,148,472,188"/>
+<area shape="rect" id="node21" href="$class_buchungsuebersicht.html#ad01d6acf8f66e26e486940325f032d1a" title="Sets the state of this object to active and adds functionality to Abschlie�en Button." alt="" coords="5,273,181,298"/>
+<area shape="rect" id="node22" href="$class_buchungsu_xCC_x88bersicht.html#a445145994ec669388aa5cf52d5688e00" title="Sets the state of this object to active and adds functionality to Abschließen Button." alt="" coords="9,155,178,181"/>
+<area shape="rect" id="node26" href="$class_start_menu_button_controllers.html#a00e5753e779bddfbd1b4717cd0cc4864" title="initiates quicksearch when quicksearch button is clicked" alt="" coords="1667,211,1853,251"/>
+</map>

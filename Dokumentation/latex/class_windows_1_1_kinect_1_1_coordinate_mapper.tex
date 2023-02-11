@@ -1,0 +1,91 @@
+\hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper}{}\doxysection{Windows.\+Kinect.\+Coordinate\+Mapper Class Reference}
+\label{class_windows_1_1_kinect_1_1_coordinate_mapper}\index{Windows.Kinect.CoordinateMapper@{Windows.Kinect.CoordinateMapper}}
+
+
+Inheritance diagram for Windows.\+Kinect.\+Coordinate\+Mapper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=217pt]{class_windows_1_1_kinect_1_1_coordinate_mapper__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Windows.\+Kinect.\+Coordinate\+Mapper\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{class_windows_1_1_kinect_1_1_coordinate_mapper__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a9427696e0ba556064dc149f346f54095}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a9427696e0ba556064dc149f346f54095}} 
+\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_camera_intrinsics}{Windows.\+Kinect.\+Camera\+Intrinsics}} {\bfseries Get\+Depth\+Camera\+Intrinsics} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a53f67d55483808919839a24e409725f6}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a53f67d55483808919839a24e409725f6}} 
+\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_point_f}{Windows.\+Kinect.\+PointF}}\mbox{[}$\,$\mbox{]} {\bfseries Get\+Depth\+Frame\+To\+Camera\+Space\+Table} ()
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a976f56fb67ced562acf24c672b06664d}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a976f56fb67ced562acf24c672b06664d}} 
+void {\bfseries Map\+Color\+Frame\+To\+Depth\+Space\+Using\+Int\+Ptr} (Root\+System.\+Int\+Ptr depth\+Frame\+Data, uint depth\+Frame\+Size, Root\+System.\+Int\+Ptr depth\+Space\+Points, uint depth\+Space\+Points\+Size)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a0fd91ed24abc5096e964b1063c994599}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a0fd91ed24abc5096e964b1063c994599}} 
+void {\bfseries Map\+Color\+Frame\+To\+Camera\+Space\+Using\+Int\+Ptr} (Root\+System.\+Int\+Ptr depth\+Frame\+Data, int depth\+Frame\+Size, Root\+System.\+Int\+Ptr camera\+Space\+Points, uint camera\+Space\+Points\+Size)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a952cc6491384ef59430febfce7eaabe1}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a952cc6491384ef59430febfce7eaabe1}} 
+void {\bfseries Map\+Depth\+Frame\+To\+Color\+Space\+Using\+Int\+Ptr} (Root\+System.\+Int\+Ptr depth\+Frame\+Data, int depth\+Frame\+Size, Root\+System.\+Int\+Ptr color\+Space\+Points, uint color\+Space\+Points\+Size)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_af7de80aed5d12e4aac7032e850113d7e}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_af7de80aed5d12e4aac7032e850113d7e}} 
+void {\bfseries Map\+Depth\+Frame\+To\+Camera\+Space\+Using\+Int\+Ptr} (Root\+System.\+Int\+Ptr depth\+Frame\+Data, int depth\+Frame\+Size, Root\+System.\+Int\+Ptr camera\+Space\+Points, uint camera\+Space\+Points\+Size)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a116578a26330a1b148bde597b0aed81a}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a116578a26330a1b148bde597b0aed81a}} 
+\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_depth_space_point}{Windows.\+Kinect.\+Depth\+Space\+Point}} {\bfseries Map\+Camera\+Point\+To\+Depth\+Space} (\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_camera_space_point}{Windows.\+Kinect.\+Camera\+Space\+Point}} camera\+Point)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a7a05432cded5d8defd444b763d1918a5}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a7a05432cded5d8defd444b763d1918a5}} 
+\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_color_space_point}{Windows.\+Kinect.\+Color\+Space\+Point}} {\bfseries Map\+Camera\+Point\+To\+Color\+Space} (\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_camera_space_point}{Windows.\+Kinect.\+Camera\+Space\+Point}} camera\+Point)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a5d929945f64f5487cc3f84f83092e30f}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a5d929945f64f5487cc3f84f83092e30f}} 
+\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_camera_space_point}{Windows.\+Kinect.\+Camera\+Space\+Point}} {\bfseries Map\+Depth\+Point\+To\+Camera\+Space} (\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_depth_space_point}{Windows.\+Kinect.\+Depth\+Space\+Point}} depth\+Point, ushort depth)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_abc9b83f5233770b5fb48d7849cb30aa7}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_abc9b83f5233770b5fb48d7849cb30aa7}} 
+\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_color_space_point}{Windows.\+Kinect.\+Color\+Space\+Point}} {\bfseries Map\+Depth\+Point\+To\+Color\+Space} (\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_depth_space_point}{Windows.\+Kinect.\+Depth\+Space\+Point}} depth\+Point, ushort depth)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a98b725da899a99cad729df8a8da4f4e5}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a98b725da899a99cad729df8a8da4f4e5}} 
+void {\bfseries Map\+Camera\+Points\+To\+Depth\+Space} (\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_camera_space_point}{Windows.\+Kinect.\+Camera\+Space\+Point}}\mbox{[}$\,$\mbox{]} camera\+Points, \mbox{\hyperlink{struct_windows_1_1_kinect_1_1_depth_space_point}{Windows.\+Kinect.\+Depth\+Space\+Point}}\mbox{[}$\,$\mbox{]} depth\+Points)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a54ccc954fa8bf1ff07a66beca8c9144a}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a54ccc954fa8bf1ff07a66beca8c9144a}} 
+void {\bfseries Map\+Camera\+Points\+To\+Color\+Space} (\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_camera_space_point}{Windows.\+Kinect.\+Camera\+Space\+Point}}\mbox{[}$\,$\mbox{]} camera\+Points, \mbox{\hyperlink{struct_windows_1_1_kinect_1_1_color_space_point}{Windows.\+Kinect.\+Color\+Space\+Point}}\mbox{[}$\,$\mbox{]} color\+Points)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_abbc54639cf8527d00ae0a12b7fc1c958}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_abbc54639cf8527d00ae0a12b7fc1c958}} 
+void {\bfseries Map\+Depth\+Points\+To\+Camera\+Space} (\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_depth_space_point}{Windows.\+Kinect.\+Depth\+Space\+Point}}\mbox{[}$\,$\mbox{]} depth\+Points, ushort\mbox{[}$\,$\mbox{]} depths, \mbox{\hyperlink{struct_windows_1_1_kinect_1_1_camera_space_point}{Windows.\+Kinect.\+Camera\+Space\+Point}}\mbox{[}$\,$\mbox{]} camera\+Points)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a02739bee005df48b4fca44fc7000cb01}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a02739bee005df48b4fca44fc7000cb01}} 
+void {\bfseries Map\+Depth\+Points\+To\+Color\+Space} (\mbox{\hyperlink{struct_windows_1_1_kinect_1_1_depth_space_point}{Windows.\+Kinect.\+Depth\+Space\+Point}}\mbox{[}$\,$\mbox{]} depth\+Points, ushort\mbox{[}$\,$\mbox{]} depths, \mbox{\hyperlink{struct_windows_1_1_kinect_1_1_color_space_point}{Windows.\+Kinect.\+Color\+Space\+Point}}\mbox{[}$\,$\mbox{]} color\+Points)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_ab4bf7dfe311a34844d57205b971e0400}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_ab4bf7dfe311a34844d57205b971e0400}} 
+void {\bfseries Map\+Depth\+Frame\+To\+Camera\+Space} (ushort\mbox{[}$\,$\mbox{]} depth\+Frame\+Data, \mbox{\hyperlink{struct_windows_1_1_kinect_1_1_camera_space_point}{Windows.\+Kinect.\+Camera\+Space\+Point}}\mbox{[}$\,$\mbox{]} camera\+Space\+Points)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_aad480bb2101588253e46fe7f00ba7973}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_aad480bb2101588253e46fe7f00ba7973}} 
+void {\bfseries Map\+Depth\+Frame\+To\+Color\+Space} (ushort\mbox{[}$\,$\mbox{]} depth\+Frame\+Data, \mbox{\hyperlink{struct_windows_1_1_kinect_1_1_color_space_point}{Windows.\+Kinect.\+Color\+Space\+Point}}\mbox{[}$\,$\mbox{]} color\+Space\+Points)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_a2f963d0a4f538f0bc11f65903676caf0}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_a2f963d0a4f538f0bc11f65903676caf0}} 
+void {\bfseries Map\+Color\+Frame\+To\+Depth\+Space} (ushort\mbox{[}$\,$\mbox{]} depth\+Frame\+Data, \mbox{\hyperlink{struct_windows_1_1_kinect_1_1_depth_space_point}{Windows.\+Kinect.\+Depth\+Space\+Point}}\mbox{[}$\,$\mbox{]} depth\+Space\+Points)
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_adc80b780b34d8b8407b1e516fe65b845}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_adc80b780b34d8b8407b1e516fe65b845}} 
+void {\bfseries Map\+Color\+Frame\+To\+Camera\+Space} (ushort\mbox{[}$\,$\mbox{]} depth\+Frame\+Data, \mbox{\hyperlink{struct_windows_1_1_kinect_1_1_camera_space_point}{Windows.\+Kinect.\+Camera\+Space\+Point}}\mbox{[}$\,$\mbox{]} camera\+Space\+Points)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_windows_1_1_kinect_1_1_coordinate_mapper_aa8864c0192e8241ed771efab6fe47088}\label{class_windows_1_1_kinect_1_1_coordinate_mapper_aa8864c0192e8241ed771efab6fe47088}} 
+Root\+System.\+Event\+Handler$<$ \mbox{\hyperlink{class_windows_1_1_kinect_1_1_coordinate_mapping_changed_event_args}{Windows.\+Kinect.\+Coordinate\+Mapping\+Changed\+Event\+Args}} $>$ {\bfseries Coordinate\+Mapping\+Changed}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Basti/\+Documents/raumfinder-\/htw/\+Assets/\+Standard Assets/Kinect\+Special\+Cases.\+cs\item 
+C\+:/\+Users/\+Basti/\+Documents/raumfinder-\/htw/\+Assets/\+Standard Assets/\+Windows/\+Kinect/Coordinate\+Mapper.\+cs\end{DoxyCompactItemize}

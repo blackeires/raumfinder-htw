@@ -1,0 +1,6 @@
+<map id="AbstractKinectUICursor" name="AbstractKinectUICursor">
+<area shape="rect" id="node1" title="UI Komponente für den Cursor." alt="" coords="54,79,213,104"/>
+<area shape="rect" id="node3" href="$class_kinect_u_i_cursor.html" title="Implementation der abstrakten Class vom Cursor." alt="" coords="5,152,115,177"/>
+<area shape="rect" id="node4" href="$class_kinect_u_i_wait_cursor.html" title="Implementation der abstrakten Class vom Cursor für den Wait State." alt="" coords="139,152,275,177"/>
+<area shape="rect" id="node2" title=" " alt="" coords="78,5,189,31"/>
+</map>

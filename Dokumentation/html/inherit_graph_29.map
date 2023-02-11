@@ -1,0 +1,21 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,534,171,559"/>
+<area shape="rect" id="node2" href="$class_windows_1_1_kinect_1_1_audio_beam_frame.html" title=" " alt="" coords="227,5,413,45"/>
+<area shape="rect" id="node3" href="$class_windows_1_1_kinect_1_1_audio_beam_frame_list.html" title=" " alt="" coords="227,69,413,109"/>
+<area shape="rect" id="node4" href="$class_windows_1_1_kinect_1_1_audio_beam_frame_reader.html" title=" " alt="" coords="227,133,413,173"/>
+<area shape="rect" id="node5" href="$class_windows_1_1_kinect_1_1_audio_beam_sub_frame.html" title=" " alt="" coords="227,197,413,237"/>
+<area shape="rect" id="node6" href="$class_windows_1_1_kinect_1_1_body_frame.html" title=" " alt="" coords="227,262,413,287"/>
+<area shape="rect" id="node7" href="$class_windows_1_1_kinect_1_1_body_frame_reader.html" title=" " alt="" coords="227,312,413,352"/>
+<area shape="rect" id="node8" href="$class_windows_1_1_kinect_1_1_body_index_frame.html" title=" " alt="" coords="229,376,411,416"/>
+<area shape="rect" id="node9" href="$class_windows_1_1_kinect_1_1_body_index_frame_reader.html" title=" " alt="" coords="229,440,411,480"/>
+<area shape="rect" id="node10" href="$class_windows_1_1_kinect_1_1_color_frame.html" title=" " alt="" coords="227,505,413,530"/>
+<area shape="rect" id="node11" href="$class_windows_1_1_kinect_1_1_color_frame_reader.html" title=" " alt="" coords="227,555,413,595"/>
+<area shape="rect" id="node12" href="$class_windows_1_1_kinect_1_1_depth_frame.html" title=" " alt="" coords="225,619,415,645"/>
+<area shape="rect" id="node13" href="$class_windows_1_1_kinect_1_1_depth_frame_reader.html" title=" " alt="" coords="225,669,415,709"/>
+<area shape="rect" id="node14" href="$class_windows_1_1_kinect_1_1_infrared_frame.html" title=" " alt="" coords="221,734,419,759"/>
+<area shape="rect" id="node15" href="$class_windows_1_1_kinect_1_1_infrared_frame_reader.html" title=" " alt="" coords="221,784,419,824"/>
+<area shape="rect" id="node16" href="$class_windows_1_1_kinect_1_1_kinect_buffer.html" title=" " alt="" coords="225,849,415,874"/>
+<area shape="rect" id="node17" href="$class_windows_1_1_kinect_1_1_long_exposure_infrared_frame.html" title=" " alt="" coords="219,899,421,939"/>
+<area shape="rect" id="node18" href="$class_windows_1_1_kinect_1_1_long_exposure_infrared_frame_reader.html" title=" " alt="" coords="219,963,421,1003"/>
+<area shape="rect" id="node19" href="$class_windows_1_1_kinect_1_1_multi_source_frame_reader.html" title=" " alt="" coords="225,1027,415,1067"/>
+</map>

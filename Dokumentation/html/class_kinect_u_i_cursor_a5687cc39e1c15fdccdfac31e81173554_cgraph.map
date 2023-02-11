@@ -1,0 +1,4 @@
+<map id="KinectUICursor.ProcessData" name="KinectUICursor.ProcessData">
+<area shape="rect" id="node1" title="Update die Position des Cursor anhand der Hand &#45; Daten und aktualisere die Farbe anhand der ausgeführ..." alt="" coords="5,13,193,38"/>
+<area shape="rect" id="node2" href="$class_kinect_input_data.html#a8e75a3a204a836c10da76789d005222b" title="Berechne die Position der Hand auf dem Screen." alt="" coords="241,5,452,45"/>
+</map>

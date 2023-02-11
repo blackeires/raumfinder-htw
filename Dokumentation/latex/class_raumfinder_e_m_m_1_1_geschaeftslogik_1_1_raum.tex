@@ -1,0 +1,215 @@
+\hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{}\doxysection{Raumfinder\+EMM.\+Geschaeftslogik.\+Raum Class Reference}
+\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}\index{RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}}
+
+
+Class that represents a Raum object.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_ac615648e5eca7bca84c97e6ff21d8ab9}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_ac615648e5eca7bca84c97e6ff21d8ab9}} 
+{\bfseries Raum} (string raumname, char gebaeude, int etage, int kapazitaet, string\mbox{[}$\,$\mbox{]} ausstattung)
+\item 
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a40af85d21a9dc53d264a70d3629bc9f3}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a40af85d21a9dc53d264a70d3629bc9f3}} 
+{\bfseries Raum} (\mbox{\hyperlink{class_raumfinder_e_m_m_1_1_datenzugriff_1_1_raum_model}{Datenzugriff.\+Raum\+Model}} raummodel)
+\item 
+string \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a5623351fd6344933586ab9e4b86281a0}{Get\+Raumname}} ()
+\begin{DoxyCompactList}\small\item\em Getter for \+\_\+raumname. \end{DoxyCompactList}\item 
+char \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_abf5eeb818077d9f2caf6a2008e8de202}{Get\+Gebaeude}} ()
+\begin{DoxyCompactList}\small\item\em Getter for \+\_\+gebaeude. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_af706b3167d186901f48233ffc0ea53f0}{Get\+Etage}} ()
+\begin{DoxyCompactList}\small\item\em Getter for \+\_\+etage. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_af287a14c0c8540a191abeaf496d8783e}{Get\+Kapazitaet}} ()
+\begin{DoxyCompactList}\small\item\em Getter for \+\_\+kapazitaet. \end{DoxyCompactList}\item 
+string\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a0737fe0d27f3b09b218c546c4a4aa9ab}{get\+Ausstattung}} ()
+\begin{DoxyCompactList}\small\item\em Getter for \+\_\+ausstattung. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_adedaacd17450fc0dd1c3d4991a7107eb}{get\+Ausstattung\+As\+String}} ()
+\begin{DoxyCompactList}\small\item\em Gets Ausstattung as a single string. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a6ee634c22becb5759c18409de600b5b3}{Ist\+Ausstattung\+Vorhanden}} (string\mbox{[}$\,$\mbox{]} ausstattung)
+\begin{DoxyCompactList}\small\item\em Checks whether this room conatins the equipment specified in the passed array or not. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_aed335f87ef030ba3cf79eb26c0346c9f}{get\+Raumnummer}} ()
+\begin{DoxyCompactList}\small\item\em Converts the alphanumeric roomname to a number. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a6b6c90140d48066ba1e95bc119048a32}{get\+Distanz\+Score}} ()
+\begin{DoxyCompactList}\small\item\em Calculates a distance score based on the floor and room number in relation to the postion of the roomfinder terminal. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class that represents a Raum object. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a0737fe0d27f3b09b218c546c4a4aa9ab}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a0737fe0d27f3b09b218c546c4a4aa9ab}} 
+\index{RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}!getAusstattung@{getAusstattung}}
+\index{getAusstattung@{getAusstattung}!RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}}
+\doxysubsubsection{\texorpdfstring{getAusstattung()}{getAusstattung()}}
+{\footnotesize\ttfamily string\mbox{[}$\,$\mbox{]} Raumfinder\+EMM.\+Geschaeftslogik.\+Raum.\+get\+Ausstattung (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter for \+\_\+ausstattung. 
+
+\begin{DoxyReturn}{Returns}
+A string\mbox{[}\mbox{]} with the value of \+\_\+ausstattung.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_adedaacd17450fc0dd1c3d4991a7107eb}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_adedaacd17450fc0dd1c3d4991a7107eb}} 
+\index{RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}!getAusstattungAsString@{getAusstattungAsString}}
+\index{getAusstattungAsString@{getAusstattungAsString}!RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}}
+\doxysubsubsection{\texorpdfstring{getAusstattungAsString()}{getAusstattungAsString()}}
+{\footnotesize\ttfamily string Raumfinder\+EMM.\+Geschaeftslogik.\+Raum.\+get\+Ausstattung\+As\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets Ausstattung as a single string. 
+
+\begin{DoxyReturn}{Returns}
+A string made of the elements of the \+\_\+ausstattung array seperated by commata.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a6b6c90140d48066ba1e95bc119048a32}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a6b6c90140d48066ba1e95bc119048a32}} 
+\index{RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}!getDistanzScore@{getDistanzScore}}
+\index{getDistanzScore@{getDistanzScore}!RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}}
+\doxysubsubsection{\texorpdfstring{getDistanzScore()}{getDistanzScore()}}
+{\footnotesize\ttfamily int Raumfinder\+EMM.\+Geschaeftslogik.\+Raum.\+get\+Distanz\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calculates a distance score based on the floor and room number in relation to the postion of the roomfinder terminal. 
+
+\begin{DoxyReturn}{Returns}
+The calculated distance score as an integer
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a6b6c90140d48066ba1e95bc119048a32_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_af706b3167d186901f48233ffc0ea53f0}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_af706b3167d186901f48233ffc0ea53f0}} 
+\index{RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}!GetEtage@{GetEtage}}
+\index{GetEtage@{GetEtage}!RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}}
+\doxysubsubsection{\texorpdfstring{GetEtage()}{GetEtage()}}
+{\footnotesize\ttfamily int Raumfinder\+EMM.\+Geschaeftslogik.\+Raum.\+Get\+Etage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter for \+\_\+etage. 
+
+\begin{DoxyReturn}{Returns}
+An in with the value of \+\_\+etage.
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_af706b3167d186901f48233ffc0ea53f0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_abf5eeb818077d9f2caf6a2008e8de202}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_abf5eeb818077d9f2caf6a2008e8de202}} 
+\index{RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}!GetGebaeude@{GetGebaeude}}
+\index{GetGebaeude@{GetGebaeude}!RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}}
+\doxysubsubsection{\texorpdfstring{GetGebaeude()}{GetGebaeude()}}
+{\footnotesize\ttfamily char Raumfinder\+EMM.\+Geschaeftslogik.\+Raum.\+Get\+Gebaeude (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter for \+\_\+gebaeude. 
+
+\begin{DoxyReturn}{Returns}
+A char with the value of \+\_\+gebaeude.
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_abf5eeb818077d9f2caf6a2008e8de202_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_af287a14c0c8540a191abeaf496d8783e}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_af287a14c0c8540a191abeaf496d8783e}} 
+\index{RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}!GetKapazitaet@{GetKapazitaet}}
+\index{GetKapazitaet@{GetKapazitaet}!RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}}
+\doxysubsubsection{\texorpdfstring{GetKapazitaet()}{GetKapazitaet()}}
+{\footnotesize\ttfamily int Raumfinder\+EMM.\+Geschaeftslogik.\+Raum.\+Get\+Kapazitaet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter for \+\_\+kapazitaet. 
+
+\begin{DoxyReturn}{Returns}
+An int with the value of \+\_\+kapazitaet.
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_af287a14c0c8540a191abeaf496d8783e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a5623351fd6344933586ab9e4b86281a0}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a5623351fd6344933586ab9e4b86281a0}} 
+\index{RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}!GetRaumname@{GetRaumname}}
+\index{GetRaumname@{GetRaumname}!RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}}
+\doxysubsubsection{\texorpdfstring{GetRaumname()}{GetRaumname()}}
+{\footnotesize\ttfamily string Raumfinder\+EMM.\+Geschaeftslogik.\+Raum.\+Get\+Raumname (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter for \+\_\+raumname. 
+
+\begin{DoxyReturn}{Returns}
+A string with the value of \+\_\+raumname.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_aed335f87ef030ba3cf79eb26c0346c9f}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_aed335f87ef030ba3cf79eb26c0346c9f}} 
+\index{RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}!getRaumnummer@{getRaumnummer}}
+\index{getRaumnummer@{getRaumnummer}!RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}}
+\doxysubsubsection{\texorpdfstring{getRaumnummer()}{getRaumnummer()}}
+{\footnotesize\ttfamily int Raumfinder\+EMM.\+Geschaeftslogik.\+Raum.\+get\+Raumnummer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Converts the alphanumeric roomname to a number. 
+
+\begin{DoxyReturn}{Returns}
+The roomnumber as an integer
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_aed335f87ef030ba3cf79eb26c0346c9f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a6ee634c22becb5759c18409de600b5b3}\label{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a6ee634c22becb5759c18409de600b5b3}} 
+\index{RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}!IstAusstattungVorhanden@{IstAusstattungVorhanden}}
+\index{IstAusstattungVorhanden@{IstAusstattungVorhanden}!RaumfinderEMM.Geschaeftslogik.Raum@{RaumfinderEMM.Geschaeftslogik.Raum}}
+\doxysubsubsection{\texorpdfstring{IstAusstattungVorhanden()}{IstAusstattungVorhanden()}}
+{\footnotesize\ttfamily bool Raumfinder\+EMM.\+Geschaeftslogik.\+Raum.\+Ist\+Ausstattung\+Vorhanden (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{ausstattung }\end{DoxyParamCaption})}
+
+
+
+Checks whether this room conatins the equipment specified in the passed array or not. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ausstattung} & An array with all equipment that should be present in the room.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns true, if all the equipment is present, false if not
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum_a6ee634c22becb5759c18409de600b5b3_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Basti/\+Documents/raumfinder-\/htw/\+Assets/\+Geschaeftslogik/Raum.\+cs\end{DoxyCompactItemize}
