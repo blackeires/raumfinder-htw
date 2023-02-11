@@ -142,6 +142,17 @@ namespace RaumfinderEMM.Geschaeftslogik
             int raumnummerOhneBuchstaben = getRaumnummer();
             int etage = GetEtage();
 
+            if (etage == 1)
+            {
+                 if (raumnummerOhneBuchstaben < 151)
+                {
+                    return raumnummerOhneBuchstaben - 100;
+                } else
+                {
+                    return 200 - raumnummerOhneBuchstaben;
+                }
+            }
+
             if ((etage + 1) * 100 - raumnummerOhneBuchstaben < 50)
             {
                 return (etage + etage) * 100 - raumnummerOhneBuchstaben + 1;
