@@ -1,0 +1,7 @@
+<map id="Logik.Kriteriensuche" name="Logik.Kriteriensuche">
+<area shape="rect" id="node1" title="Searches for free rooms matching the specified criteria." alt="" coords="5,77,145,102"/>
+<area shape="rect" id="node2" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_geschaeftslogik.html#ae8077f2af03faaf1e372726a4ad6b6d6" title="Searches for free rooms matching the specified criteria during the passed timeslot." alt="" coords="193,69,412,109"/>
+<area shape="rect" id="node3" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum.html#abf5eeb818077d9f2caf6a2008e8de202" title="Getter for _gebaeude." alt="" coords="460,5,679,45"/>
+<area shape="rect" id="node4" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum.html#af287a14c0c8540a191abeaf496d8783e" title="Getter for _kapazitaet." alt="" coords="460,69,679,109"/>
+<area shape="rect" id="node5" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum.html#a6ee634c22becb5759c18409de600b5b3" title="Checks whether this room conatins the equipment specified in the passed array or not." alt="" coords="460,133,679,173"/>
+</map>

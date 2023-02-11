@@ -1,0 +1,4 @@
+<map id="KinectInputData.UpdateComponent" name="KinectInputData.UpdateComponent">
+<area shape="rect" id="node1" title="Update die Componente anhand der überlieferten Body Daten." alt="" coords="248,5,473,31"/>
+<area shape="rect" id="node2" href="$class_kinect_input_module.html#ada4cb4516a1a69fe1159c008793b5eca" title="Nimmt die Body &#45; Daten entgegen, um updated die Kinect Body Components. Sorgt dafür,..." alt="" coords="5,5,200,31"/>
+</map>

@@ -1,0 +1,252 @@
+\hypertarget{class_logik}{}\doxysection{Logik Class Reference}
+\label{class_logik}\index{Logik@{Logik}}
+
+
+Inheritance diagram for Logik\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_logik__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Logik\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=163pt]{class_logik__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_logik_a35f3ff7facf9f32d2f321b8734a26429}\label{class_logik_a35f3ff7facf9f32d2f321b8734a26429}} 
+void {\bfseries Schnellsuche} ()
+\begin{DoxyCompactList}\small\item\em Performs a quicksearch and sets the value of \+\_\+filtered\+Rooms to the returned List. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_logik_ab80c4befa76f1b3c95ec507de0995832}{Kriteriensuche}} (int zeitfenster, char gebaeude, int kapazitaet, string\mbox{[}$\,$\mbox{]} ausstattung)
+\begin{DoxyCompactList}\small\item\em Searches for free rooms matching the specified criteria. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_geschaeftslogik}{Geschaeftslogik}} \mbox{\hyperlink{class_logik_a7e73ccbbf94d2fd45e756f52be9829c9}{Get\+Geschaefts\+Logik}} ()
+\begin{DoxyCompactList}\small\item\em Getter for \+\_\+gl. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_logik_afd734ed2ce94a2f21df272a59d65dd85}{set\+Language}} (String language)
+\begin{DoxyCompactList}\small\item\em Setter for language. \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} $>$ \mbox{\hyperlink{class_logik_a7ca9975cdc29ec3db114f956c36c9417}{Get\+Filtered\+Rooms}} ()
+\begin{DoxyCompactList}\small\item\em Getter for \+\_\+filtered\+Rooms. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_logik_a76b4d6687a1762c20ebbe352041f68e1}{Set\+Filtered\+Rooms}} (List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} $>$ filtered\+Rooms)
+\begin{DoxyCompactList}\small\item\em Setter for \+\_\+filtered\+Rooms. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} \mbox{\hyperlink{class_logik_a93c91566c443c075395d0b1d0bcf6871}{Get\+Room\+Info}} (string name)
+\begin{DoxyCompactList}\small\item\em Returns information on the room with the passed name. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_logik_a758fb0de2de91bfe491120e427efae71}{Book\+Room}} (string name, int ts)
+\begin{DoxyCompactList}\small\item\em Books a room within a specific timeslot. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_logik_aa77ad41bd81764037aa896c27eb598bf}{get\+Current\+Timeslot}} ()
+\begin{DoxyCompactList}\small\item\em Returns the current timeslot based on the current daytime. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_logik_a758fb0de2de91bfe491120e427efae71}\label{class_logik_a758fb0de2de91bfe491120e427efae71}} 
+\index{Logik@{Logik}!BookRoom@{BookRoom}}
+\index{BookRoom@{BookRoom}!Logik@{Logik}}
+\doxysubsubsection{\texorpdfstring{BookRoom()}{BookRoom()}}
+{\footnotesize\ttfamily bool Logik.\+Book\+Room (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{int}]{ts }\end{DoxyParamCaption})}
+
+
+
+Books a room within a specific timeslot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & String containing the complete name of the room (e.\+g. WH C 638)\\
+\hline
+{\em ts} & Int from 1 -\/ 8 representing a certain timeslot\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if room was successfully booked, false if it wasn\textquotesingle{}t.
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_logik_a758fb0de2de91bfe491120e427efae71_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_logik_a758fb0de2de91bfe491120e427efae71_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_logik_aa77ad41bd81764037aa896c27eb598bf}\label{class_logik_aa77ad41bd81764037aa896c27eb598bf}} 
+\index{Logik@{Logik}!getCurrentTimeslot@{getCurrentTimeslot}}
+\index{getCurrentTimeslot@{getCurrentTimeslot}!Logik@{Logik}}
+\doxysubsubsection{\texorpdfstring{getCurrentTimeslot()}{getCurrentTimeslot()}}
+{\footnotesize\ttfamily int Logik.\+get\+Current\+Timeslot (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the current timeslot based on the current daytime. 
+
+\begin{DoxyReturn}{Returns}
+int representation of the current timeslot
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_logik_aa77ad41bd81764037aa896c27eb598bf_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_logik_a7ca9975cdc29ec3db114f956c36c9417}\label{class_logik_a7ca9975cdc29ec3db114f956c36c9417}} 
+\index{Logik@{Logik}!GetFilteredRooms@{GetFilteredRooms}}
+\index{GetFilteredRooms@{GetFilteredRooms}!Logik@{Logik}}
+\doxysubsubsection{\texorpdfstring{GetFilteredRooms()}{GetFilteredRooms()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} $>$ Logik.\+Get\+Filtered\+Rooms (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter for \+\_\+filtered\+Rooms. 
+
+\begin{DoxyReturn}{Returns}
+The list of rooms stored in the variable.
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_logik_a7ca9975cdc29ec3db114f956c36c9417_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_logik_a7e73ccbbf94d2fd45e756f52be9829c9}\label{class_logik_a7e73ccbbf94d2fd45e756f52be9829c9}} 
+\index{Logik@{Logik}!GetGeschaeftsLogik@{GetGeschaeftsLogik}}
+\index{GetGeschaeftsLogik@{GetGeschaeftsLogik}!Logik@{Logik}}
+\doxysubsubsection{\texorpdfstring{GetGeschaeftsLogik()}{GetGeschaeftsLogik()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_geschaeftslogik}{Geschaeftslogik}} Logik.\+Get\+Geschaefts\+Logik (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Getter for \+\_\+gl. 
+
+\begin{DoxyReturn}{Returns}
+The Geschäftslogik object stored in the variable.
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_logik_a7e73ccbbf94d2fd45e756f52be9829c9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_logik_a93c91566c443c075395d0b1d0bcf6871}\label{class_logik_a93c91566c443c075395d0b1d0bcf6871}} 
+\index{Logik@{Logik}!GetRoomInfo@{GetRoomInfo}}
+\index{GetRoomInfo@{GetRoomInfo}!Logik@{Logik}}
+\doxysubsubsection{\texorpdfstring{GetRoomInfo()}{GetRoomInfo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} Logik.\+Get\+Room\+Info (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+Returns information on the room with the passed name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & String containing the complete name of the room (e.\+g. WH C 638)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Raum object, containing the information about the passed room.
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_logik_a93c91566c443c075395d0b1d0bcf6871_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_logik_a93c91566c443c075395d0b1d0bcf6871_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_logik_ab80c4befa76f1b3c95ec507de0995832}\label{class_logik_ab80c4befa76f1b3c95ec507de0995832}} 
+\index{Logik@{Logik}!Kriteriensuche@{Kriteriensuche}}
+\index{Kriteriensuche@{Kriteriensuche}!Logik@{Logik}}
+\doxysubsubsection{\texorpdfstring{Kriteriensuche()}{Kriteriensuche()}}
+{\footnotesize\ttfamily bool Logik.\+Kriteriensuche (\begin{DoxyParamCaption}\item[{int}]{zeitfenster,  }\item[{char}]{gebaeude,  }\item[{int}]{kapazitaet,  }\item[{string\mbox{[}$\,$\mbox{]}}]{ausstattung }\end{DoxyParamCaption})}
+
+
+
+Searches for free rooms matching the specified criteria. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em zeitfenster} & Int from 1 -\/ 8 representing a certain timeslot\\
+\hline
+{\em gebaeude} & Char corresponding to the building the room should be in.\\
+\hline
+{\em kapazitaet} & The desired capacity of the room.\\
+\hline
+{\em ausstattung} & An array of strings containing the requested equipment.\\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_logik_ab80c4befa76f1b3c95ec507de0995832_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_logik_ab80c4befa76f1b3c95ec507de0995832_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_logik_a76b4d6687a1762c20ebbe352041f68e1}\label{class_logik_a76b4d6687a1762c20ebbe352041f68e1}} 
+\index{Logik@{Logik}!SetFilteredRooms@{SetFilteredRooms}}
+\index{SetFilteredRooms@{SetFilteredRooms}!Logik@{Logik}}
+\doxysubsubsection{\texorpdfstring{SetFilteredRooms()}{SetFilteredRooms()}}
+{\footnotesize\ttfamily void Logik.\+Set\+Filtered\+Rooms (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum}{Raum}} $>$}]{filtered\+Rooms }\end{DoxyParamCaption})}
+
+
+
+Setter for \+\_\+filtered\+Rooms. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filtered\+Rooms} & A List$<$\+Raum$>$.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_logik_afd734ed2ce94a2f21df272a59d65dd85}\label{class_logik_afd734ed2ce94a2f21df272a59d65dd85}} 
+\index{Logik@{Logik}!setLanguage@{setLanguage}}
+\index{setLanguage@{setLanguage}!Logik@{Logik}}
+\doxysubsubsection{\texorpdfstring{setLanguage()}{setLanguage()}}
+{\footnotesize\ttfamily void Logik.\+set\+Language (\begin{DoxyParamCaption}\item[{String}]{language }\end{DoxyParamCaption})}
+
+
+
+Setter for language. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em language} & A string corresponding to the selected language.\texorpdfstring{$<$}{<}/param \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Basti/\+Documents/raumfinder-\/htw/\+Assets/\+Scripts/Logik.\+cs\end{DoxyCompactItemize}

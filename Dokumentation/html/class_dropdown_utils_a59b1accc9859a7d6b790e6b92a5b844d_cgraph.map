@@ -1,0 +1,4 @@
+<map id="DropdownUtils.getAusstattungAsArray" name="DropdownUtils.getAusstattungAsArray">
+<area shape="rect" id="node1" title="Transforms the selected string value of an equipment dropdown menu into an array." alt="" coords="5,5,203,45"/>
+<area shape="rect" id="node2" href="$class_dropdown_utils.html#ad4741be34260474ac6aca931ee5fb425" title="Gets the selected value from a dropdown." alt="" coords="251,5,436,45"/>
+</map>

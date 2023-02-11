@@ -1,0 +1,4 @@
+<map id="RaumfinderEMM.Geschaeftslogik.Raum.getRaumnummer" name="RaumfinderEMM.Geschaeftslogik.Raum.getRaumnummer">
+<area shape="rect" id="node1" title="Converts the alphanumeric roomname to a number." alt="" coords="272,5,491,45"/>
+<area shape="rect" id="node2" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum.html#a6b6c90140d48066ba1e95bc119048a32" title="Calculates a distance score based on the floor and room number in relation to the postion of the room..." alt="" coords="5,5,224,45"/>
+</map>

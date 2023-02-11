@@ -1,0 +1,6501 @@
+[{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516107"
+  },
+  "raumname": "WH C 200",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516108"
+  },
+  "raumname": "WH C 201",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516109"
+  },
+  "raumname": "WH C 202",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51610a"
+  },
+  "raumname": "WH C 203",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51610b"
+  },
+  "raumname": "WH C 204",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51610c"
+  },
+  "raumname": "WH C 205",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51610d"
+  },
+  "raumname": "WH C 206",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51610e"
+  },
+  "raumname": "WH C 207",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51610f"
+  },
+  "raumname": "WH C 208",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516110"
+  },
+  "raumname": "WH C 209",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516111"
+  },
+  "raumname": "WH C 210",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516112"
+  },
+  "raumname": "WH C 211",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516113"
+  },
+  "raumname": "WH C 212",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516114"
+  },
+  "raumname": "WH C 213",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516115"
+  },
+  "raumname": "WH C 214",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516116"
+  },
+  "raumname": "WH C 215",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516117"
+  },
+  "raumname": "WH C 216",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516118"
+  },
+  "raumname": "WH C 217",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516119"
+  },
+  "raumname": "WH C 218",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51611a"
+  },
+  "raumname": "WH C 219",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51611b"
+  },
+  "raumname": "WH C 220",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51611c"
+  },
+  "raumname": "WH C 221",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51611d"
+  },
+  "raumname": "WH C 222",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51611e"
+  },
+  "raumname": "WH C 223",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51611f"
+  },
+  "raumname": "WH C 224",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516120"
+  },
+  "raumname": "WH C 225",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516121"
+  },
+  "raumname": "WH C 226",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516122"
+  },
+  "raumname": "WH C 227",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516123"
+  },
+  "raumname": "WH C 228",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516124"
+  },
+  "raumname": "WH C 229",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516125"
+  },
+  "raumname": "WH C 230",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516126"
+  },
+  "raumname": "WH C 231",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516127"
+  },
+  "raumname": "WH C 232",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516128"
+  },
+  "raumname": "WH C 233",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516129"
+  },
+  "raumname": "WH C 234",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51612a"
+  },
+  "raumname": "WH C 235",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51612b"
+  },
+  "raumname": "WH C 236",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51612c"
+  },
+  "raumname": "WH C 237",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51612d"
+  },
+  "raumname": "WH C 238",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51612e"
+  },
+  "raumname": "WH C 239",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51612f"
+  },
+  "raumname": "WH C 240",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516130"
+  },
+  "raumname": "WH C 241",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516131"
+  },
+  "raumname": "WH C 242",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516132"
+  },
+  "raumname": "WH C 243",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516133"
+  },
+  "raumname": "WH C 244",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516134"
+  },
+  "raumname": "WH C 245",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516135"
+  },
+  "raumname": "WH C 246",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516136"
+  },
+  "raumname": "WH C 247",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516137"
+  },
+  "raumname": "WH C 248",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516138"
+  },
+  "raumname": "WH C 249",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516139"
+  },
+  "raumname": "WH C 250",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51613a"
+  },
+  "raumname": "WH C 251",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51613b"
+  },
+  "raumname": "WH C 252",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51613c"
+  },
+  "raumname": "WH C 253",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51613d"
+  },
+  "raumname": "WH C 254",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51613e"
+  },
+  "raumname": "WH C 255",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51613f"
+  },
+  "raumname": "WH C 256",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516140"
+  },
+  "raumname": "WH C 257",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516141"
+  },
+  "raumname": "WH C 258",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516142"
+  },
+  "raumname": "WH C 259",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516143"
+  },
+  "raumname": "WH C 260",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516144"
+  },
+  "raumname": "WH C 261",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516145"
+  },
+  "raumname": "WH C 262",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516146"
+  },
+  "raumname": "WH C 263",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516147"
+  },
+  "raumname": "WH C 264",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516148"
+  },
+  "raumname": "WH C 265",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516149"
+  },
+  "raumname": "WH C 266",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51614a"
+  },
+  "raumname": "WH C 267",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51614b"
+  },
+  "raumname": "WH C 268",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51614c"
+  },
+  "raumname": "WH C 269",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51614d"
+  },
+  "raumname": "WH C 270",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51614e"
+  },
+  "raumname": "WH C 271",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51614f"
+  },
+  "raumname": "WH C 272",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516150"
+  },
+  "raumname": "WH C 273",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516151"
+  },
+  "raumname": "WH C 274",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516152"
+  },
+  "raumname": "WH C 275",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516153"
+  },
+  "raumname": "WH C 276",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516154"
+  },
+  "raumname": "WH C 277",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516155"
+  },
+  "raumname": "WH C 278",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516156"
+  },
+  "raumname": "WH C 279",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516157"
+  },
+  "raumname": "WH C 280",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516158"
+  },
+  "raumname": "WH C 281",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516159"
+  },
+  "raumname": "WH C 282",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51615a"
+  },
+  "raumname": "WH C 283",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51615b"
+  },
+  "raumname": "WH C 284",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51615c"
+  },
+  "raumname": "WH C 285",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51615d"
+  },
+  "raumname": "WH C 286",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51615e"
+  },
+  "raumname": "WH C 287",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51615f"
+  },
+  "raumname": "WH C 288",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516160"
+  },
+  "raumname": "WH C 289",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516161"
+  },
+  "raumname": "WH C 290",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516162"
+  },
+  "raumname": "WH C 291",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516163"
+  },
+  "raumname": "WH C 292",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516164"
+  },
+  "raumname": "WH C 293",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516165"
+  },
+  "raumname": "WH C 294",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516166"
+  },
+  "raumname": "WH C 295",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516167"
+  },
+  "raumname": "WH C 296",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516168"
+  },
+  "raumname": "WH C 297",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516169"
+  },
+  "raumname": "WH C 298",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51616a"
+  },
+  "raumname": "WH C 299",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51616b"
+  },
+  "raumname": "WH C 300",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51616c"
+  },
+  "raumname": "WH C 301",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51616d"
+  },
+  "raumname": "WH C 302",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51616e"
+  },
+  "raumname": "WH C 303",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51616f"
+  },
+  "raumname": "WH C 304",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516170"
+  },
+  "raumname": "WH C 305",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516171"
+  },
+  "raumname": "WH C 306",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516172"
+  },
+  "raumname": "WH C 307",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516173"
+  },
+  "raumname": "WH C 308",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516174"
+  },
+  "raumname": "WH C 309",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516175"
+  },
+  "raumname": "WH C 310",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516176"
+  },
+  "raumname": "WH C 311",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516177"
+  },
+  "raumname": "WH C 312",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516178"
+  },
+  "raumname": "WH C 313",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516179"
+  },
+  "raumname": "WH C 314",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51617a"
+  },
+  "raumname": "WH C 315",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51617b"
+  },
+  "raumname": "WH C 316",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51617c"
+  },
+  "raumname": "WH C 317",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51617d"
+  },
+  "raumname": "WH C 318",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51617e"
+  },
+  "raumname": "WH C 319",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51617f"
+  },
+  "raumname": "WH C 320",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516180"
+  },
+  "raumname": "WH C 321",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516181"
+  },
+  "raumname": "WH C 322",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516182"
+  },
+  "raumname": "WH C 323",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516183"
+  },
+  "raumname": "WH C 324",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516184"
+  },
+  "raumname": "WH C 325",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516185"
+  },
+  "raumname": "WH C 326",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516186"
+  },
+  "raumname": "WH C 327",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516187"
+  },
+  "raumname": "WH C 328",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516188"
+  },
+  "raumname": "WH C 329",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516189"
+  },
+  "raumname": "WH C 330",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51618a"
+  },
+  "raumname": "WH C 331",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51618b"
+  },
+  "raumname": "WH C 332",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51618c"
+  },
+  "raumname": "WH C 333",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51618d"
+  },
+  "raumname": "WH C 334",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51618e"
+  },
+  "raumname": "WH C 335",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51618f"
+  },
+  "raumname": "WH C 336",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516190"
+  },
+  "raumname": "WH C 337",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516191"
+  },
+  "raumname": "WH C 338",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516192"
+  },
+  "raumname": "WH C 339",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516193"
+  },
+  "raumname": "WH C 340",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516194"
+  },
+  "raumname": "WH C 341",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516195"
+  },
+  "raumname": "WH C 342",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516196"
+  },
+  "raumname": "WH C 343",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516197"
+  },
+  "raumname": "WH C 344",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516198"
+  },
+  "raumname": "WH C 345",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516199"
+  },
+  "raumname": "WH C 346",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51619a"
+  },
+  "raumname": "WH C 347",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51619b"
+  },
+  "raumname": "WH C 348",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51619c"
+  },
+  "raumname": "WH C 349",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51619d"
+  },
+  "raumname": "WH C 350",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51619e"
+  },
+  "raumname": "WH C 351",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51619f"
+  },
+  "raumname": "WH C 352",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161a0"
+  },
+  "raumname": "WH C 353",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161a1"
+  },
+  "raumname": "WH C 354",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161a2"
+  },
+  "raumname": "WH C 355",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161a3"
+  },
+  "raumname": "WH C 356",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161a4"
+  },
+  "raumname": "WH C 357",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161a5"
+  },
+  "raumname": "WH C 358",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161a6"
+  },
+  "raumname": "WH C 359",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161a7"
+  },
+  "raumname": "WH C 360",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161a8"
+  },
+  "raumname": "WH C 361",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161a9"
+  },
+  "raumname": "WH C 362",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161aa"
+  },
+  "raumname": "WH C 363",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ab"
+  },
+  "raumname": "WH C 364",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ac"
+  },
+  "raumname": "WH C 365",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ad"
+  },
+  "raumname": "WH C 366",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ae"
+  },
+  "raumname": "WH C 367",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161af"
+  },
+  "raumname": "WH C 368",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161b0"
+  },
+  "raumname": "WH C 369",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161b1"
+  },
+  "raumname": "WH C 370",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161b2"
+  },
+  "raumname": "WH C 371",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161b3"
+  },
+  "raumname": "WH C 372",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161b4"
+  },
+  "raumname": "WH C 373",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161b5"
+  },
+  "raumname": "WH C 374",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161b6"
+  },
+  "raumname": "WH C 375",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161b7"
+  },
+  "raumname": "WH C 376",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161b8"
+  },
+  "raumname": "WH C 377",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161b9"
+  },
+  "raumname": "WH C 378",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ba"
+  },
+  "raumname": "WH C 379",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161bb"
+  },
+  "raumname": "WH C 380",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161bc"
+  },
+  "raumname": "WH C 381",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161bd"
+  },
+  "raumname": "WH C 382",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161be"
+  },
+  "raumname": "WH C 383",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161bf"
+  },
+  "raumname": "WH C 384",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161c0"
+  },
+  "raumname": "WH C 385",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161c1"
+  },
+  "raumname": "WH C 386",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161c2"
+  },
+  "raumname": "WH C 387",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161c3"
+  },
+  "raumname": "WH C 388",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161c4"
+  },
+  "raumname": "WH C 389",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161c5"
+  },
+  "raumname": "WH C 390",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161c6"
+  },
+  "raumname": "WH C 391",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161c7"
+  },
+  "raumname": "WH C 392",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161c8"
+  },
+  "raumname": "WH C 393",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161c9"
+  },
+  "raumname": "WH C 394",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ca"
+  },
+  "raumname": "WH C 395",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161cb"
+  },
+  "raumname": "WH C 396",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161cc"
+  },
+  "raumname": "WH C 397",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161cd"
+  },
+  "raumname": "WH C 398",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ce"
+  },
+  "raumname": "WH C 399",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161cf"
+  },
+  "raumname": "WH C 400",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161d0"
+  },
+  "raumname": "WH C 401",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161d1"
+  },
+  "raumname": "WH C 402",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161d2"
+  },
+  "raumname": "WH C 403",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161d3"
+  },
+  "raumname": "WH C 404",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161d4"
+  },
+  "raumname": "WH C 405",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161d5"
+  },
+  "raumname": "WH C 406",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161d6"
+  },
+  "raumname": "WH C 407",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161d7"
+  },
+  "raumname": "WH C 408",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161d8"
+  },
+  "raumname": "WH C 409",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161d9"
+  },
+  "raumname": "WH C 410",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161da"
+  },
+  "raumname": "WH C 411",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161db"
+  },
+  "raumname": "WH C 412",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161dc"
+  },
+  "raumname": "WH C 413",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161dd"
+  },
+  "raumname": "WH C 414",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161de"
+  },
+  "raumname": "WH C 415",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161df"
+  },
+  "raumname": "WH C 416",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161e0"
+  },
+  "raumname": "WH C 417",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161e1"
+  },
+  "raumname": "WH C 418",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161e2"
+  },
+  "raumname": "WH C 419",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161e3"
+  },
+  "raumname": "WH C 420",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161e4"
+  },
+  "raumname": "WH C 421",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161e5"
+  },
+  "raumname": "WH C 422",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161e6"
+  },
+  "raumname": "WH C 423",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161e7"
+  },
+  "raumname": "WH C 424",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161e8"
+  },
+  "raumname": "WH C 425",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161e9"
+  },
+  "raumname": "WH C 426",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ea"
+  },
+  "raumname": "WH C 427",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161eb"
+  },
+  "raumname": "WH C 428",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ec"
+  },
+  "raumname": "WH C 429",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ed"
+  },
+  "raumname": "WH C 430",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ee"
+  },
+  "raumname": "WH C 431",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ef"
+  },
+  "raumname": "WH C 432",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161f0"
+  },
+  "raumname": "WH C 433",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161f1"
+  },
+  "raumname": "WH C 434",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161f2"
+  },
+  "raumname": "WH C 435",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161f3"
+  },
+  "raumname": "WH C 436",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161f4"
+  },
+  "raumname": "WH C 437",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161f5"
+  },
+  "raumname": "WH C 438",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161f6"
+  },
+  "raumname": "WH C 439",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161f7"
+  },
+  "raumname": "WH C 440",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161f8"
+  },
+  "raumname": "WH C 441",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161f9"
+  },
+  "raumname": "WH C 442",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161fa"
+  },
+  "raumname": "WH C 443",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161fb"
+  },
+  "raumname": "WH C 444",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161fc"
+  },
+  "raumname": "WH C 445",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161fd"
+  },
+  "raumname": "WH C 446",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161fe"
+  },
+  "raumname": "WH C 447",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5161ff"
+  },
+  "raumname": "WH C 448",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516200"
+  },
+  "raumname": "WH C 449",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516201"
+  },
+  "raumname": "WH C 450",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516202"
+  },
+  "raumname": "WH C 451",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516203"
+  },
+  "raumname": "WH C 452",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516204"
+  },
+  "raumname": "WH C 453",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516205"
+  },
+  "raumname": "WH C 454",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516206"
+  },
+  "raumname": "WH C 455",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516207"
+  },
+  "raumname": "WH C 456",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516208"
+  },
+  "raumname": "WH C 457",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516209"
+  },
+  "raumname": "WH C 458",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51620a"
+  },
+  "raumname": "WH C 459",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51620b"
+  },
+  "raumname": "WH C 460",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51620c"
+  },
+  "raumname": "WH C 461",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51620d"
+  },
+  "raumname": "WH C 462",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51620e"
+  },
+  "raumname": "WH C 463",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51620f"
+  },
+  "raumname": "WH C 464",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516210"
+  },
+  "raumname": "WH C 465",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516211"
+  },
+  "raumname": "WH C 466",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516212"
+  },
+  "raumname": "WH C 467",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516213"
+  },
+  "raumname": "WH C 468",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516214"
+  },
+  "raumname": "WH C 469",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516215"
+  },
+  "raumname": "WH C 470",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516216"
+  },
+  "raumname": "WH C 471",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516217"
+  },
+  "raumname": "WH C 472",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516218"
+  },
+  "raumname": "WH C 473",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516219"
+  },
+  "raumname": "WH C 474",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51621a"
+  },
+  "raumname": "WH C 475",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51621b"
+  },
+  "raumname": "WH C 476",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51621c"
+  },
+  "raumname": "WH C 477",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51621d"
+  },
+  "raumname": "WH C 478",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51621e"
+  },
+  "raumname": "WH C 479",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51621f"
+  },
+  "raumname": "WH C 480",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516220"
+  },
+  "raumname": "WH C 481",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516221"
+  },
+  "raumname": "WH C 482",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516222"
+  },
+  "raumname": "WH C 483",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516223"
+  },
+  "raumname": "WH C 484",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516224"
+  },
+  "raumname": "WH C 485",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516225"
+  },
+  "raumname": "WH C 486",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516226"
+  },
+  "raumname": "WH C 487",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516227"
+  },
+  "raumname": "WH C 488",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516228"
+  },
+  "raumname": "WH C 489",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516229"
+  },
+  "raumname": "WH C 490",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51622a"
+  },
+  "raumname": "WH C 491",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51622b"
+  },
+  "raumname": "WH C 492",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51622c"
+  },
+  "raumname": "WH C 493",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51622d"
+  },
+  "raumname": "WH C 494",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51622e"
+  },
+  "raumname": "WH C 495",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51622f"
+  },
+  "raumname": "WH C 496",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516230"
+  },
+  "raumname": "WH C 497",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516231"
+  },
+  "raumname": "WH C 498",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516232"
+  },
+  "raumname": "WH C 499",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516233"
+  },
+  "raumname": "WH C 500",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516234"
+  },
+  "raumname": "WH C 501",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516235"
+  },
+  "raumname": "WH C 502",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516236"
+  },
+  "raumname": "WH C 503",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516237"
+  },
+  "raumname": "WH C 504",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516238"
+  },
+  "raumname": "WH C 505",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516239"
+  },
+  "raumname": "WH C 506",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51623a"
+  },
+  "raumname": "WH C 507",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51623b"
+  },
+  "raumname": "WH C 508",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51623c"
+  },
+  "raumname": "WH C 509",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51623d"
+  },
+  "raumname": "WH C 510",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51623e"
+  },
+  "raumname": "WH C 511",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51623f"
+  },
+  "raumname": "WH C 512",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516240"
+  },
+  "raumname": "WH C 513",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516241"
+  },
+  "raumname": "WH C 514",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516242"
+  },
+  "raumname": "WH C 515",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516243"
+  },
+  "raumname": "WH C 516",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516244"
+  },
+  "raumname": "WH C 517",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516245"
+  },
+  "raumname": "WH C 518",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516246"
+  },
+  "raumname": "WH C 519",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516247"
+  },
+  "raumname": "WH C 520",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516248"
+  },
+  "raumname": "WH C 521",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516249"
+  },
+  "raumname": "WH C 522",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51624a"
+  },
+  "raumname": "WH C 523",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51624b"
+  },
+  "raumname": "WH C 524",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51624c"
+  },
+  "raumname": "WH C 525",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51624d"
+  },
+  "raumname": "WH C 526",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51624e"
+  },
+  "raumname": "WH C 527",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51624f"
+  },
+  "raumname": "WH C 528",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516250"
+  },
+  "raumname": "WH C 529",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516251"
+  },
+  "raumname": "WH C 530",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516252"
+  },
+  "raumname": "WH C 531",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516253"
+  },
+  "raumname": "WH C 532",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516254"
+  },
+  "raumname": "WH C 533",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516255"
+  },
+  "raumname": "WH C 534",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516256"
+  },
+  "raumname": "WH C 535",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516257"
+  },
+  "raumname": "WH C 536",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516258"
+  },
+  "raumname": "WH C 537",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516259"
+  },
+  "raumname": "WH C 538",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51625a"
+  },
+  "raumname": "WH C 539",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51625b"
+  },
+  "raumname": "WH C 540",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51625c"
+  },
+  "raumname": "WH C 541",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51625d"
+  },
+  "raumname": "WH C 542",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51625e"
+  },
+  "raumname": "WH C 543",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51625f"
+  },
+  "raumname": "WH C 544",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516260"
+  },
+  "raumname": "WH C 545",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516261"
+  },
+  "raumname": "WH C 546",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516262"
+  },
+  "raumname": "WH C 547",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516263"
+  },
+  "raumname": "WH C 548",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516264"
+  },
+  "raumname": "WH C 549",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516265"
+  },
+  "raumname": "WH C 550",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516266"
+  },
+  "raumname": "WH C 551",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516267"
+  },
+  "raumname": "WH C 552",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516268"
+  },
+  "raumname": "WH C 553",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516269"
+  },
+  "raumname": "WH C 554",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51626a"
+  },
+  "raumname": "WH C 555",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51626b"
+  },
+  "raumname": "WH C 556",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51626c"
+  },
+  "raumname": "WH C 557",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51626d"
+  },
+  "raumname": "WH C 558",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51626e"
+  },
+  "raumname": "WH C 559",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51626f"
+  },
+  "raumname": "WH C 560",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516270"
+  },
+  "raumname": "WH C 561",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516271"
+  },
+  "raumname": "WH C 562",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516272"
+  },
+  "raumname": "WH C 563",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516273"
+  },
+  "raumname": "WH C 564",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516274"
+  },
+  "raumname": "WH C 565",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516275"
+  },
+  "raumname": "WH C 566",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516276"
+  },
+  "raumname": "WH C 567",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516277"
+  },
+  "raumname": "WH C 568",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516278"
+  },
+  "raumname": "WH C 569",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516279"
+  },
+  "raumname": "WH C 570",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51627a"
+  },
+  "raumname": "WH C 571",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51627b"
+  },
+  "raumname": "WH C 572",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51627c"
+  },
+  "raumname": "WH C 573",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51627d"
+  },
+  "raumname": "WH C 574",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51627e"
+  },
+  "raumname": "WH C 575",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51627f"
+  },
+  "raumname": "WH C 576",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516280"
+  },
+  "raumname": "WH C 577",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516281"
+  },
+  "raumname": "WH C 578",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516282"
+  },
+  "raumname": "WH C 579",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516283"
+  },
+  "raumname": "WH C 580",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516284"
+  },
+  "raumname": "WH C 581",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516285"
+  },
+  "raumname": "WH C 582",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516286"
+  },
+  "raumname": "WH C 583",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516287"
+  },
+  "raumname": "WH C 584",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516288"
+  },
+  "raumname": "WH C 585",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516289"
+  },
+  "raumname": "WH C 586",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51628a"
+  },
+  "raumname": "WH C 587",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51628b"
+  },
+  "raumname": "WH C 588",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51628c"
+  },
+  "raumname": "WH C 589",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51628d"
+  },
+  "raumname": "WH C 590",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51628e"
+  },
+  "raumname": "WH C 591",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51628f"
+  },
+  "raumname": "WH C 592",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516290"
+  },
+  "raumname": "WH C 593",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516291"
+  },
+  "raumname": "WH C 594",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516292"
+  },
+  "raumname": "WH C 595",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516293"
+  },
+  "raumname": "WH C 596",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516294"
+  },
+  "raumname": "WH C 597",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516295"
+  },
+  "raumname": "WH C 598",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516296"
+  },
+  "raumname": "WH C 599",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516297"
+  },
+  "raumname": "WH C 600",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516298"
+  },
+  "raumname": "WH C 601",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb516299"
+  },
+  "raumname": "WH C 602",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51629a"
+  },
+  "raumname": "WH C 603",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51629b"
+  },
+  "raumname": "WH C 604",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51629c"
+  },
+  "raumname": "WH C 605",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51629d"
+  },
+  "raumname": "WH C 606",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51629e"
+  },
+  "raumname": "WH C 607",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb51629f"
+  },
+  "raumname": "WH C 608",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162a0"
+  },
+  "raumname": "WH C 609",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162a1"
+  },
+  "raumname": "WH C 610",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162a2"
+  },
+  "raumname": "WH C 611",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162a3"
+  },
+  "raumname": "WH C 612",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162a4"
+  },
+  "raumname": "WH C 613",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162a5"
+  },
+  "raumname": "WH C 614",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162a6"
+  },
+  "raumname": "WH C 615",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162a7"
+  },
+  "raumname": "WH C 616",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162a8"
+  },
+  "raumname": "WH C 617",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162a9"
+  },
+  "raumname": "WH C 618",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162aa"
+  },
+  "raumname": "WH C 619",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ab"
+  },
+  "raumname": "WH C 620",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ac"
+  },
+  "raumname": "WH C 621",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ad"
+  },
+  "raumname": "WH C 622",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ae"
+  },
+  "raumname": "WH C 623",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162af"
+  },
+  "raumname": "WH C 624",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162b0"
+  },
+  "raumname": "WH C 625",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162b1"
+  },
+  "raumname": "WH C 626",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162b2"
+  },
+  "raumname": "WH C 627",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162b3"
+  },
+  "raumname": "WH C 628",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162b4"
+  },
+  "raumname": "WH C 629",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162b5"
+  },
+  "raumname": "WH C 630",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162b6"
+  },
+  "raumname": "WH C 631",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162b7"
+  },
+  "raumname": "WH C 632",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162b8"
+  },
+  "raumname": "WH C 633",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162b9"
+  },
+  "raumname": "WH C 634",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ba"
+  },
+  "raumname": "WH C 635",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162bb"
+  },
+  "raumname": "WH C 636",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162bc"
+  },
+  "raumname": "WH C 637",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162bd"
+  },
+  "raumname": "WH C 638",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162be"
+  },
+  "raumname": "WH C 639",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162bf"
+  },
+  "raumname": "WH C 640",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162c0"
+  },
+  "raumname": "WH C 641",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162c1"
+  },
+  "raumname": "WH C 642",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162c2"
+  },
+  "raumname": "WH C 643",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162c3"
+  },
+  "raumname": "WH C 644",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162c4"
+  },
+  "raumname": "WH C 645",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162c5"
+  },
+  "raumname": "WH C 646",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162c6"
+  },
+  "raumname": "WH C 647",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162c7"
+  },
+  "raumname": "WH C 648",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162c8"
+  },
+  "raumname": "WH C 649",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162c9"
+  },
+  "raumname": "WH C 650",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ca"
+  },
+  "raumname": "WH C 651",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162cb"
+  },
+  "raumname": "WH C 652",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162cc"
+  },
+  "raumname": "WH C 653",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162cd"
+  },
+  "raumname": "WH C 654",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ce"
+  },
+  "raumname": "WH C 655",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162cf"
+  },
+  "raumname": "WH C 656",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162d0"
+  },
+  "raumname": "WH C 657",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162d1"
+  },
+  "raumname": "WH C 658",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162d2"
+  },
+  "raumname": "WH C 659",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162d3"
+  },
+  "raumname": "WH C 660",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162d4"
+  },
+  "raumname": "WH C 661",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162d5"
+  },
+  "raumname": "WH C 662",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162d6"
+  },
+  "raumname": "WH C 663",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162d7"
+  },
+  "raumname": "WH C 664",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162d8"
+  },
+  "raumname": "WH C 665",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162d9"
+  },
+  "raumname": "WH C 666",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162da"
+  },
+  "raumname": "WH C 667",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162db"
+  },
+  "raumname": "WH C 668",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162dc"
+  },
+  "raumname": "WH C 669",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162dd"
+  },
+  "raumname": "WH C 670",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162de"
+  },
+  "raumname": "WH C 671",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162df"
+  },
+  "raumname": "WH C 672",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162e0"
+  },
+  "raumname": "WH C 673",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162e1"
+  },
+  "raumname": "WH C 674",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162e2"
+  },
+  "raumname": "WH C 675",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162e3"
+  },
+  "raumname": "WH C 676",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162e4"
+  },
+  "raumname": "WH C 677",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162e5"
+  },
+  "raumname": "WH C 678",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162e6"
+  },
+  "raumname": "WH C 679",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162e7"
+  },
+  "raumname": "WH C 680",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162e8"
+  },
+  "raumname": "WH C 681",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162e9"
+  },
+  "raumname": "WH C 682",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ea"
+  },
+  "raumname": "WH C 683",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162eb"
+  },
+  "raumname": "WH C 684",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ec"
+  },
+  "raumname": "WH C 685",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ed"
+  },
+  "raumname": "WH C 686",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ee"
+  },
+  "raumname": "WH C 687",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162ef"
+  },
+  "raumname": "WH C 688",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162f0"
+  },
+  "raumname": "WH C 689",
+  "ts1": false,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162f1"
+  },
+  "raumname": "WH C 690",
+  "ts1": true,
+  "ts2": false,
+  "ts3": false,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162f2"
+  },
+  "raumname": "WH C 691",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": true,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162f3"
+  },
+  "raumname": "WH C 692",
+  "ts1": true,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162f4"
+  },
+  "raumname": "WH C 693",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": false,
+  "ts5": true,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162f5"
+  },
+  "raumname": "WH C 694",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": true,
+  "ts7": true,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162f6"
+  },
+  "raumname": "WH C 695",
+  "ts1": false,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162f7"
+  },
+  "raumname": "WH C 696",
+  "ts1": false,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": true,
+  "ts7": false,
+  "ts8": true
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162f8"
+  },
+  "raumname": "WH C 697",
+  "ts1": true,
+  "ts2": true,
+  "ts3": false,
+  "ts4": false,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162f9"
+  },
+  "raumname": "WH C 698",
+  "ts1": false,
+  "ts2": true,
+  "ts3": true,
+  "ts4": true,
+  "ts5": false,
+  "ts6": false,
+  "ts7": false,
+  "ts8": false
+},{
+  "_id": {
+    "$oid": "63947e1ceb505278eb5162fa"
+  },
+  "raumname": "WH C 699",
+  "ts1": true,
+  "ts2": false,
+  "ts3": true,
+  "ts4": true,
+  "ts5": true,
+  "ts6": true,
+  "ts7": false,
+  "ts8": false
+}]

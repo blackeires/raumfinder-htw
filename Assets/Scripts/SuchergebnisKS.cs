@@ -5,6 +5,7 @@ using CodeMonkey.Utils;
 using RaumfinderEMM.Geschaeftslogik;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 //Todo: function name w/ upper case letters
 public class SuchergebnisKS : MonoBehaviour
@@ -19,7 +20,7 @@ public class SuchergebnisKS : MonoBehaviour
     [SerializeField] private Logik _logik;
     [SerializeField] private Kriteriensuche _kriteriensuche;
     [SerializeField] private Startmenu _startmenu;
-    [SerializeField] private Buchungsübersicht _buchungsübersicht;
+    [SerializeField] private Buchungsuebersicht _buchungsübersicht;
 
     //Textfelder Rauminformationen
     [SerializeField] private TMP_Text _raumnummerText;
@@ -34,6 +35,8 @@ public class SuchergebnisKS : MonoBehaviour
     //Drpdown Timeslot für Buchung 
     [SerializeField] private TMP_Dropdown _bookingDD;
 
+    [SerializeField] private SpeechToCommand speechToCommandController;
+
     /// <summary>
     /// Sets state of this object to not active.
     /// </summary>
@@ -47,12 +50,13 @@ public class SuchergebnisKS : MonoBehaviour
     /// </summary>
     public void Show()
     {
+        speechToCommandController.SetupCommandsSuchergebnis();
         gameObject.SetActive(true);
-        SetupSuchergebnis(); 
+        SetupSuchergebnis();
     }
 
     /// <summary>
-    /// Gets the list of filtered room, sets up dropdowns and calls SetupButtonFunctionality.
+    /// Gets the list of filtered room and sets up dropdowns 
     /// </summary>
     private void SetupSuchergebnis()
     {
@@ -60,17 +64,8 @@ public class SuchergebnisKS : MonoBehaviour
         fillInRoomInfo(_filteredRooms.First());
         fillRoomDropdown();
         fillBookingDropdown();
-        SetupButtonFunctionality();
     }
 
-    /// <summary>
-    /// Adds funtionality to all buttons.
-    /// </summary>
-    private void SetupButtonFunctionality()
-    {
-        transform.Find("Buchen_Button").GetComponent<Button_UI>().ClickFunc = BookRoom;
-        transform.Find("Zurück_Button").GetComponent<Button_UI>().ClickFunc = back;
-    }
 
     /// <summary>
     /// Setter for previous page.
@@ -93,7 +88,7 @@ public class SuchergebnisKS : MonoBehaviour
     /// <summary>
     /// Navigates to the previously visited page.
     /// </summary>
-    private void back()
+    public void Back()
     {
         if (_previousPage == "Kriteriensuche")
         {
@@ -161,7 +156,7 @@ public class SuchergebnisKS : MonoBehaviour
     /// <summary>
     /// Books the room with the name of the currently selected room during the currently selected timeslot.
     /// </summary>
-    private void BookRoom()
+    public void BookRoom()
     {
         bool status = _logik.BookRoom(DropdownUtils.getInputFromDropdown(_weitereRaeumeDD), DropdownUtils.GetzeitfensterAsInt(_bookingDD));
         if (!status)
@@ -175,6 +170,53 @@ public class SuchergebnisKS : MonoBehaviour
             Hide();
         }
         
+    }
+
+    /// <summary>
+    /// Opens weitere Räume dropdown menu
+    /// </summary>
+    public void OpenWeitereRaeumeDD()
+    {
+        DropdownUtils.OpenDropdownMenu(_weitereRaeumeDD);
+    }
+
+    /// <summary>
+    /// Navigates up in the currently selected dropdown menu
+    /// </summary>
+    public void NavigateUpInActiveDD()
+    {
+        if (_weitereRaeumeDD.IsActive())
+        {
+            DropdownUtils.navigateUpInDD(_weitereRaeumeDD);
+        }
+
+    }
+
+
+    /// <summary>
+    /// Navigates down in the currently selected dropdown menu
+    /// </summary>
+    public void NavigateDownInActiveDD()
+    {
+        if (_weitereRaeumeDD.IsActive())
+        {
+            DropdownUtils.navigateDownInDD(_weitereRaeumeDD);
+        }
+    }
+
+    /// <summary>
+    /// Selects the selected dropdown item in the currently selected dropdown menu
+    /// </summary>
+    public void selectOptionInActiveDD()
+    {
+        _weitereRaeumeDD.enabled = false;
+        _weitereRaeumeDD.enabled = true;
+    }
+
+    public void openMainMenu()
+    {
+        _startmenu.Show();
+        Hide();
     }
 
 }

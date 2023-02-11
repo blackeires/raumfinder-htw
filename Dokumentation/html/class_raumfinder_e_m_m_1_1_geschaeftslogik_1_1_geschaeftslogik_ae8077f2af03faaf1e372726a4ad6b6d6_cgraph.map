@@ -1,0 +1,6 @@
+<map id="RaumfinderEMM.Geschaeftslogik.Geschaeftslogik.getFreeRooms" name="RaumfinderEMM.Geschaeftslogik.Geschaeftslogik.getFreeRooms">
+<area shape="rect" id="node1" title="Searches for free rooms matching the specified criteria during the passed timeslot." alt="" coords="5,69,224,109"/>
+<area shape="rect" id="node2" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum.html#abf5eeb818077d9f2caf6a2008e8de202" title="Getter for _gebaeude." alt="" coords="272,5,491,45"/>
+<area shape="rect" id="node3" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum.html#af287a14c0c8540a191abeaf496d8783e" title="Getter for _kapazitaet." alt="" coords="272,69,491,109"/>
+<area shape="rect" id="node4" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum.html#a6ee634c22becb5759c18409de600b5b3" title="Checks whether this room conatins the equipment specified in the passed array or not." alt="" coords="272,133,491,173"/>
+</map>

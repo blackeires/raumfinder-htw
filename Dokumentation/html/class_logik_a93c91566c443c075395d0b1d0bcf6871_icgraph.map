@@ -1,0 +1,4 @@
+<map id="Logik.GetRoomInfo" name="Logik.GetRoomInfo">
+<area shape="rect" id="node1" title="Returns information on the room with the passed name." alt="" coords="236,5,368,31"/>
+<area shape="rect" id="node2" href="$class_suchergebnis_k_s.html#aed0bace87d2d3a1e56683f0900c48339" title="Updates the room information section, based on the room that is currently selected in the _weitereRae..." alt="" coords="5,5,188,31"/>
+</map>

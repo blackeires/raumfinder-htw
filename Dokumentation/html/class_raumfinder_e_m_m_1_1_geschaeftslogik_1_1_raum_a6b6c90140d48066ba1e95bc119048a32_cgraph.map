@@ -1,0 +1,5 @@
+<map id="RaumfinderEMM.Geschaeftslogik.Raum.getDistanzScore" name="RaumfinderEMM.Geschaeftslogik.Raum.getDistanzScore">
+<area shape="rect" id="node1" title="Calculates a distance score based on the floor and room number in relation to the postion of the room..." alt="" coords="5,37,224,77"/>
+<area shape="rect" id="node2" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum.html#af706b3167d186901f48233ffc0ea53f0" title="Getter for _etage." alt="" coords="272,5,491,45"/>
+<area shape="rect" id="node3" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_raum.html#aed335f87ef030ba3cf79eb26c0346c9f" title="Converts the alphanumeric roomname to a number." alt="" coords="272,69,491,109"/>
+</map>

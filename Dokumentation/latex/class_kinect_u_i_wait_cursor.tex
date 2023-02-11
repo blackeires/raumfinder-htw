@@ -1,0 +1,98 @@
+\hypertarget{class_kinect_u_i_wait_cursor}{}\doxysection{Kinect\+UIWait\+Cursor Class Reference}
+\label{class_kinect_u_i_wait_cursor}\index{KinectUIWaitCursor@{KinectUIWaitCursor}}
+
+
+Implementation der abstrakten Class vom Cursor für den Wait State.  
+
+
+
+
+Inheritance diagram for Kinect\+UIWait\+Cursor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=199pt]{class_kinect_u_i_wait_cursor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Kinect\+UIWait\+Cursor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{class_kinect_u_i_wait_cursor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_kinect_u_i_wait_cursor_ac0922e68c5bf24894bab74cbf35306f5}{Start}} ()
+\begin{DoxyCompactList}\small\item\em Stelle den Cursor dar im Waiting State. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_kinect_u_i_wait_cursor_a5b1e0e5c069c4e0bb8bf7496e4276500}{Process\+Data}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_abstract_kinect_u_i_cursor}{Abstract\+Kinect\+UICursor}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_abstract_kinect_u_i_cursor_a31ae0ee30513adede97502fd99d6f58c}{Start}} ()
+\item 
+\mbox{\Hypertarget{class_abstract_kinect_u_i_cursor_aa53bfb61beb298e1782bb7bc09670105}\label{class_abstract_kinect_u_i_cursor_aa53bfb61beb298e1782bb7bc09670105}} 
+virtual void {\bfseries Update} ()
+\begin{DoxyCompactList}\small\item\em Update die Daten des Cursors, sofern das Tracking erkannt wird. \end{DoxyCompactList}\item 
+abstract void \mbox{\hyperlink{class_abstract_kinect_u_i_cursor_a0686349989cbb64adb64d7157fcfd0d4}{Process\+Data}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_abstract_kinect_u_i_cursor}{Abstract\+Kinect\+UICursor}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_abstract_kinect_u_i_cursor_ac8fe7cd1130a072ac945deabb6e96f51}\label{class_abstract_kinect_u_i_cursor_ac8fe7cd1130a072ac945deabb6e96f51}} 
+void {\bfseries Setup} ()
+\begin{DoxyCompactList}\small\item\em Setup des Cursors anahnd der hinterlegten Hand Daten und des hinterlegten Cursor Bilds. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_abstract_kinect_u_i_cursor}{Abstract\+Kinect\+UICursor}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_abstract_kinect_u_i_cursor_ab9e2d342ba6af7c9435a385e2d09e6d9}\label{class_abstract_kinect_u_i_cursor_ab9e2d342ba6af7c9435a385e2d09e6d9}} 
+Kinect\+UIHand\+Type {\bfseries \+\_\+hand\+Type}
+\item 
+\mbox{\Hypertarget{class_abstract_kinect_u_i_cursor_af8ff723e846e4adeebc130b4eb8f8cb5}\label{class_abstract_kinect_u_i_cursor_af8ff723e846e4adeebc130b4eb8f8cb5}} 
+\mbox{\hyperlink{class_kinect_input_data}{Kinect\+Input\+Data}} {\bfseries \+\_\+data}
+\item 
+\mbox{\Hypertarget{class_abstract_kinect_u_i_cursor_a94eff29913a43948768cd0f3e30d26d6}\label{class_abstract_kinect_u_i_cursor_a94eff29913a43948768cd0f3e30d26d6}} 
+Image {\bfseries \+\_\+image}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation der abstrakten Class vom Cursor für den Wait State. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_kinect_u_i_wait_cursor_a5b1e0e5c069c4e0bb8bf7496e4276500}\label{class_kinect_u_i_wait_cursor_a5b1e0e5c069c4e0bb8bf7496e4276500}} 
+\index{KinectUIWaitCursor@{KinectUIWaitCursor}!ProcessData@{ProcessData}}
+\index{ProcessData@{ProcessData}!KinectUIWaitCursor@{KinectUIWaitCursor}}
+\doxysubsubsection{\texorpdfstring{ProcessData()}{ProcessData()}}
+{\footnotesize\ttfamily override void Kinect\+UIWait\+Cursor.\+Process\+Data (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_abstract_kinect_u_i_cursor}{Abstract\+Kinect\+UICursor}}.
+
+\mbox{\Hypertarget{class_kinect_u_i_wait_cursor_ac0922e68c5bf24894bab74cbf35306f5}\label{class_kinect_u_i_wait_cursor_ac0922e68c5bf24894bab74cbf35306f5}} 
+\index{KinectUIWaitCursor@{KinectUIWaitCursor}!Start@{Start}}
+\index{Start@{Start}!KinectUIWaitCursor@{KinectUIWaitCursor}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily override void Kinect\+UIWait\+Cursor.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Stelle den Cursor dar im Waiting State. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_abstract_kinect_u_i_cursor}{Abstract\+Kinect\+UICursor}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Basti/\+Documents/raumfinder-\/htw/\+Assets/\+Kinect\+UIModule/\+Scripts/\+Kinect\+UI/Kinect\+UIWait\+Cursor.\+cs\end{DoxyCompactItemize}

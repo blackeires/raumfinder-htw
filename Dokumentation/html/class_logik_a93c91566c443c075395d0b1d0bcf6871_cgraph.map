@@ -1,0 +1,4 @@
+<map id="Logik.GetRoomInfo" name="Logik.GetRoomInfo">
+<area shape="rect" id="node1" title="Returns information on the room with the passed name." alt="" coords="5,13,137,38"/>
+<area shape="rect" id="node2" href="$class_raumfinder_e_m_m_1_1_geschaeftslogik_1_1_geschaeftslogik.html#aa6d991162126549b0dd86ed320cca169" title="Gets the room information of the room with the passed name." alt="" coords="185,5,420,45"/>
+</map>

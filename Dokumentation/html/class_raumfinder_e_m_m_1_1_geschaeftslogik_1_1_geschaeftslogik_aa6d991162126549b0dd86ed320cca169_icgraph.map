@@ -1,0 +1,5 @@
+<map id="RaumfinderEMM.Geschaeftslogik.Geschaeftslogik.getRoomInformation" name="RaumfinderEMM.Geschaeftslogik.Geschaeftslogik.getRoomInformation">
+<area shape="rect" id="node1" title="Gets the room information of the room with the passed name." alt="" coords="416,5,651,45"/>
+<area shape="rect" id="node2" href="$class_logik.html#a93c91566c443c075395d0b1d0bcf6871" title="Returns information on the room with the passed name." alt="" coords="236,13,368,38"/>
+<area shape="rect" id="node3" href="$class_suchergebnis_k_s.html#aed0bace87d2d3a1e56683f0900c48339" title="Updates the room information section, based on the room that is currently selected in the _weitereRae..." alt="" coords="5,13,188,38"/>
+</map>

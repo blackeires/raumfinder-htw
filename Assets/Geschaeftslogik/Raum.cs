@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace RaumfinderEMM.Geschaeftslogik
 {
+    /// <summary>
+    /// Class that represents a Raum object
+    /// </summary>
     public class Raum
 	{
 
@@ -85,9 +89,15 @@ namespace RaumfinderEMM.Geschaeftslogik
         public string getAusstattungAsString()
         {
             string str = "";
+            int i = 1;
             foreach(string s in _ausstattung)
             {
-                str += s + ", ";
+                str += s;
+                if (i != _ausstattung.Count())
+                {
+                    str += ", ";
+                }
+                i++;
             }
             return str;
         }
@@ -113,6 +123,48 @@ namespace RaumfinderEMM.Geschaeftslogik
             return ausstattungVorhanden;
         }
 
+        /// <summary>
+        /// Converts the alphanumeric roomname to a number
+        /// </summary>
+        /// <returns>The roomnumber as an integer</returns>
+        public int getRaumnummer()
+        {
+            string raumnummerOhneBuchstaben = Regex.Match(_raumname, @"\d+").Value;
+            return Int32.Parse(raumnummerOhneBuchstaben);
+        }
+
+        /// <summary>
+        /// Calculates a distance score based on the floor and room number in relation to the postion of the roomfinder terminal
+        /// </summary>
+        /// <returns>The calculated distance score as an integer</returns>
+        public int getDistanzScore()
+        {
+            int raumnummerOhneBuchstaben = getRaumnummer();
+            int etage = GetEtage();
+
+            if (etage == 1)
+            {
+                 if (raumnummerOhneBuchstaben < 151)
+                {
+                    return raumnummerOhneBuchstaben - 100;
+                } else
+                {
+                    return 200 - raumnummerOhneBuchstaben;
+                }
+            }
+
+            if ((etage + 1) * 100 - raumnummerOhneBuchstaben < 50)
+            {
+                return (etage + etage) * 100 - raumnummerOhneBuchstaben + 1;
+            }
+            else
+            {
+                return raumnummerOhneBuchstaben - 100;
+            }
+
+        }
+
     }
+
 }
 

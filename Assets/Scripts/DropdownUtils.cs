@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 /// <summary>
 /// Class providing dropdown functionality
@@ -96,24 +97,99 @@ public class DropdownUtils : MonoBehaviour
     /// <returns>Char that corresponds to the selected building string in the dropdown.</returns>
     public static char getGebaeudeAsChar(TMP_Dropdown dd)
     {
+        string ddValue = dd.options[dd.value].text;
+
+
         switch (dd.options[dd.value].text)
         {
-            case "Gebäude A":
+            case "A":
                 return 'A';
-            case "Gebäude B":
+            case "B":
                 return 'B';
-            case "Gebäude C":
+            case "C":
                 return 'C';
-            case "Gebäude D":
+            case "D":
                 return 'D';
-            case "Gebäude E":
+            case "E":
                 return 'E';
-            case "Gebäude F":
+            case "F":
                 return 'F';
             default:
                 return 'C';
         }
 
+    }
+
+    /// <summary>
+    /// opens the passed dropdown menu
+    /// </summary>
+    /// <param name="dropdown"></param>
+    public static void OpenDropdownMenu(TMP_Dropdown dropdown)
+    {
+        dropdown.Show();
+    }
+
+    /// <summary>
+    /// selects the dropdown items with the passed index from the passed dropdown menu
+    /// </summary>
+    /// <param name="dropdown">dropdown menu from which the item should be selected</param>
+    /// <param name="value">index of the dropdown item that should be selected</param>
+    public static void SelectDropdownItem(TMP_Dropdown dropdown, int value)
+    {
+        dropdown.value = value;
+        dropdown.Select();
+    }
+
+
+    /// <summary>
+    /// gets the currently selected dropdown menu
+    /// </summary>
+    /// <param name="dropdowns">a list of all dropdowns on the page</param>
+    /// <returns>currently selected dropdown</returns>
+    public static TMP_Dropdown GetActiveDD(List<TMP_Dropdown> dropdowns) 
+    {
+        TMP_Dropdown activeDD = null;
+        foreach (TMP_Dropdown dd in dropdowns) 
+        {
+            if (dd.IsActive())
+            {
+                activeDD = dd;
+                break;
+            }
+        }
+
+        return activeDD;
+
+    }
+
+    /// <summary>
+    /// navigates up in the passed dropdown menu
+    /// </summary>
+    /// <param name="dropdown"></param>
+    public static void navigateUpInDD(TMP_Dropdown dropdown)
+    {
+        int currentIndex = dropdown.value;
+        if (currentIndex != 0);
+        {
+            dropdown.value -= 1;
+            dropdown.Hide();
+            dropdown.Show();
+        }
+    }
+
+    /// <summary>
+    /// navigates down in the passed dropdown menu
+    /// </summary>
+    /// <param name="dropdown"></param>
+    public static void navigateDownInDD(TMP_Dropdown dropdown)
+    {
+        int currentIndex = dropdown.value;
+        if (currentIndex < dropdown.options.Count);
+        {
+            dropdown.value += 1;
+            dropdown.Hide();
+            dropdown.Show();
+        }
     }
 
 }
