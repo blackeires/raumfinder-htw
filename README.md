@@ -28,4 +28,4 @@ Weitere Dokumentation liegt in Form von Quellcodekommentaren in den jeweiligen C
 
 ### DoxyGen
 
-Die mit DoxyGen generierte Dokumentation befindet sich als html und Latex Version im Ordner [BackendDokuDoxygen](https://github.com/blackeires/raumfinder-htw/tree/development/BackendDokuDoxygen). 
+Die mit DoxyGen generierte Dokumentation befindet sich als html und Latex Version im Ordner [Dokumentation](https://github.com/blackeires/raumfinder-htw/tree/development/Dokumentation). 
