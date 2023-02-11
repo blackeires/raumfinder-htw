@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace RaumfinderEMM.Geschaeftslogik
 {
@@ -122,6 +123,38 @@ namespace RaumfinderEMM.Geschaeftslogik
             return ausstattungVorhanden;
         }
 
+        /// <summary>
+        /// Converts the alphanumeric roomname to a number
+        /// </summary>
+        /// <returns>The roomnumber as an integer</returns>
+        public int getRaumnummer()
+        {
+            string raumnummerOhneBuchstaben = Regex.Match(_raumname, @"\d+").Value;
+            return Int32.Parse(raumnummerOhneBuchstaben);
+        }
+
+        /// <summary>
+        /// Calculates a distance score based on the floor and room number in relation to the postion of the roomfinder terminal
+        /// </summary>
+        /// <returns>The calculated distance score as an integer</returns>
+        public int getDistanzScore()
+        {
+            int raumnummerOhneBuchstaben = getDistanzScore();
+            int etage = GetEtage();
+
+            if ((etage + 1) * 100 - raumnummerOhneBuchstaben < 50)
+            {
+                return (etage + etage) * 100 - raumnummerOhneBuchstaben + 1;
+            }
+            else
+            {
+                return raumnummerOhneBuchstaben - (etage * 100);
+            }
+
+        }
+
     }
+
+}
 }
 

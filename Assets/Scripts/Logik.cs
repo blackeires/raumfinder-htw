@@ -4,6 +4,7 @@ using UnityEngine;
 using RaumfinderEMM.Geschaeftslogik;
 using System;
 using System.Net.NetworkInformation;
+using System.Linq;
 
 public class Logik : MonoBehaviour
 {
@@ -20,11 +21,13 @@ public class Logik : MonoBehaviour
 
 
     /// <summary>
-    /// Performs a quicksearch and sets the value of _filteredRooms to the returned array.
+    /// Performs a quicksearch and sets the value of _filteredRooms to the returned List
     /// </summary>
     public void Schnellsuche()
     {
-        _filteredRooms = _gl.getFreeRooms(getCurrentTimeslot());
+        List<Raum> unsortedRooms = _gl.getFreeRooms(getCurrentTimeslot());
+        List<Raum> sortedRooms = unsortedRooms.OrderBy(r => r.getDistanzScore()).ToList();
+        _filteredRooms = sortedRooms;
     }
 
     /// <summary>
@@ -36,7 +39,9 @@ public class Logik : MonoBehaviour
     /// <param name="ausstattung">An array of strings containing the requested equipment.</param>
     public bool Kriteriensuche(int zeitfenster, char gebaeude, int kapazitaet, string[] ausstattung)
     {
-        _filteredRooms = _gl.getFreeRooms(zeitfenster, gebaeude, kapazitaet, ausstattung);
+        List<Raum> unsortedRooms = _gl.getFreeRooms(zeitfenster, gebaeude, kapazitaet, ausstattung);
+        List<Raum> sortedRooms = unsortedRooms.OrderBy(r => r.getDistanzScore()).ToList();
+        _filteredRooms = sortedRooms;
         if (_filteredRooms.Count == 0)
         {
             return false;
