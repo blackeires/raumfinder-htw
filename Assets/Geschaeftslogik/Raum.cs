@@ -139,7 +139,7 @@ namespace RaumfinderEMM.Geschaeftslogik
         /// <returns>The calculated distance score as an integer</returns>
         public int getDistanzScore()
         {
-            int raumnummerOhneBuchstaben = getDistanzScore();
+            int raumnummerOhneBuchstaben = getRaumnummer();
             int etage = GetEtage();
 
             if ((etage + 1) * 100 - raumnummerOhneBuchstaben < 50)
@@ -148,7 +148,7 @@ namespace RaumfinderEMM.Geschaeftslogik
             }
             else
             {
-                return raumnummerOhneBuchstaben - (etage * 100);
+                return raumnummerOhneBuchstaben - 100;
             }
 
         }
